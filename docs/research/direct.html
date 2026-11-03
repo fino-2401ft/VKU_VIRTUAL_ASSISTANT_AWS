@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>VKU - Tuyển sinh </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900&amp;display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="../images/logo_vku_fa.jpg">
+    <link rel="stylesheet" href="../css/styles.css?v=20250115" />
+    <link rel="stylesheet" type="text/css" href="../css/menu/reset.min.css?v=20250115">
+    <link rel="stylesheet" type="text/css" href="../css/menu/style.min.css?v=20250115">
+    <link rel="stylesheet" type="text/css" href="../css/menu/ionicon.min.css?v=20250115">
+
+ 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+    <style>
+        .theh3{text-align:center;padding:1.5em 0em;text-transform:capitalize;font-size:1.5em;}
+        .post-slide{overflow:hidden;margin-right:15px;background-color:#fff!important}
+.post-slide .post-img{float:left;width:50%;position:relative;margin-right:30px}
+.post-slide .post-img img{width:100%;height:auto}
+.post-slide .post-date{background:#ec3c6a;color:#fff;position:absolute;top:0;right:0;display:block;padding:2% 3%;width:60px;height:60px;text-align:center;transition:all .5s ease}
+.post-slide .date{display:block;font-size:20px;font-weight:700}
+.post-slide .month{display:block;font-size:11px;text-transform:uppercase}
+.post-slide .post-review{padding:5% 3% 1% 0;border-top:3px solid #38cfd8}
+.post-slide:hover .post-review{border-top-color:#ec3c6a}
+.post-slide .post-title{margin:0 0 10px 0}
+.post-slide .post-title a{font-size:14px;text-transform:uppercase; font-weight: bold; text-align: justify; line-height: 1.2;}
+.post-slide .post-title a:hover{text-decoration:none;font-weight:700}
+.post-slide .post-bar{padding:0;list-style:none;text-transform:uppercase;position:relative;margin-bottom:20px}
+.post-slide .post-bar:after,.post-slide .post-bar:before{border:1px solid #38cfd8;bottom:-10px;content:"";display:block;position:absolute;right:36%;width:25px}
+.post-slide .post-bar:before{border:1px solid #ec3c6a;right:32%}
+.post-slide .post-bar li{color:#555;font-size:10px;margin-right:10px;display:inline-block}
+.post-slide .post-bar li a{font-size:13px;text-decoration:none;text-transform:uppercase;color:#ec3c6a}
+.post-slide .post-bar li a:hover{color:#ec3c6a}
+.post-slide .post-bar li i{color:#777;margin-right:5px}
+.post-slide .post-description{font-size:12px;line-height:21px;color:#444454}
+.owl-theme .owl-controls{margin-top:30px}
+.owl-theme .owl-controls .owl-page span{background:#fff;border:2px solid #37a6a4}
+.owl-theme .owl-controls .owl-page.active span,.owl-theme .owl-controls.clickable .owl-page:hover span{background:#37a6a4}
+@media only screen and (max-width:990px){.post-slide .post-img{width:100%}
+.post-slide .post-review{width:100%;border-bottom:4px solid #ec3c6a}
+.post-slide .post-bar:before{left:0}
+.post-slide .post-bar:after{left:25px}
+}
+        @media only screen and (max-width: 300px) {
+            .logovku { 
+                margin-left:-30px;
+                margin-top:5px;
+                margin-bottom: 5px; 
+                background-image: url('../images/LOGO_vku.svg'); 
+                background-size: 100%; 
+                background-repeat: no-repeat;
+                background-position: 20% 50%;
+            }
+
+        }
+        @media only screen and (max-width: 800px) {
+            .logovku{
+                margin-left:-30px;
+                margin-top:5px;
+                margin-bottom: 5px; 
+                background-image:url('../images/LOGO_vku.svg'); 
+                background-repeat: no-repeat; 
+                background-size: 100%; 
+                background-position: 0% 50%;
+            }
+            
+        }
+        @media only screen and (min-width:800px){
+            .bg01 {background-image: url('../images/2026/Bia_web_1.png')}
+            .bg02 {background-image: url('../images/2026/Bia_web_2.png')}
+            .bg03 {background-image: url('../images/2026/Bia_web_3.png')}
+            .bg08 {background-image: url('../images/2026/Bia_web_1.png')}
+        }
+
+        
+        
+        @media only screen and (max-width: 600px) {
+            
+            iframe {
+                width:100%;
+
+            }
+            .bg01 {background-image: url('../images/2026/Bia_web_mb1.png')}
+            .bg02 {background-image: url('../images/2026/Bia_web_mb2.png')}
+            .bg03 {background-image: url('../images/2026/Bia_web_mb3.png')}
+            .bg08 {background-image: url('../images/2026/Bia_web_mb1.png')}
+        }
+        
+        body{
+            font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+        }
+        #myBtn {
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            right: 100px;
+            z-index: 99;
+            font-size: 18px;
+            border: none;
+            outline: none;
+            background-color: #BB2033;
+            color: white;
+            cursor: pointer;
+            padding: 15px;
+            border-radius: 4px;
+            }
+
+            #myBtn:hover {
+            background-color: #BB2033;
+            }
+        footer{
+                border-top: 1px solid #153472;
+            }
+        .blog-entry{
+            height:571px;
+        }
+
+
+    .methods-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px; /* Khoảng cách giữa các ô */
+        justify-content: center; /* Căn giữa các ô nếu hàng cuối bị lẻ */
+    }
+
+    .method-item {
+        /* flex: grow | shrink | basis */
+        flex: 1 1 200px; 
+        max-width: 350px; /* Không cho phép 1 ô giãn quá to khi chỉ có 1-2 dữ liệu */
+        min-height: 280px;
+        display: flex;
+    }
+
+    .method-card {
+        width: 100%;
+        padding: 30px 15px;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        transition: all 0.3s ease;
+        text-decoration: none !important;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    }
+
+    .method-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+        filter: brightness(1.1); /* Làm sáng màu gốc của DB lên một chút khi hover */
+    }
+
+    .method-card .icon-circle {
+        width: 65px;
+        height: 65px;
+        background: rgba(255,255,255,0.25);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+        font-size: 28px;
+        color: white;
+    }
+
+    .method-card h4 {
+        color: white !important;
+        font-size: 1.1rem;
+        font-weight: 700;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+
+    /* Hiệu ứng badge giả nút bấm */
+    .btn-fake {
+        background: rgba(255,255,255,1);
+        color: #333 !important;
+        padding: 8px 20px;
+        border-radius: 50px;
+        font-size: 13px;
+        font-weight: 600;
+        margin-top: auto; /* Đẩy nút xuống đáy card */
+    }
+
+
+
+
+    </style>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16567437515"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'AW-16567437515');
+    </script>
+
+    <!-- Event snippet for Lượt xem trang conversion page -->
+    <script>
+      gtag('event', 'conversion', {'send_to': 'AW-16567437515/D-53COvMlrAZEMuR_Ns9'});
+    </script>
+</head>
+
+<body>
+    <div class="bg-top navbar-light">
+        <div class="container">
+            <div class="row no-gutters d-flex align-items-center align-items-stretch tpheader">
+
+                <div class="col-xs-12 col-md-8 d-flex align-items-center py-4 logovku" style="">
+                    <a class="navbar-brand " href="#" ></a>
+                </div>
+                <!--<div class="col-lg-8 d-block">
+                    <div class="row d-flex">
+                        <div class="col-md d-flex topper align-items-center align-items-stretch py-md-8">
+                            <div class="icon d-flex justify-content-center align-items-center"><span class="icon-paper-plane"></span>
+                            </div>
+                            <div class="text">
+                                <span>Email</span>
+                                <span><a href="https://preview.colorlib.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="156c7a60677078747c79557078747c793b767a78">tuyensinh@vku.udn.vn</a></span>
+                            </div>
+                        </div>
+                        <div class="col-md d-flex topper align-items-center align-items-stretch py-md-4">
+                            <div class="icon d-flex justify-content-center align-items-center"><span class="icon-phone2"></span>
+                            </div>
+                            <div class="text">
+                                <span>Điện thoại</span>
+                                <span>+ 84 236 3 667 113</span>
+                            </div>
+                        </div>
+                        <div class="col-md topper d-flex align-items-center justify-content-end">
+                            <p class="mb-0 d-block">
+                                <a href="#" class="btn py-2 px-3 btn-primary">
+                                    <span>Liên hệ</span>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>-->
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco-navbar-light" id="ftco-navbar">
+        <div class="container d-flex align-items-center">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="oi oi-menu"></span>
+            </button>
+            <form action="#" class="searchform order-lg-last">
+                <div class="form-group d-flex">
+                    <!--<input type="text" class="form-control pl-3" placeholder="Tìm">
+                    <button type="submit" placeholder="" class="form-control search"><span class="ion-ios-search"></span>
+                    </button>-->
+                </div>
+            </form>
+            <div class="collapse navbar-collapse" id="ftco-nav">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active"><a href="/" class="nav-link pl-0">Trang chủ</a>
+                    </li>
+                    
+                    <li class="nav-item active"><a href="/nganh" class="nav-link nganh">Ngành/Chuyên ngành</a>
+                    </li>
+                    <li class="nav-item active"><a href="/phuongthuc" class="nav-link">Phương thức tuyển sinh</a>
+                    </li>
+                                                                        <li class="nav-item active"><a href="https://tuyensinh.vku.udn.vn/thong-bao/699fb78248d97e2c10006594" class="nav-link">Điểm Cộng</a>
+                            </li>
+                                                                                                <li class="nav-item active"><a href="https://tuyensinh.vku.udn.vn/thong-bao/699fedf448d97e2c10006596" class="nav-link">Chính sách hỗ trợ</a>
+                            </li>
+                                                                                                                                                                                                                                                                                                                                    </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="header">
+      <section class="container">
+         <div class="wrapper">
+            
+            <div class="col-sm-12 d-flex align-items-center logovku" style="width:450px; height:70px; background-image:url(../images/LOGO_vku.svg); background-repeat: no-repeat; background-size: 100%; background-position: 0% 50%;">
+            </div>
+          
+            <button type="button" class="burger" id="burger">
+               <span class="burger-line"></span>
+               <span class="burger-line"></span>
+               <span class="burger-line"></span>
+               <span class="burger-line"></span>
+            </button>
+            <span class="overlay" id="overlay"></span>
+            <nav class="navbar" id="navbar">
+               <ul class="menu">
+                    <li class="menu-item menu-item-child">
+                        <a href="#" data-toggle="sub-menu">Giới thiệu <i class="expand"></i></a>
+                        <ul class="sub-menu">
+                            <li class="menu-item"><a href="/thongdiep">Thông điệp của Hiệu trưởng</a></li>
+                            <li class="menu-item"><a href="/su-mang">Sứ mạng</a></li>
+                            <li class="menu-item"><a href="/chuc-nang">Chức năng</a></li>
+                            <li class="menu-item"><a href="https://vku.udn.vn/co-cau-to-chuc">Cơ cấu tổ chức</a></li>
+                            <li class="menu-item"><a href="/doi-ngu-co-so-vat-chat">Đội ngũ Giảng viên</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- <li class="menu-item"><a href="/tracuu">Tra cứu</a></li> -->
+                    <!-- <li class="menu-item"><a href="/cong-cu-tinh">Công cụ tính</a></li> -->
+                    <li class="menu-item menu-item-child">
+                        <a href="#" data-toggle="sub-menu">Thông tin thêm<i class="expand"></i></a>
+                        <ul class="sub-menu">
+                                                                                                                                                                                                                        <li class="menu-item"><a href="https://tuyensinh.vku.udn.vn/thong-bao/69fd5ccf34909e10700c9422">Tra cứu đối tượng ưu tiên</a></li>
+                                                                                                                                <li class="menu-item"><a href="https://tuyensinh.vku.udn.vn/">Hướng dẫn đăng ký xét tuyển</a></li>
+                                                                                                                                <li class="menu-item"><a href="https://tuyensinh.vku.udn.vn/">Câu hỏi thường gặp</a></li>
+                                                                                                                                <li class="menu-item"><a href="https://tuyensinh.vku.udn.vn/">Hoạt động đoàn</a></li>
+                                                                                                                                <li class="menu-item"><a href="https://tuyensinh.vku.udn.vn/thong-bao/69df0e56d89568422406b4b2">Câu lạc bộ</a></li>
+                                                                                                                                <li class="menu-item"><a href="https://tuyensinh.vku.udn.vn/thong-bao/69a56561033b5a56f00215b4">Điểm trúng tuyển các năm</a></li>
+                                                                         
+                        </ul>
+                    </li>                   
+                  
+                  <!-- <li class="menu-item menu-item-child">
+                     <a href="#" data-toggle="sub-menu">Projects <i class="expand"></i></a>
+                     <ul class="sub-menu">
+                        <li class="menu-item"><a href="#">Design Project</a></li>
+                        <li class="menu-item"><a href="#">Development Project</a></li>
+                        <li class="menu-item"><a href="#">Branding Project</a></li>
+                        <li class="menu-item"><a href="#">Others Project</a></li>
+                     </ul>
+                  </li>-->
+                  <li class="menu-item"><a href="#">Liên hệ</a></li>
+               </ul>
+            </nav>
+         </div>
+      </section>
+   </header>
+
+        <section class="hero-wrap hero-wrap-2" style="background-image:url(../images/bg_1.jpg)">
+        <div class="overlay"></div>
+            <div class="container">
+                <div class="row no-gutters slider-text align-items-center justify-content-center">
+                    <div class="col-md-9 ftco-animate text-center">
+                        <h1 class="mb-2 bread">CHI TIẾT THÔNG BÁO</h1>
+                        <p class="breadcrumbs" style="text-align:center"><span class="mr-2"><a href="/">Trang chủ <i class="ion-ios-arrow-forward"></i></a></span> <span>Chi tiết</span></p>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="ftco-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 ftco-animate">
+                    <h2 class="mb-3 fw-bold">Phương thức: Xét tuyển thẳng theo quy định của Quy chế tuyển sinh</h2>
+                    <p class="text-muted" style="font-size: 14px;">
+                        <i class="ion-md-calendar mr-2"></i> Ngày đăng: 10/02/2026
+                    </p>
+                    
+                    <hr>
+
+                    <div class="content-detail mt-4" style="line-height: 1.8; font-size: 16px; color: #333;">
+                        <h4><span style="color:#002060;"><span lang="SV" dir="ltr">Xét tuyển thẳng theo quy định của Quy chế tuyển sinh&nbsp;</span></span></h4><p><span style="color:#002060;"><span lang="SV" dir="ltr">a) Mã phương thức xét tuyển:&nbsp;<strong>301</strong></span></span></p><p><span style="color:#002060;"><span lang="EN-US" dir="ltr"><strong>b) Đối tượng xét tuyển</strong>:</span></span></p><p style="text-align:justify;"><span style="color:#002060;"><span lang="EN-US" dir="ltr">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -&nbsp;</span><span lang="VI" dir="ltr">Anh hùng lao động, Anh hùng lực lượng vũ trang nhân dân, Chiến sĩ thi đua toàn quốc được tuyển thẳng vào các chương trình đào tạo do cơ sở đào tạo quy định.</span></span></p><p style="text-align:justify;"><span style="color:#002060;"><span lang="EN-US" dir="ltr">-&nbsp;</span><span lang="VI" dir="ltr">Thí sinh đạt thành tích cao trong các kỳ thi, cuộc thi, giải đấu cấp quốc gia hoặc quốc tế, do Bộ GDĐT, Bộ Văn hóa, Thể thao và Du lịch tổ chức, cử tham gia, được xét tuyển thẳng vào chương trình đào tạo phù hợp với môn thi, nội dung đề tài hoặc nghề dự thi, thi đấu, đạt giải; cụ thể trong các trường hợp sau:</span></span></p><p style="text-align:justify;"><span style="color:#002060;"><span lang="EN-US" dir="ltr">+&nbsp;</span><span lang="VI" dir="ltr">Thí sinh đạt giải nhất, nhì, ba trong kỳ thi chọn học sinh giỏi quốc gia, quốc tế; thời gian đạt giải không quá 03 năm tính tới thời điểm xét tuyển thẳng;</span></span></p><p style="text-align:justify;"><span style="color:#002060;"><span lang="EN-US" dir="ltr">+ Thí sinh đạt giải nhất, nhì, ba kỳ thi khoa học, kỹ thuật cấp quốc gia, quốc tế do Bộ GDĐT tổ chức, cử tham gia và đạt ngưỡng đảm bảo chất lượng đầu vào của chương trình đào tạo. Thời gian đạt giải không quá 03 năm tính tới thời điểm nếu được xét tuyển thẳng;</span></span></p><p style="text-align:justify;"><span style="color:#002060;"><span lang="EN-US" dir="ltr">+ Thí sinh đạt giải chính thức trong các cuộc thi nghệ thuật quốc tế về ca, múa, nhạc, mỹ thuật được Bộ Văn hóa, Thể thao và Du lịch công nhận; thời gian đạt giải không quá 04 năm tính tới thời điểm xét tuyển thẳng;</span></span></p><p style="text-align:justify;"><span style="color:#002060;"><span lang="EN-US" dir="ltr">+ Thí sinh tham gia đội tuyển quốc gia thi đấu tại các giải quốc tế chính thức được Bộ Văn hóa, Thể thao và Du lịch xác nhận đã hoàn thành nhiệm vụ, gồm có: Giải vô địch thế giới, Cúp thế giới, Thế vận hội Olympic, Đại hội Thể thao châu Á (ASIAD), Giải vô địch châu Á, Cúp châu Á, Giải vô địch Đông Nam Á, Đại hội Thể thao Đông Nam Á (SEA Games), Cúp Đông Nam Á; thời gian đạt giải không quá 04 năm, tính đến thời điểm xét tuyển thẳng;</span></span></p><p style="text-align:justify;"><span style="color:#002060;"><span lang="EN-US" dir="ltr">+ Thí sinh đạt giải nhất, nhì, ba trong các kỳ thi tay nghề khu vực ASEAN và thi tay nghề quốc tế do Bộ GDĐT cử tham gia; thời gian đạt giải không quá 03 năm tính đến thời điểm xét tuyển thẳng;</span></span></p><p style="text-align:justify;"><span style="color:#002060;"><span lang="EN-US" dir="ltr">-&nbsp;</span><span lang="VI" dir="ltr">Thí sinh có bằng trung cấp ngành sư phạm loại giỏi trở lên hoặc có bằng trung cấp ngành sư phạm loại khá và có ít nhất 02 năm làm việc đúng ngành được xét tuyển thẳng vào ngành Giáo dục Mầm non trình độ cao đẳng.</span></span></p><p style="text-align:justify;"><span style="color:#002060;"><span lang="VI" dir="ltr">Giám đốc, hiệu trưởng cơ sở đào tạo (sau đây gọi chung là Hiệu trưởng) căn cứ kết quả học tập cấp THPT của thí sinh và yêu cầu đầu vào của chương trình đào tạo do Hiệu trưởng quy định xem xét, quyết định nhận vào học những trường hợp quy định dưới đây (trường hợp cần thiết kèm theo điều kiện thí sinh phải học 01 năm bổ sung kiến thức trước khi vào học chính thức)</span><span lang="EN-US" dir="ltr">:&nbsp;</span></span></p><p style="text-align:justify;"><span style="color:#002060;"><span lang="EN-US" dir="ltr">-&nbsp;</span><span lang="VI" dir="ltr">Thí sinh là người nước ngoài đã đạt chuẩn năng lực ngôn ngữ theo yêu cầu của chương trình đào tạo phù hợp với quy định của Bộ GDĐT;</span></span></p><p style="text-align:justify;"><span style="color:#002060;"><span lang="EN-US" dir="ltr">-&nbsp;</span><span lang="VI" dir="ltr">Thí sinh là người Việt Nam học tập cấp THPT, trung học nghề ở nước ngoài hoặc học tập chương trình giáo dục nước ngoài bằng tiếng nước ngoài ở Việt Nam đạt trình độ tương đương với trình độ THPT, trung học nghề của Việt Nam và đạt chuẩn năng lực ngôn ngữ theo yêu cầu của chương trình đào tạo phù hợp với quy định của Bộ GDĐT.</span></span></p><p style="text-align:justify;"><span style="color:#002060;"><span lang="EN-US" dir="ltr">-&nbsp;</span><span lang="VI" dir="ltr">Thí sinh là người dân tộc thiểu số rất ít người theo quy định hiện hành của Chính phủ;</span></span></p><p style="text-align:justify;"><span style="color:#002060;"><span lang="EN-US" dir="ltr">-&nbsp;</span><span lang="VI" dir="ltr">Thí sinh là người khuyết tật nặng có giấy xác nhận khuyết tật của cơ quan có thẩm quyền cấp theo quy định; có khả năng theo học một số chương trình đào tạo do cơ sở đào tạo quy định nhưng không có khả năng dự tuyển theo phương thức tuyển sinh bình thường.</span></span></p><p><span style="color:#002060;"><span lang="EN-US" dir="ltr"><strong>c) Nguyên tắc xét tuyển</strong>:</span></span></p><p style="margin-left:0cm;text-align:justify;"><span style="color:#002060;"><span lang="VI" dir="ltr">Thí sinh có thể đăng ký xét tuyển thẳng bằng nhiều nguyện vọng khác nhau vào các ngành hiện có theo quy định của từng đối tượng xét tuyển. Mỗi thí sinh trúng tuyển 01 nguyện vọng sẽ không được xét tuyển các nguyện vọng tiếp theo. Việc xét tuyển dựa theo thứ tự giải từ cao xuống thấp và ưu tiên từ nguyện vọng 1 cho đến hết. Trường hợp có nhiều thí sinh đồng hạng vượt quá chỉ tiêu tuyển thẳng sẽ xét đến tiêu chí phụ là tổng điểm&nbsp;</span><span lang="EN-US" dir="ltr">được tính như Phương thức 2 – Phương thức tuyển sinh kết hợp.&nbsp;Trường hợp các thí sinh ở cuối danh sách có điểm xét tuyển bằng nhau, ưu tiên thí sinh có điểm cộng ít hơn và thứ tự nguyện vọng nhỏ hơn</span><span lang="SV" dir="ltr">.</span></span></p><p style="margin-left:0cm;"><span lang="SV" dir="ltr">d) Danh mục các Môn thi; Lĩnh vực cuộc thi khoa học kỹ thuật, cuộc thi tay nghề được áp dụng xét tuyển cho phương thức 1: xét tuyển thẳng theo quy định của Quy chế tuyển sinh; Tính điểm cộng, điểm thưởng, điểm khuyến khích (nếu có)</span></p><p style="margin-left:0cm;text-align:center;"><i><strong>Bảng&nbsp; 1. Danh mục các Môn thi được xét tuyển</strong></i></p><figure class="table"><table><tbody><tr><td style="border:1.0pt solid black;height:27.9pt;padding:0cm 1.4pt 0cm 2.85pt;width:141.25pt;"><p style="margin-left:0cm;text-align:center;"><span lang="DE" dir="ltr"><strong>Môn thi</strong></span></p></td><td style="border-bottom-style:solid;border-color:black;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;height:27.9pt;padding:0cm 1.4pt 0cm 2.85pt;width:259.9pt;"><p style="margin-left:0cm;text-align:center;"><span lang="DE" dir="ltr"><strong>Ngành&nbsp;</strong></span><span lang="VI" dir="ltr"><strong>đào tạo</strong></span></p></td><td style="border-bottom-style:solid;border-color:black;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;height:27.9pt;padding:0cm 1.4pt 0cm 2.85pt;width:73.5pt;"><p style="margin-left:0cm;text-align:center;"><span lang="DE" dir="ltr"><strong>Mã xét tuyển</strong></span></p></td></tr><tr><td style="border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:16.95pt;padding:0cm 1.4pt 0cm 2.85pt;width:141.25pt;"><p style="margin-left:0cm;"><span lang="SV" dir="ltr">Toán; Tin học; Vật lý; Hóa học; Tiếng Anh</span></p></td><td style="border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:16.95pt;padding:0cm 1.4pt 0cm 2.85pt;width:333.4pt;" colspan="2"><p style="margin-left:0cm;"><span lang="SV" dir="ltr">Tất cả các ngành/chuyên ngành</span></p></td></tr><tr><td style="border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:17.25pt;padding:0cm 1.4pt 0cm 2.85pt;width:141.25pt;" rowspan="9"><p style="margin-left:0cm;"><span lang="SV" dir="ltr">Ngữ Văn</span></p></td><td style="border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:17.25pt;padding:0cm 1.4pt 0cm 2.85pt;width:259.9pt;"><p style="margin-left:0cm;"><span lang="VI" dir="ltr">Quản trị kinh doanh</span> (cử nhân)</p></td><td style="border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:17.25pt;padding:0cm 1.4pt 0cm 2.85pt;width:73.5pt;"><p style="margin-left:0cm;">7340101</p></td></tr><tr><td style="border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:17.25pt;padding:0cm 1.4pt 0cm 2.85pt;width:259.9pt;"><p style="margin-left:0cm;"><span lang="VI" dir="ltr">Quản trị kinh doanh - chuyên ngành Quản trị Logistics và chuỗi cung ứng số</span> (cử nhân)</p></td><td style="border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:17.25pt;padding:0cm 1.4pt 0cm 2.85pt;width:73.5pt;"><p style="margin-left:0cm;"><span lang="VI" dir="ltr">7340101</span><span lang="EN-GB" dir="ltr">EL</span></p></td></tr><tr><td style="border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:17.25pt;padding:0cm 1.4pt 0cm 2.85pt;width:259.9pt;"><p style="margin-left:0cm;"><span lang="VI" dir="ltr">Quản trị kinh doanh - chuyên ngành Quản trị dịch vụ du lịch và lữ hành số</span> (cử nhân)</p></td><td style="border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:17.25pt;padding:0cm 1.4pt 0cm 2.85pt;width:73.5pt;"><p style="margin-left:0cm;"><span lang="VI" dir="ltr">7340101</span><span lang="EN-GB" dir="ltr">ET</span></p></td></tr><tr><td style="border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:27.25pt;padding:0cm 1.4pt 0cm 2.85pt;width:259.9pt;"><p style="margin-left:0cm;"><span lang="SV" dir="ltr">Quản trị kinh doanh - chuyên ngành Quản trị dự án Công nghệ thông tin</span> (cử nhân)</p></td><td style="border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:27.25pt;padding:0cm 1.4pt 0cm 2.85pt;width:73.5pt;"><p style="margin-left:0cm;"><span lang="VI" dir="ltr">7340101</span>IM</p></td></tr><tr><td style="border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:27.25pt;padding:0cm 1.4pt 0cm 2.85pt;width:259.9pt;"><p style="margin-left:0cm;"><span lang="VI" dir="ltr">Quản trị kinh doanh - Chuyên ngành&nbsp;</span>Giải trí và truyền thông số (cử nhân)</p></td><td style="border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:27.25pt;padding:0cm 1.4pt 0cm 2.85pt;width:73.5pt;"><p style="margin-left:0cm;">7340101DE</p></td></tr><tr><td style="border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:26.35pt;padding:0cm 1.4pt 0cm 2.85pt;width:259.9pt;"><p style="margin-left:0cm;"><span lang="SV" dir="ltr">Marketing</span> (cử nhân)</p></td><td style="border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:26.35pt;padding:0cm 1.4pt 0cm 2.85pt;width:73.5pt;"><p style="margin-left:0cm;"><span lang="VI" dir="ltr">73401</span>15</p></td></tr><tr><td style="border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:26.35pt;padding:0cm 1.4pt 0cm 2.85pt;width:259.9pt;"><p style="margin-left:0cm;"><span lang="SV" dir="ltr">Công nghệ tài chính</span> (cử nhân)</p></td><td style="border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:26.35pt;padding:0cm 1.4pt 0cm 2.85pt;width:73.5pt;"><p style="margin-left:0cm;">7340205</p></td></tr><tr><td style="border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:26.35pt;padding:0cm 1.4pt 0cm 2.85pt;width:259.9pt;"><p style="margin-left:0cm;">Công nghệ truyền thông (cử nhân)&nbsp;</p></td><td style="border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:26.35pt;padding:0cm 1.4pt 0cm 2.85pt;width:73.5pt;"><p style="margin-left:0cm;">7320106</p></td></tr><tr><td style="border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:26.35pt;padding:0cm 1.4pt 0cm 2.85pt;width:259.9pt;"><p style="margin-left:0cm;">Công nghệ truyền thông - Chuyên ngành Thiết kế Mỹ thuật số (cử nhân)</p></td><td style="border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:26.35pt;padding:0cm 1.4pt 0cm 2.85pt;width:73.5pt;"><p style="margin-left:0cm;">7320106DA</p></td></tr></tbody></table></figure><p style="margin-left:0cm;text-align:center;"><i><strong>Bảng&nbsp; 2. Danh mục các lĩnh vực cuộc thi Khoa học kỹ thuật</strong></i></p><figure class="table"><table><tbody><tr><td style="background-color:#F9F9F9;border:1.0pt solid windowtext;height:18.0pt;padding:0cm 5.4pt;width:28.15pt;"><p style="text-align:center;"><strong>TT</strong></p></td><td style="background-color:#F9F9F9;border-bottom-style:solid;border-color:windowtext;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;height:18.0pt;padding:0cm 5.4pt;width:78.85pt;"><p style="text-align:center;"><strong>Lĩnh vực</strong></p></td><td style="background-color:#F9F9F9;border-bottom-style:solid;border-color:windowtext;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;height:18.0pt;padding:0cm 5.4pt;width:197.55pt;"><p style="text-align:center;"><strong>Lĩnh vực chuyên sâu</strong></p></td><td style="background-color:#F9F9F9;border-bottom-style:solid;border-color:windowtext;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;height:18.0pt;padding:0cm 5.4pt;width:191.4pt;"><p style="text-align:center;"><strong>Ngành/Chuyên ngành</strong></p></td></tr><tr><td style="background-color:#F9F9F9;border-bottom:1.0pt dotted windowtext;border-left:1.0pt solid windowtext;border-right:1.0pt solid windowtext;border-top-style:none;height:36.0pt;padding:0cm 5.4pt;width:28.15pt;"><p style="text-align:center;">1</p></td><td style="background-color:#F9F9F9;border-bottom:1.0pt dotted windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:36.0pt;padding:0cm 5.4pt;width:78.85pt;"><p style="text-align:justify;">Toán học</p></td><td style="background-color:#F9F9F9;border-bottom:1.0pt dotted windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:36.0pt;padding:0cm 5.4pt;width:197.55pt;"><p style="text-align:justify;">Đại số; Phân tích; Rời rạc; Lý thuyết Game và Graph; Hình học và Tô pô; Lý thuyết số; Xác suất và thống kê;...</p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:36.0pt;padding:0cm 5.4pt;width:191.4pt;" rowspan="6"><p style="text-align:justify;"><span style="color:black;">Tất cả các ngành/chuyên ngành xét tuyển của Trường</span></p></td></tr><tr><td style="background-color:#F9F9F9;border-bottom:1.0pt dotted windowtext;border-left:1.0pt solid windowtext;border-right:1.0pt solid windowtext;border-top-style:none;height:90.0pt;padding:0cm 5.4pt;width:28.15pt;"><p style="text-align:center;">2</p></td><td style="background-color:#F9F9F9;border-bottom:1.0pt dotted windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:90.0pt;padding:0cm 5.4pt;width:78.85pt;"><p style="text-align:justify;">Vật lý và Thiên văn</p></td><td style="background-color:#F9F9F9;border-bottom:1.0pt dotted windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:90.0pt;padding:0cm 5.4pt;width:197.55pt;"><p style="text-align:justify;">Thiên văn học và Vũ trụ học; Vật lý nguyên tử; phân tử và quang học; Lý - Sinh; Vật lý trên máy tính; Vật lý thiên văn; Vật liệu đo; Từ, Điện từ và Plasma; Cơ học; Vật lý hạt cơ bản và hạt nhân; Quang học; La-de; Thu phát sóng điện từ; Lượng tử máy tính; Vật lý lý thuyết;...</p></td></tr><tr><td style="background-color:#F9F9F9;border-bottom:1.0pt dotted windowtext;border-left:1.0pt solid windowtext;border-right:1.0pt solid windowtext;border-top-style:none;height:36.0pt;padding:0cm 5.4pt;width:28.15pt;"><p style="text-align:center;">3</p></td><td style="background-color:#F9F9F9;border-bottom:1.0pt dotted windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:36.0pt;padding:0cm 5.4pt;width:78.85pt;"><p style="text-align:justify;">Năng lượng: Vật lí</p></td><td style="background-color:#F9F9F9;border-bottom:1.0pt dotted windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:36.0pt;padding:0cm 5.4pt;width:197.55pt;"><p style="text-align:justify;">Năng lượng thủy điện; Năng lượng hạt nhân; Năng lượng mặt trời; Năng lượng nhiệt; Năng lượng gió;...</p></td></tr><tr><td style="background-color:#F9F9F9;border-bottom:1.0pt dotted windowtext;border-left:1.0pt solid windowtext;border-right:1.0pt solid windowtext;border-top-style:none;height:36.0pt;padding:0cm 5.4pt;width:28.15pt;"><p style="text-align:center;">4</p></td><td style="background-color:#F9F9F9;border-bottom:1.0pt dotted windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:36.0pt;padding:0cm 5.4pt;width:78.85pt;"><p style="text-align:justify;">Hóa học</p></td><td style="background-color:#F9F9F9;border-bottom:1.0pt dotted windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:36.0pt;padding:0cm 5.4pt;width:197.55pt;"><p style="text-align:justify;">Hóa phân tích; Hóa học trên máy tính; Hóa môi trường; Hóa vô cơ; Hóa vật liệu; Hóa hữu cơ; Hóa Lý;...</p></td></tr><tr><td style="background-color:#F9F9F9;border-bottom:1.0pt dotted windowtext;border-left:1.0pt solid windowtext;border-right:1.0pt solid windowtext;border-top-style:none;height:36.0pt;padding:0cm 5.4pt;width:28.15pt;"><p style="text-align:center;">5</p></td><td style="background-color:#F9F9F9;border-bottom:1.0pt dotted windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:36.0pt;padding:0cm 5.4pt;width:78.85pt;"><p style="text-align:justify;">Năng lượng: Hóa học</p></td><td style="background-color:#F9F9F9;border-bottom:1.0pt dotted windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:36.0pt;padding:0cm 5.4pt;width:197.55pt;"><p style="text-align:justify;">Nhiên liệu thay thế; Năng lượng hóa thạch; Phát triển tế bào nhiên liệu và pin; Vật liệu năng lượng mặt trời;...</p></td></tr><tr><td style="background-color:#F9F9F9;border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:54.0pt;padding:0cm 5.4pt;width:28.15pt;"><p style="text-align:center;">6</p></td><td style="background-color:#F9F9F9;border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:54.0pt;padding:0cm 5.4pt;width:78.85pt;"><p style="text-align:justify;">Sinh học trên máy tính và Sinh-Tin</p></td><td style="background-color:#F9F9F9;border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:54.0pt;padding:0cm 5.4pt;width:197.55pt;"><p style="text-align:justify;">Kỹ thuật Y sinh; Dược lý trên máy tính; Sinh học mô hình trên máy tính; Tiến hóa sinh học trên máy tính; Khoa học thần kinh trên máy tính; Gen;...</p></td></tr><tr><td style="background-color:#F9F9F9;border-bottom:1.0pt dotted windowtext;border-left:1.0pt solid windowtext;border-right:1.0pt solid windowtext;border-top-style:none;height:120.0pt;padding:0cm 5.4pt;width:28.15pt;"><p style="text-align:center;">7</p></td><td style="background-color:#F9F9F9;border-bottom:1.0pt dotted windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:120.0pt;padding:0cm 5.4pt;width:78.85pt;"><p style="text-align:justify;">Rô bốt và máy thông minh</p></td><td style="background-color:#F9F9F9;border-bottom:1.0pt dotted windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:120.0pt;padding:0cm 5.4pt;width:197.55pt;"><p style="text-align:justify;">Máy sinh học; Lý thuyết điều khiển; Rô bốt động lực;...</p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:120.0pt;padding:0cm 5.4pt;width:191.4pt;" rowspan="3"><span style="color:black;">- Công nghệ kỹ thuật máy tính (kỹ sư)</span><br><span style="color:black;">- Công nghệ kỹ thuật máy tính (cử nhân)</span><br><span style="color:black;">- Công nghệ kỹ thuật máy tính - chuyên ngành Thiết kế vi mạch bán dẫn (kỹ sư)</span><br><span style="color:black;">- Công nghệ kỹ thuật máy tính - chuyên ngành Kỹ thuật phần mềm ô tô (kỹ sư)</span><br><span style="color:black;">- Công nghệ kỹ thuật máy tính - Thiết bị bay không người lái (kỹ sư)</span><br><span style="color:black;">- Công nghệ kỹ thuật máy tính - Kỹ thuật Robot và trí tuệ nhân tạo (kỹ sư)</span><br><span style="color:black;">- Công nghệ kỹ thuật máy tính - Đóng gói và kiểm thử vi mạch bán dẫn (kỹ sư)</span><br><span style="color:black;">- An toàn thông tin (kỹ sư)</span><br><span style="color:black;">- Công nghệ thông tin (kỹ sư)</span><br><span style="color:black;">- CNTT (cử nhân)</span><br><span style="color:black;">- CNTT - chuyên ngành Công nghệ Game (kỹ sư)</span><br><span style="color:black;">- Trí tuệ nhân tạo (kỹ sư)</span><br><span style="color:black;">- Trí tuệ nhân tạo - chuyên ngành Phân tích dữ liệu (kỹ sư)</span></td></tr><tr><td style="background-color:#F9F9F9;border-bottom:1.0pt dotted windowtext;border-left:1.0pt solid windowtext;border-right:1.0pt solid windowtext;border-top-style:none;height:120.0pt;padding:0cm 5.4pt;width:28.15pt;"><p style="text-align:center;">8</p></td><td style="background-color:#F9F9F9;border-bottom:1.0pt dotted windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:120.0pt;padding:0cm 5.4pt;width:78.85pt;"><p style="text-align:justify;">Phần mềm hệ thống</p></td><td style="background-color:#F9F9F9;border-bottom:1.0pt dotted windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:120.0pt;padding:0cm 5.4pt;width:197.55pt;"><p style="text-align:justify;">Thuật toán; An ninh máy tính; Cơ sở dữ liệu; Hệ điều hành; Ngôn ngữ lập trình;...</p></td></tr><tr><td style="background-color:#F9F9F9;border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:120.0pt;padding:0cm 5.4pt;width:28.15pt;"><p style="text-align:center;">9</p></td><td style="background-color:#F9F9F9;border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:120.0pt;padding:0cm 5.4pt;width:78.85pt;"><p style="text-align:justify;">Hệ thống nhúng</p></td><td style="background-color:#F9F9F9;border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:120.0pt;padding:0cm 5.4pt;width:197.55pt;"><p style="text-align:justify;">Kỹ thuật mạch; Vi điều khiển; Giao tiếp mạng và dữ liệu; Quang học; Cảm biến; Gia công tín hiệu;...</p></td></tr><tr><td style="background-color:#F9F9F9;border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:54.0pt;padding:0cm 5.4pt;width:28.15pt;"><p style="text-align:center;">10</p></td><td style="background-color:#F9F9F9;border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:54.0pt;padding:0cm 5.4pt;width:78.85pt;"><p style="text-align:justify;">Khoa học vật liệu</p></td><td style="background-color:#F9F9F9;border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:54.0pt;padding:0cm 5.4pt;width:197.55pt;"><p style="text-align:justify;">Vật liệu sinh học; Gốm và Thủy tinh; Vật liệu composite; Lý thuyết và tính toán; Vật liệu điện tử, quang và từ; Vật liệu nano; Pô-li-me;...</p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:54.0pt;padding:0cm 5.4pt;width:191.4pt;"><p style="text-align:justify;"><span style="color:black;">- Công nghệ kỹ thuật máy tính (kỹ sư)</span></p></td></tr></tbody></table></figure><p style="margin-left:0cm;text-align:justify;">&nbsp;</p><p style="margin-left:0cm;text-align:justify;"><i><strong>Bảng&nbsp;3.&nbsp;</strong><span lang="SV" dir="ltr"><strong>Danh mục các nghề dự thi tay nghề khu vực ASEAN; Quốc tế được xét tuyển</strong></span></i></p><figure class="table"><table><tbody><tr><td style="border:1.0pt solid windowtext;height:32.6pt;padding:0cm 5.4pt;width:99.5pt;"><p style="margin-left:0cm;text-align:center;"><strong>Nghề dự thi</strong></p></td><td style="border-bottom-style:solid;border-color:windowtext;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;height:32.6pt;padding:0cm 5.4pt;width:275.9pt;"><p style="margin-left:0cm;text-align:center;"><span lang="DE" dir="ltr"><strong>Ngành&nbsp;</strong></span><span lang="VI" dir="ltr"><strong>đào tạo</strong></span></p></td><td style="border-bottom-style:solid;border-color:windowtext;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;height:32.6pt;padding:0cm 5.4pt;width:106.3pt;"><p style="margin-left:0cm;text-align:center;"><span lang="DE" dir="ltr"><strong>Mã xét tuyển</strong></span></p></td></tr><tr><td style="border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:32.6pt;padding:0cm 5.4pt;width:99.5pt;" rowspan="15"><p style="margin-left:0cm;">Mechatronics<span lang="SV" dir="ltr">;&nbsp;</span></p><p style="margin-left:0cm;">Mobile Robotics<span lang="SV" dir="ltr">;</span></p><p style="margin-left:0cm;">Electronics<span lang="SV" dir="ltr">;</span></p><p style="margin-left:0cm;">Industrial Control<span lang="SV" dir="ltr">;</span></p><p style="margin-left:0cm;"><span lang="SV" dir="ltr">Industrial Automation;</span></p><p style="margin-left:0cm;"><span lang="SV" dir="ltr">IT Software Solutions for Business;</span></p><p style="margin-left:0cm;"><span lang="SV" dir="ltr">IT Network Systems Administration;</span></p><p style="margin-left:0cm;"><span lang="SV" dir="ltr">Web Technologies;</span></p><p style="margin-left:0cm;"><span lang="SV" dir="ltr">Internet of Things;</span></p><p style="margin-left:0cm;"><span lang="SV" dir="ltr">Graphic Design Technology;</span></p><p style="margin-left:0cm;">Automobile Technology;</p><p style="margin-left:0cm;">Information Network Cabling</p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:32.6pt;padding:0cm 5.4pt;width:275.9pt;"><p style="margin-left:0cm;">Công nghệ kỹ thuật máy tính (kỹ sư)</p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:32.6pt;padding:0cm 5.4pt;width:106.3pt;"><p style="margin-left:0cm;">7480108</p></td></tr><tr><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:32.6pt;padding:0cm 5.4pt;width:275.9pt;"><p style="margin-left:0cm;">Công nghệ kỹ thuật máy tính - chuyên ngành Thiết kế vi mạch bán dẫn (kỹ sư)</p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:32.6pt;padding:0cm 5.4pt;width:106.3pt;"><p style="margin-left:0cm;">7480108IC</p></td></tr><tr><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:32.6pt;padding:0cm 5.4pt;width:275.9pt;"><p style="margin-left:0cm;">Công nghệ kỹ thuật máy tính - chuyên ngành Kỹ thuật phần mềm ô tô (kỹ sư)</p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:32.6pt;padding:0cm 5.4pt;width:106.3pt;"><p style="margin-left:0cm;">7480108AS</p></td></tr><tr><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:32.6pt;padding:0cm 5.4pt;width:275.9pt;"><p style="margin-left:0cm;">Công nghệ kỹ thuật máy tính - Thiết bị bay không người lái (kỹ sư)</p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:32.6pt;padding:0cm 5.4pt;width:106.3pt;"><p style="margin-left:0cm;">&nbsp;7480108UA</p></td></tr><tr><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:32.6pt;padding:0cm 5.4pt;width:275.9pt;"><p style="margin-left:0cm;">Công nghệ kỹ thuật máy tính - Kỹ thuật Robot và trí tuệ nhân tạo (kỹ sư)</p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:32.6pt;padding:0cm 5.4pt;width:106.3pt;"><p style="margin-left:0cm;">&nbsp;7480108RA</p></td></tr><tr><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:32.6pt;padding:0cm 5.4pt;width:275.9pt;"><p style="margin-left:0cm;">Công nghệ kỹ thuật máy tính - Đóng gói và kiểm thử vi mạch bán dẫn (kỹ sư)</p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:32.6pt;padding:0cm 5.4pt;width:106.3pt;"><p style="margin-left:0cm;">&nbsp;7480108PT</p></td></tr><tr><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:32.6pt;padding:0cm 5.4pt;width:275.9pt;"><p style="margin-left:0cm;">Công nghệ kỹ thuật máy tính (cử nhân)</p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:32.6pt;padding:0cm 5.4pt;width:106.3pt;"><p style="margin-left:0cm;">7480108B</p></td></tr><tr><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:32.6pt;padding:0cm 5.4pt;width:275.9pt;"><p style="margin-left:0cm;">An toàn thông tin (kỹ sư)</p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:32.6pt;padding:0cm 5.4pt;width:106.3pt;"><p style="margin-left:0cm;">7480202</p></td></tr><tr><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:32.6pt;padding:0cm 5.4pt;width:275.9pt;"><p style="margin-left:0cm;">Công nghệ thông tin (kỹ sư)</p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:32.6pt;padding:0cm 5.4pt;vertical-align:bottom;width:106.3pt;"><p style="margin-left:0cm;">7480201</p></td></tr><tr><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:32.6pt;padding:0cm 5.4pt;width:275.9pt;"><p style="margin-left:0cm;">Công nghệ thông tin - chuyên ngành Công nghệ Game (kỹ sư)</p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:32.6pt;padding:0cm 5.4pt;width:106.3pt;"><p style="margin-left:0cm;">7480201GT</p></td></tr><tr><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:32.6pt;padding:0cm 5.4pt;width:275.9pt;"><p style="margin-left:0cm;">Công nghệ thông tin (cử nhân)</p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:32.6pt;padding:0cm 5.4pt;width:106.3pt;"><p style="margin-left:0cm;">7480201B</p></td></tr><tr><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:32.6pt;padding:0cm 5.4pt;width:275.9pt;"><p style="margin-left:0cm;">Trí tuệ nhân tạo (kỹ sư)</p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:32.6pt;padding:0cm 5.4pt;width:106.3pt;"><p style="margin-left:0cm;">7480107</p></td></tr><tr><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:32.6pt;padding:0cm 5.4pt;width:275.9pt;"><p style="margin-left:0cm;">Trí tuệ nhân tạo - chuyên ngành Phân tích dữ liệu (kỹ sư)</p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:32.6pt;padding:0cm 5.4pt;width:106.3pt;"><p style="margin-left:0cm;">7480107DA</p></td></tr><tr><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:32.6pt;padding:0cm 5.4pt;width:275.9pt;"><p style="margin-left:0cm;">Công nghệ truyền thông (cử nhân)&nbsp;</p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:32.6pt;padding:0cm 5.4pt;width:106.3pt;"><p style="margin-left:0cm;">7320106</p></td></tr><tr><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:32.6pt;padding:0cm 5.4pt;width:275.9pt;"><p style="margin-left:0cm;">Công nghệ truyền thông - Chuyên ngành Thiết kế Mỹ thuật số (cử nhân)</p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:32.6pt;padding:0cm 5.4pt;width:106.3pt;"><p style="margin-left:0cm;">7320106DA</p></td></tr><tr><td style="border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:32.6pt;padding:0cm 5.4pt;width:99.5pt;"><p style="margin-left:0cm;"><span lang="SV" dir="ltr">Restaurant Service</span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:32.6pt;padding:0cm 5.4pt;width:275.9pt;"><p style="margin-left:0cm;">Quản trị kinh doanh - Chuyên ngành Quản trị Dịch vụ du lịch và lữ hành số (kỹ sư)</p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:32.6pt;padding:0cm 5.4pt;width:106.3pt;"><p style="margin-left:0cm;">7340101ET</p></td></tr></tbody></table></figure> 
+                    </div>
+
+                                                            
+                    <div class="mt-5">
+                        <a href="https://tuyensinh.vku.udn.vn" class="btn btn-outline-primary rounded-pill">
+                            <i class="ion-md-arrow-back mr-2"></i> Quay lại danh sách
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 sidebar ftco-animate">
+                    <div class="sidebar-box p-4 bg-light">
+                        <h4 class="fw-bold mb-4">Thông báo mới nhất</h4>
+                                                <div class="block-21 mb-4 d-flex">
+                            <div class="text">
+                                <h5 class="heading" style="font-size: 15px;">
+                                    <a href="https://tuyensinh.vku.udn.vn/thong-bao/6a79472c0619ded1f20e9b44">TRƯỜNG ĐẠI HỌC CÔNG NGHỆ THÔNG TIN VÀ TRUYỀN THÔNG VIỆT - HÀN CÔNG BỐ ĐIỂM TRÚNG TUYỂN ĐẠI HỌC NĂM 2026!</a>
+                                </h5>
+                                <div class="meta">
+                                    <div><small><i class="ion-md-calendar"></i> 09/08/2026</small></div>
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="block-21 mb-4 d-flex">
+                            <div class="text">
+                                <h5 class="heading" style="font-size: 15px;">
+                                    <a href="https://tuyensinh.vku.udn.vn/thong-bao/6a7067db1b897aba700a1894">THÔNG BÁO: QUY TẮC QUY ĐỔI TƯƠNG ĐƯƠNG ĐIỂM TRÚNG TUYỂN VÀO VKU NĂM 2026</a>
+                                </h5>
+                                <div class="meta">
+                                    <div><small><i class="ion-md-calendar"></i> 03/08/2026</small></div>
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="block-21 mb-4 d-flex">
+                            <div class="text">
+                                <h5 class="heading" style="font-size: 15px;">
+                                    <a href="https://tuyensinh.vku.udn.vn/thong-bao/699fedf448d97e2c10006596">HỌC BỔNG ĐẦU VÀO VÀ CHÍNH SÁCH HỖ TRỢ NGƯỜI HỌC TRONG TUYỂN SINH ĐẠI HỌC - KHÓA 2026</a>
+                                </h5>
+                                <div class="meta">
+                                    <div><small><i class="ion-md-calendar"></i> 01/06/2026</small></div>
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="block-21 mb-4 d-flex">
+                            <div class="text">
+                                <h5 class="heading" style="font-size: 15px;">
+                                    <a href="https://tuyensinh.vku.udn.vn/thong-bao/6a029fac0004d709a40b5c02">📢 [VKU] CHÍNH THỨC MỞ CỔNG NHẬN HỒ SƠ MINH CHỨNG ĐIỂM CỘNG - HỒ SƠ THÍ SINH TỰ DO  - HỒ SƠ XÉT TUYỂN THẲNG NĂM 2026! 🎓</a>
+                                </h5>
+                                <div class="meta">
+                                    <div><small><i class="ion-md-calendar"></i> 11/05/2026</small></div>
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="block-21 mb-4 d-flex">
+                            <div class="text">
+                                <h5 class="heading" style="font-size: 15px;">
+                                    <a href="https://tuyensinh.vku.udn.vn/thong-bao/699d270922d808765d0d6ad2">Trường Đại học Công nghệ Thông tin và Truyền thông Việt - Hàn công bố Thông tin tuyển sinh năm 2026</a>
+                                </h5>
+                                <div class="meta">
+                                    <div><small><i class="ion-md-calendar"></i> 14/02/2026</small></div>
+                                </div>
+                            </div>
+                        </div>
+                                            </div>
+                    <div class="sidebar-box ftco-animate">
+                        <h3>Có thể bạn quan tâm</h3>
+                        <!-- <div class="block-21 mb-4 d-flex">
+                            <a class="blog-img mr-4" style="background-image:url(../images/ximage_2.jpg.pagespeed.ic.mQGyn1P_Li.jpg)"></a>
+                            <div class="text">
+                                <h3 class="heading"><a href="/cong-cu-tinh">Công cụ tính điểm học bạ</a></h3>
+                                <div class="meta">
+                                </div>
+                            </div>
+                        </div> -->
+                        <div class="block-21 mb-4 d-flex">
+                            <a class="blog-img mr-4" style="background-image:url(../images/ximage_3.jpg.pagespeed.ic.CWHmT1gFhf.jpg)"></a>
+                            <div class="text">
+                                <h3 class="heading"><a href="/doi-tuong-uu-tien">Tra cứu đối tượng ưu tiên</a></h3>
+                                <div class="meta">
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="block-21 mb-4 d-flex">
+                            <a class="blog-img mr-4" style="background-image:url(../images/ximage_1.jpg.pagespeed.ic.Yc6gAsaZ2Y.jpg)"></a>
+                            <div class="text">
+                                <h3 class="heading"><a href="#">Câu hỏi thường gặp</a></h3>
+                                <div class="meta">
+                                    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>                    <div class="sidebar-box ftco-animate">
+                        <h3>Tag Cloud</h3>
+                        <ul class="tagcloud m-0 p-0">
+                            <a href="#" class="tag-cloud-link">VKU</a>
+                            <a href="#" class="tag-cloud-link">TUYENSINHVKU</a>
+                            <a href="#" class="tag-cloud-link">VKU2026</a>
+                            <a href="#" class="tag-cloud-link">TUYENSINH</a>
+                            <a href="#" class="tag-cloud-link">TUYENSINH2026</a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="ftco-intro ftco-no-pb img" style="background-image:url(../images/bg_3.jpg)">
+        <div class="container">
+            <div class="row justify-content-center mb-5">
+                <div class="col-md-10 text-center heading-section heading-section-white ftco-animate">
+                    <h2 class="mb-0">Thông tin Tuyển sinh 2026</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+<section class="ftco-counter" id="section-counter">
+        <div class="container">
+            <div class="row d-md-flex align-items-center justify-content-center">
+                <div class="wrapper">
+                    <div class="row d-md-flex align-items-center">
+                        <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+                            <div class="block-18">
+                                <div class="icon"><span class="flaticon-doctor"></span>
+                                </div>
+                                <div class="text">
+                                    <strong class="number" style="color:#153472">1500</strong>
+                                    <span style="color:#153472"><b>Chỉ tiêu</b></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+                            <div class="block-18">
+                                <div class="icon"><span class="flaticon-doctor"></span>
+                                </div>
+                                <div class="text">
+                                    <strong class="number" style="color:#153472">22</strong>
+                                    <span style="color:#153472"><b>Ngành/Chuyên ngành</b></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+                            <div class="block-18">
+                                <div class="icon"><span class="flaticon-doctor"></span>
+                                </div>
+                                <div class="text">
+                                    <strong class="number" style="color:#153472">3</strong>
+                                    <span style="color:#153472"><b>Phương thức tuyển sinh</b></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+                            <div class="block-18">
+                                <div class="icon"><span class="flaticon-doctor"></span>
+                                </div>
+                                <div class="text">
+                                    <strong class="number" style="color:#153472">100%</strong>
+                                    <span style="color:#153472"><b>Sinh viên có việc làm khi ra trường</b></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="ftco-section testimony-section">
+        <div class="container">
+            <div class="row justify-content-center mb-5">
+                <div class="col-md-10 text-center heading-section ftco-animate">
+                    <h2 class="mb-4">Trải nghiệm Sinh viên VKU</h2>
+                    <p style="text-align:center">
+                        TỰ HÀO LÀ TRƯỜNG ĐẠI HỌC CÔNG LẬP QUỐC TẾ HÀNG ĐẦU VỀ ĐÀO TẠO,<BR>NGHIÊN CỨU CÔNG NGHỆ THÔNG TIN - TRUYỀN THÔNG VÀ KINH TẾ SỐ CỦA MIỀN TRUNG - TÂY NGUYÊN VÀ CẢ NƯỚC
+                    </p>
+                </div>
+            </div>
+            <div class="row ftco-animate justify-content-center">
+                <div class="col-md-12">
+                    <div class="carousel-testimony owl-carousel">
+                        <div class="item">
+                            <div class="testimony-wrap d-flex">
+                                <div class="user-img" style="background-image:url(../images/nguyet.jpg)">
+                                </div>
+                                <div class="text pl-4">
+                                    <span class="quote d-flex align-items-center justify-content-center">
+<i class="icon-quote-left"></i>
+</span>
+                                    <p>Tại VKU, mình may mắn gặp được những người bạn đồng hành thật sự rất tuyệt vời. Bọn mình cũng nhau vui chơi, cùng nhau học tập, cùng nhau nghiên cứu, cùng nhau vui vẻ, cùng nhau thất vọng, rồi lại cùng nhau đứng dậy và bước tiếp. Bọn mình cùng nhau trải qua những năm tháng sinh viên và thật sự coi nhau như anh em, như một gia đình.</p>
+                                    <p class="name">Phạm Vũ Thu Nguyệt</p>
+                                    <span class="position">Lớp 19IT1</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimony-wrap d-flex">
+                                <div class="user-img" style="background-image:url(../images/the.jpg)">
+                                </div>
+                                <div class="text pl-4">
+                                    <span class="quote d-flex align-items-center justify-content-center">
+<i class="icon-quote-left"></i>
+</span>
+                                    <p>Sự nhân văn trong chính sách học tập mà VKU hướng đến sinh viên Việt Nam đã thuyết phục Minh Thế vì "VKU là chỗ dựa vững vàng, tạo cơ hội thuận lợi cho tất cả thí sinh trên mọi miền đất nước hiện thực được ước mơ chinh phục giảng đường đại học, đặc biệt với những thí sinh khó khăn như em khi nhà có tận 3 anh em cùng đi học đại học</p>
+                                    <p class="name">Lê Minh Thế</p>
+                                    <span class="position">Lớp: 21GIT</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimony-wrap d-flex">
+                                <div class="user-img" style="background-image:url(../images/thao.jpg)">
+                                </div>
+                                <div class="text pl-4">
+                                    <span class="quote d-flex align-items-center justify-content-center">
+<i class="icon-quote-left"></i>
+</span>
+                                    <p>Trước kia mình đã từng tham gia giải vô địch Vovinam do tỉnh tổ chức và cũng gặt hái được một số thành tích nho nhỏ, mình cũng hay tham gia các hoạt động văn nghệ, thể thao do trường tổ chức,... Hy vọng mình sẽ có nhiều cơ hội được tham gia các hoạt động và hành trình 4 năm học diễn ra suôn sẻ, gặt hái được nhiều thành tích học tập khi đến với VKU.</p>
+                                    <p class="name">Nguyễn Thị Thu Thảo</p>
+                                    <span class="position">Ngành Quản trị Kinh doanh</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimony-wrap d-flex">
+                                <div class="user-img" style="background-image:url(../images/hanh.jpg)">
+                                </div>
+                                <div class="text pl-4">
+                                    <span class="quote d-flex align-items-center justify-content-center">
+<i class="icon-quote-left"></i>
+</span>
+                                    <p>Với em, VKU là sự lựa chọn lí tưởng để em có được 4 năm đại học tuyệt với... Em tin chắc rằng ngôi nhà VKU sẽ trang bị cho em những kiến thức chuyên ngành và kỹ năng mềm để em phát triển bản thân, thực hiện được ước mơ của mình. 4 năm-1 hành chình sẽ có đầy chông gai và thử thách nhưng em vẫn luôn quan niệm rằng: Tất cả mọi thứ có được đều phải đánh đổi.</p>
+                                    <p class="name">Lê Văn Hạnh</p>
+                                    <span class="position">Ngành Công nghệ Thông tin</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>    <!-- Messenger Plugin chat Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Plugin chat code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "112197230340250");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v13.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+        
+
+        <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+        }
+        </script>
+    <footer class="ftco-footer ftco-bg-dark ftco-section">
+        <div class="container">
+            <div class="row mb-3">
+                <div class="col-md-6 col-lg-4">
+                    <div class="ftco-footer-widget mb-5">
+                        <h2 class="ftco-heading-2">Liên hệ</h2>
+                        <div class="block-23 mb-3">
+                            <ul>
+                                <li><span class="icon icon-map-marker"></span><span class="text" style="color: #fff">470 Trần Đại Nghĩa, P. Ngũ Hành Sơn, Tp. Đà Nẵng</span>
+                                </li>
+                                <li><span class="icon icon-phone"></span><span class="text" style="color: #fff">0236 3 667 113</span>
+                                </li>
+                                <li><span class="icon icon-envelope"></span><span class="text" style="color: #fff">tuyensinh@vku.udn.vn</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="ftco-footer-widget mb-5">
+                        <h2 class="ftco-heading-2">Liên kết</h2>
+                        <div class="block-21 mb-4 d-flex">
+                            <div class="text">
+                                <h3 class="heading"><a href="https://vku.udn.vn/">Trang chủ VKU</a></h3>
+                                <h3 class="heading"><a href="https://www.facebook.com/cs.vku.udn.vn">Khoa Khoa học máy tính</a></h3>
+                                <h3 class="heading"><a href="https://www.facebook.com/ce.vku.udn.vn">Khoa Kỹ thuật máy tính và điện tử</a></h3>
+                                <h3 class="heading"><a href="https://www.facebook.com/de.vku.udn.vn">Khoa Kinh tế số & TMĐT</a></h3>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="ftco-footer-widget mb-5">
+                        <h2 class="ftco-heading-2">Đăng ký xét tuyển!</h2>
+                        <form action="#" class="subscribe-form">
+                            <div class="form-group">
+                                <a href="https://xettuyen.vku.udn.vn"><input type="submit" value="https://xettuyen.vku.udn.vn" class="form-control submit px-3"></a>                           
+                                
+                            </div>
+                        </form>
+                    </div>
+                    <div class="ftco-footer-widget mb-5">
+                        <h2 class="ftco-heading-2 mb-0">Liên hệ</h2>
+                        <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
+                            <li class="ftco-animate"><a href="https://twitter.com/vku_udn_vn"><span class="icon-twitter"></span></a>
+                            </li>
+                            <li class="ftco-animate"><a href="https://www.facebook.com/vku.udn.vn"><span class="icon-facebook"></span></a>
+                            </li>
+                            <li class="ftco-animate"><a href="https://www.instagram.com/vku.udn.vn/?hl=en"><span class="icon-instagram"></span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p>
+                        Bản quyền thuộc về Trường Đại học Công nghệ Thông tin và Truyền thông Việt - Hàn
+                        
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div id="ftco-loader" class="show fullscreen">
+        <svg class="circular" width="48px" height="48px">
+            <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+            <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00" />
+        </svg>
+    </div>
+    <script defer src="../css/menu/script.js?v=20250115"></script>
+    <script src="../js/jquery.min.js?v=20250115"></script>
+    <script src="../js/jquery-migrate-3.0.1.min.js%2bpopper.min.js%2bbootstrap.min.js.pagespeed.jc.-waaHJRH53.js?v=20250115"></script>
+    <script>
+        eval(mod_pagespeed_2RTyXK5Orp);
+    </script>
+    <script>
+        eval(mod_pagespeed_2v5bfFyPJ5);
+    </script>
+    <script>
+        eval(mod_pagespeed_mR96Zij9SP);
+    </script>
+    <script src="../js/jquery.easing.1.3.js%2bjquery.waypoints.min.js%2bjquery.stellar.min.js%2bowl.carousel.min.js.pagespeed.jc.LO94h43Whv.js?v=20250115"></script>
+    <script>
+        eval(mod_pagespeed_FjRwX7Kbxe);
+    </script>
+    <script>
+        eval(mod_pagespeed_pf0ppyQgZ6);
+    </script>
+    <script>
+        eval(mod_pagespeed_az0C1sjZgG);
+    </script>
+    <script>
+        eval(mod_pagespeed_6exUBPje5j);
+    </script>
+    <script src="../js/jquery.magnific-popup.min.js%2baos.js%2bjquery.animateNumber.min.js%2bscrollax.min.js%2bgoogle-map.js%2bmain.js.pagespeed.jc.Qb1TWqfkjq.js?v=20250115"></script>
+    <script>
+        eval(mod_pagespeed_HGoNukMl9$);
+    </script>
+    <script>
+        eval(mod_pagespeed_upFaBxDpPv);
+    </script>
+    <script>
+        eval(mod_pagespeed_gou$v8L2wH);
+    </script>
+    <script>
+        eval(mod_pagespeed__u3GoWjRoa);
+    </script>
+    
+    <script>
+        eval(mod_pagespeed_qy1S82iJgm);
+    </script>
+    <script>
+        eval(mod_pagespeed_2s8I3HAVqC);
+    </script>
+
+    
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-23581568-13');
+    </script>
+    <script defer src="../../../static.cloudflareinsights.com/beacon.min.js?v=20250115" data-cf-beacon='{"rayId":"67948a330a03197f","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2021.7.0","si":10}'></script>
+
+   
+</body>
+
+
+</html>

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "programs",
+    "url": "https://tuyensinh.vku.udn.vn/nganh",
+    "status": "cached"
+  },
+  {
+    "id": "methods",
+    "url": "https://tuyensinh.vku.udn.vn/phuongthuc",
+    "status": "cached"
+  },
+  {
+    "id": "scholarships",
+    "url": "https://tuyensinh.vku.udn.vn/thong-bao/699fedf448d97e2c10006596",
+    "status": "cached"
+  },
+  {
+    "id": "admission",
+    "url": "https://tuyensinh.vku.udn.vn/thong-bao/69af03ade1fedb5e0308e873",
+    "status": "cached"
+  },
+  {
+    "id": "tuition",
+    "url": "https://daotao.vku.udn.vn/thong-bao-tai-vu/thong-bao-thu-hoc-phi-hoc-ky-1-nam-hoc-2026-2027-1397.html",
+    "status": "cached"
+  },
+  {
+    "id": "about",
+    "url": "https://vku.udn.vn/vi/gioi-thieu/",
+    "status": "cached"
+  },
+  {
+    "id": "aptitude",
+    "url": "https://tuyensinh.vku.udn.vn/thong-bao/69af034de1fedb5e0308e872",
+    "status": "fetched",
+    "length": 3942
+  },
+  {
+    "id": "direct",
+    "url": "https://tuyensinh.vku.udn.vn/thong-bao/69af04149a0df6334f053472",
+    "status": "fetched",
+    "length": 11160
+  },
+  {
+    "id": "documents",
+    "url": "https://tuyensinh.vku.udn.vn/thong-bao/6a029fac0004d709a40b5c02",
+    "status": "fetched",
+    "length": 4717
+  },
+  {
+    "id": "leadership",
+    "url": "https://vku.udn.vn/vi/co-cau-to-chuc/ban-giam-hieu/",
+    "status": "fetched",
+    "length": 6652
+  },
+  {
+    "id": "history",
+    "url": "https://vku.udn.vn/vi/thu-ngo-ky-niem-05-nam-thanh-lap-truong-dai-hoc-cong-nghe-thong-tin-va-truyen-thong-viet-han-hanh-trinh-22-nam-hinh-thanh-va-phat-trien/",
+    "status": "fetched",
+    "length": 8826
+  }
+]

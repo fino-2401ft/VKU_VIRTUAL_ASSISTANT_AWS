@@ -1,0 +1,46 @@
+## UI Pro Max Stack Guidelines
+**Stack:** html-tailwind | **Query:** responsive grid
+**Source:** stacks/html-tailwind.csv | **Found:** 3 results
+
+### Result 1
+- **Category:** Layout
+- **Guideline:** Grid gaps
+- **Description:** Use consistent gap utilities for spacing
+- **Do:** gap-4 gap-6 gap-8
+- **Don't:** Margins on individual items
+- **Code Good:** grid gap-6
+- **Code Bad:** grid with mb-4 on each item
+- **Severity:** Medium
+- **Docs URL:** https://tailwindcss.com/docs/gap
+- **Applies To:** html-tailwind 4.3
+- **Status:** active
+- **Verified At:** 2026-08-13
+
+### Result 2
+- **Category:** Spacing
+- **Guideline:** Space between
+- **Description:** Use space-y-* for vertical lists
+- **Do:** space-y-4 on flex/grid column
+- **Don't:** Margin on each child
+- **Code Good:** space-y-4
+- **Code Bad:** Each child has mb-4
+- **Severity:** Low
+- **Docs URL:** https://tailwindcss.com/docs/space
+- **Applies To:** html-tailwind 4.3
+- **Status:** active
+- **Verified At:** 2026-08-13
+
+### Result 3
+- **Category:** Responsive
+- **Guideline:** Hidden/shown utilities
+- **Description:** Control visibility per breakpoint
+- **Do:** hidden md:block
+- **Don't:** Different content per breakpoint
+- **Code Good:** hidden md:flex
+- **Code Bad:** Separate mobile/desktop components
+- **Severity:** Low
+- **Docs URL:** https://tailwindcss.com/docs/display
+- **Applies To:** html-tailwind 4.3
+- **Status:** active
+- **Verified At:** 2026-08-13
+

@@ -1,0 +1,3439 @@
+[
+  {
+    "name": "PGS.TS.Huỳnh Công Pháp",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/hcphap",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "PGS.TS.Nguyễn Thanh Liêm",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/ntliem",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "PGS.TS.Võ Trung Hùng",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/vthung",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "PGS.TS.Boitet Christian",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "PGS.TS.Nguyễn Thanh Bình",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/nguyenthanhbinh",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "PGS.TS.Hoàng Ngọc Hà",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "PGS.TS.Nguyễn Thành Đạt",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "PGS.TS.Tăng Tấn Chiến",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "PGS.TS.Huỳnh Thế Phùng",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "PGS.TS.Nguyễn Tấn Hùng",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "PGS.TS.Nguyễn Thị Tâm",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "PGS.TS.Hồ Tấn Sáng",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Lê Văn Minh",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/lvminh",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Nguyễn Thị Thanh Huyền",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Nguyễn Hữu Nhật Minh",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/nhnminh",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Nguyễn Thị Thu Hướng",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Võ Công Khôi",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Nguyễn Đức Hiển",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/nguyenduchien",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Trần Lương Nguyệt",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/tlnguyet",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Nguyễn Văn Bình",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/nvbinh",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Đặng Văn Cường",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Đinh Thị Mỹ Hạnh",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/dtmhanh",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Lê Minh Thái",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/lmthai",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Hồ Văn Hùng",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Phạm Anh Phương",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/paphuong",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Huỳnh Ngọc Thọ",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/huynhngoctho",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Nguyễn Quang Thanh",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Hồ Viết Việt",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/hvviet",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Nguyễn Thu Hương",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/nthuongvku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Cao Xuân Tuấn",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/cxtuan",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Đào Ngọc Lâm",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Dương Ngọc Pháp",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/duongngocphap",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Trần Thị Thùy Liên",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/tttlienvku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Nguyễn Tiến Nam",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/ntnam",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Hoàng Trọng Lợi",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Nguyễn Vũ Anh Quang",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/nvaquangvku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Phạm Tuấn Hùng",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Nguyễn Thị Hoa Huệ",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/nthhue",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Lê Hà Như Thảo",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/lhnthao",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Võ Thị Thanh Thảo",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/vttthaovku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Phạm Trung Đức",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Trần Lê Nhật Quang",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/tlnquang",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Trần Thị Thúy Trinh",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Đặng Quang Hiển",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/dqhienvku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Nguyễn Vũ",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/nvuvku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Hoàng Hữu Đức",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/hhducvku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Phương Huy Tùng",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Thân Hồng Phúc",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/thphuc",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Lê Thị Thu Nga",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/lttnga",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Nguyễn Quang Vũ",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/nqvu",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Nguyễn Hà Huy Cường",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/nhhcuong",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Trần Thảo An",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/ttanvku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Trịnh Công Duy",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/trinhcongduy",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Nguyễn Thị Kim Ngọc",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/ntkngoc",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Tôn Thất Tú",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/tttung",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Đặng Vinh",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Nguyễn Thị Thu Đến",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Phạm Công Thắng",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/pcthang",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Lê Thị Mỹ Hạnh",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/ltmhanhvku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Lê Phước Cửu Long",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/lpclongvku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Bùi Thị Minh Thu",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/btmthu",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Bùi Thị Thanh Thanh",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/bttthanh",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Phạm Thị Tài",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Lò Văn Pấng",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Dương Thị Phượng",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/dtphuongvku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Nguyễn Thị Thùy Dương",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Hoàng Nguyên Vũ",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Nguyễn Thanh",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/thanhnvku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Trần Thế Sơn",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/ttsonvku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Nguyễn Nho Túy",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Lâm Tùng Giang",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Đinh Thị Đông Phương",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Lê Thị Minh Đức",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/ltmducvku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Nguyễn Thị Bích Thủy",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Dương Hữu Ái",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/dhai",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Phạm Nguyễn Minh Nhựt",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/pnmnhutvku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Nguyễn Thanh Tuấn",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/nttuanvku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Lê Tân",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/ltanvku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Đỗ Trường Xuân",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Văn Hùng Trọng",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/vhtrongvku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Ngô Hải Quỳnh",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/nhquynhvku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Nguyễn Thị Kiều Trang",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/ntktrangvku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Phan Văn Thành",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Bùi Nữ Thanh Hà",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Vương Công Đạt",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/vcdat",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Hồ Phan Hiếu",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/hophanhieu",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Lý Quỳnh Trân",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/lqtran",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Trần Nguyễn Hồng Phúc",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Phan Thị Lan Anh",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/ptlanhvku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Nguyễn Hữu Tài",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Hồ Văn Phi",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/hvphivku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Nguyễn Văn Lợi",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/nvloivku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Trần Văn Đại",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/tvdaivku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Nguyễn Sĩ Thìn",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/nsthinvku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Võ Duy Thanh",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Nguyễn Hoàng Hải",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/nhhai",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Hoàng Thị Lan Giao",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Trần Thanh",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Ngô Văn Sỹ",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Nguyễn Thị Minh Chi",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Trần Thiện Vũ",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/ttvuvku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Trần Uyên Trang",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/tutrangvku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Trần Thị Thùy Oanh",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Lê Mai Anh",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Phạm Thị Thu Hương",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Nguyễn Thanh Hoài",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/nthoaivku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Đặng Trung Thành",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Nguyễn Tấn Thuận",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Nguyễn Tuấn Anh",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Vũ Đình Chinh",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Bùi Duy Hiếu",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Hoàng Đình Triển",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Nguyễn Đình Lầu",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Nguyễn Lương Vương",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Nguyễn Nhật Ân",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Đoàn Duy Bình",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Nguyễn Nữ Thùy Uyên",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Đặng Đại Thọ",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/ddtho",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TS.Đặng Hùng Vĩ",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Lê Đình Nguyên",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/ldnguyenvku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Đặng Đại Việt",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Dương Quốc Hoàng Tú",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Lương Thủy Tiên",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Trần Thị Kiều",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/ttkieu",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Đặng Thị Á",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Lê Tự Việt Thắng",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Ngô Thị Bích Thủy",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/ntbthuy",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Đoàn Xuân Bích",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Trần Thị Thanh Nhã",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Hà Thị Minh Phương",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/htmphuong",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.hủy hủy",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Cao Đức Anh",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Tôn Nữ Xuân Phương",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/tnxphuong",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Phạm Nhật Trường",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Trần Hữu Ngô Duy",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/thnduy",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Nguyễn Ngọc Quỳnh Dung",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Lê Xuân Việt Hương",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/lxvhuong",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Nguyễn Thị Thùy Giang",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Trần Thị Túy Phượng",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/tttphuong",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Nguyễn Gia Huy (TC)",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Võ Hùng Cường",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/vohungcuong",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Nguyễn Văn Tân",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Nguyễn Thị Diệu Thanh",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/ntdthanh",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Trần Đình Sơn",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/tdson",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Phạm Thị Hồng Hạnh",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Nguyễn Minh Hiền",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Nguyễn Anh Tuấn",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/anhtuancit",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Nguyễn Ngọc Hòa",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Huỳnh Thị Kim Hà",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/htkha",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Dương Thị Mai Nga",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/duongthimainga",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Hoàng Thị Quỳnh Hương",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Huỳnh Thị Thắng",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Phan Thị Quỳnh Hương",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/ptqhuong",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Mai Lam",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/mlam",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Đặng Thị Thanh Minh",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/dttminh",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Nguyễn Thị Khánh My",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/ntkmy",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Đào Thị Thu Hường",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/dtthuong",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Trần Đăng Chiến",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Vũ Thu Hà",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/vtha",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Nguyễn Đăng Ý",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Nguyễn Văn Phi",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Lê Thị Nhi",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/ltnhi",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Ngô Viết Phương",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Trương Thị Ánh Tuyết",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/ttatuyet",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Nguyễn Văn Sang",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Nguyễn Lê Lộc Tiên",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/nlltien",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Hà Thị Hân",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Nguyễn Thanh Giang",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Phan Ngọc Thiết Kế",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Trần Minh Thế",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.GV Test1",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Đinh Nguyễn Khánh Phương",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/dnkphuong",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Nguyễn Duy Thành",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.GV Test2",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Võ Hoài Nam",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Nguyễn Thị Tuyết",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/nttuyet",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Huỳnh Nguyễn Ngọc Thảo",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Nguyễn Phương Hòa",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Trương Hoàng Tú Nhi",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/thtnhi",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Bùi Trần Huân",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/bthuan",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Trần Đức Duy Nguyên",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Nguyễn Văn Chức",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/nvchuc",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Trần Thu Thủy",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/ttthuy",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Nguyễn Thành Tâm",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Phan Trọng Thanh",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/ptthanh",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Nguyễn Thị Thanh Thuý (ĐHNN)",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Lê Song Toàn",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Nguyễn Hồng Nam Phương",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Dương Thị Thu Trang",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/dtttrangvku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Nguyễn Hữu Cát Nguyên",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Nguyễn Hoàng Thảo Quỳnh",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Võ Bảo Yên",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Trần Thanh Tuấn",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Lê Thị Hải Yến",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/lthyen",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Nguyễn Thị Hà Tiên",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Huỳnh Thị Thanh Tuyền",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/htttuyenvku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Nguyễn Trọng Nghĩa",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Nguyễn Thị Tuyết Vân",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/nttvanvku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Tăng Huy Bảo",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Tôn Thất Quang Khang",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Nguyễn Linh Giang",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/nlgiang",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Trần Quốc Huy",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Nguyễn Xuân Pha",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/nxpha",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Đoàn Ngọc Hoàng Long",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Đặng Thị Ly",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Nguyễn Thị Minh Hỷ",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/ntmhy",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Đỗ Uyên Hà",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Nguyễn Lê An Phương",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Nguyễn Thanh Bình",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Nguyễn Ngọc Huy",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Vũ Thị Tuyết Mai",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/vttmai",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Lê Quang Phước",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Nguyễn Trọng Minh",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Nguyễn Văn Thắng",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Tôn Long Cường",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Trần Thị Vi Vân",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Trần Thị Quỳnh Châu",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/ttqchau",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Nguyễn Thị Thanh Nhàn",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/nttnhan",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Nguyễn Thị Thu Ngân",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/nttngan",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Trần Thị Mỹ Châu",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/ttmchau",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Nguyễn Lê Tùng Khánh",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/nltkhanh",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Trần Thanh Liêm",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/tranthanhliem",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Trương Quốc Tuấn",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/tqtuan",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Hồ Phạm Xuân Phương",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Nguyễn Thị Thảo Nhi",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Nguyễn Thị Hải Yến",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/nthyen",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Nguyễn Thị Mai Phương",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Phan Thị Thu Huyền",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/ptthuyen",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Trần Vũ Mai Yên",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Phạm Hồ Trọng Nguyên",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/phtnguyen",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Huỳnh Thị Bích Ngọc",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Trần Văn Thái",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/tvthaivku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Trần Hoàng Hạnh",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/thhanhvku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Nguyễn Ngọc Thảo Vy",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Nguyễn Thị Phương Thảo",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/ntpthaovku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Trần Xuân Vũ",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Lê Thành Công",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Nguyễn Văn Thọ",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Trương Thị Viên",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/ttvienvku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Hồ Anh Hưng",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Nguyễn Thị Thanh Thúy",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Nguyễn Thị Mai",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/ntmaivku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Lương Xuân Thành",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/lxthanhvku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Lê Anh Khoa",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Trần Thị Trà Vinh",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/tttvinhvku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Phan Phạm Thị My Ly",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Bạch Như Nguyện",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Nguyễn Thanh Cẩm",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/ntcamvku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Nguyễn Đức Phước",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Võ Văn Lường",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/vvluongvku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Nguyễn Như Sơn",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Lê Văn Thống",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Lê Tự Thanh",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/ltthanhvku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Nguyễn Xuân Tiến",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Lê Kim Trọng",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/lktrongvku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Hồ Anh Trang",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Nguyễn Đỗ Công Pháp",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/ndcphap",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Nguyễn Lê Ngọc Trâm",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/nlntramvku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Vũ Thành Nhân",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Ngô Lê Quân",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/nlquanvku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Võ Ngọc Đạt",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/vndatvku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Ninh Khánh Chi",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/nkchivku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Trần Phước Chinh",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Nguyễn Thị Hạnh",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/hanhntvku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Võ Công Đình",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Võ Thị Thanh Ngà",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/vttngavku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Đỗ Minh Đức",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Lê Thị Kim Tuyến",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/ltktuyenvku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Phạm Trần Mộc Miêng",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/ptmmiengvku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Nguyễn Mạnh Hà",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Trần Phi Hảo",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Đặng Thị Kim Ngân",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/dtknganvku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Nguyễn Đông Kỳ",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Trần Ngọc Phương Thảo",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/tnpthaovku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Hoàng Thanh Lâm",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Lê Thị Thanh Vân",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/lttvanvku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Võ Thành Thiên",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/vtthienvku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Lê Duy Linh",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Hồ Đức Lĩnh",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Lê Viết Trương",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/lvtruong",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Trần Thị Thúy Ngọc",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/tttngocvku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Doãn Đạt Phước",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Phan Đăng Thiếu Hiệp",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/pdthiepvku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Trà Văn Sơn",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Nguyễn Quốc Thịnh",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/nqthinhvku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Trần Thị Bích Hòa",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/ttbhoavku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Nguyễn Phương Tâm",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/nptamvku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Vương Thông",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Trần Thị Xuân Trang",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Lê Thị Bích Tra",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/ltbtra",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Tạ Thị Minh Trang",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Lê Xuân Tùng",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Võ Hoàng Phương Dung",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/vhpdungvku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Trần Quốc Việt",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Nguyễn Văn Vương",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Đỗ Công Đức",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/dcducvku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Lương Khánh Tý",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/lktyvku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Đoàn Thanh Sơn",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Trịnh Thị Ngọc Linh",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/ttnlinhvku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Nguyễn Thị Như Quỳnh",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/ntnquynhvku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Vũ Thị Quỳnh Anh",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/vtqanhvku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Lê Thị Hải Vân",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/lthvanvku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Nguyễn Hồng Hải",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Trịnh Thế Vinh",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Trần Văn Thành",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Nguyễn Thị Huyền Trang",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/trangnthvku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Hà Quốc Pháp",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Nguyễn Ngọc Huyền Trân",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/nnhtranvku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Nguyễn Thị Kim Ánh",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/ntkanhvku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Võ Nguyễn Thùy Trang",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Huỳnh Bá Thúy Diệu",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/hbtdieuvku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Trần Phạm Huyền Trang",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/tphtrangvku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Trần Văn Trường",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Ngô Thị Hiền Trang",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/nthtrangvku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Lê Ngô Anh Quân",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Lê Thị Bình",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/ltbinhvku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Trần Thị Hạ Quyên",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/tthquyenvku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Nguyễn Trọng Công Thành",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/ntcthanhvku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Nguyễn Gia Huy",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Nguyễn Thị Mỹ Hạnh",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/ntmhanhvku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Hồ Thị Hồng Liên",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/hthlienvku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Nguyễn Văn Thịnh",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Trần Văn Lộc",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Nguyễn Thị Khánh Hà",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/ntkhavku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Nguyễn Hà Phương",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/nhphuongvku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Nguyễn Thị Thanh Hà",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Lê Thị Phương Trang",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Lê Thị Bích Thủy",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Phan Thị Hồng Việt",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/pthvietvku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Vũ Thu Huyền",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Trần Thị Minh Ngọc",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Phan Thị Quỳnh Thy",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Trần Thị Hạnh Nguyên",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Trần Thị Kim Oanh",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Nguyễn Thị Ngọc Thu",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Lê Thị Thanh Bình",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Nguyễn Thị Nga",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Chế Viết Xuân",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Bùi Văn Cường",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Nguyễn Đặng Nguyên Phương",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Văn Vũ Ngọc Hân",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Võ Thị Ngọc Thảo",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Trịnh Trung Hải",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Lê Thị Xuân Ánh",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Nguyễn Kim Cường",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Phan Thị Hải Yến",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Hồ Quảng Hà",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Bùi Thị Ngọc Anh",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Nguyễn Thanh Hồng Ngọc",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Phan Thị Hoàng Oanh",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Phạm Hữu Thật",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Nguyễn Văn Hưng",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Phan Phạm Xuân Trinh",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Lê Thị Thanh",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Phạm Tuấn Anh",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/phamtuananh",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ThS.Võ Văn Đức",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "CN.Nguyễn Văn Hiếu",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "KS.Trần Viết An",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "Đại học.Phan Đức Anh",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "8/12.Phan Đức Hòa Bình",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "7/12.Lê Thị Chiều",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "10/12.Phí Đắc Cường",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "12/12.Đoàn Văn Đáng",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "Khoa.Khoa GDQP-AN",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": ".Nguyễn Đình Định",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "CN.Đoàn Thanh Trầm",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "10/12.Phạm Thị Dư",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "Đại học.Đoàn Văn Dự",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "KS.Nguyễn Vũ Phúc",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "9/12.Phạm Thị Dung",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": ".Lê Trí Dũng",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "Đại học.Nguyễn Thị Hoàng Giang",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/nthgiangvku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "nghuy2.Nguyễn Gia",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "Đại học.Nguyễn Hải",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "12/12.Phan Thanh Hải",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": ".Cao Thị Hồng Hạnh",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "PGS.TSKH.Trần Quốc Chiến",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "9/12.Nguyễn Thị Hạnh",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "Trợ giảng.Nguyễn Phan Minh Hòa",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "Cao đẳng.Lê Thị Quỳnh Hoa",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "ĐH.Trần Văn Vũ",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "Công nhân nghề (bậc 2/7).Phí Đắc Hoàn",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "KS.Nguyễn Duy Khánh",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": ".Hồ Thăng Hùng",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "CN.Châu Đình Bích Trâm",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "Đại học.Vũ Thị Xuân Hương",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "CN.Nguyễn Ngân Hoa",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": ".Bạch Thị Thúy Kiều",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/bttkieuvku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "Trung cấp hành chính.Phạm Viết Kiều",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "Đại học.Ngô Đức Lâm",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "Trung học chuyên nghiệp.Trần Văn Lâm",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "Đại học.Lê Thị Thanh Lan",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "9/12.Lê Thị Đông Lang",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "KS.Nguyễn Kết Đoàn",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "KS.Lê Thị Khánh Dung",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "Đại học.Huỳnh Nguyễn Ngọc Linh",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/hnnlinhvku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "KS.Đoàn Nguyễn Thành Lương",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": ".Bùi Thanh Minh",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "CN.Cao Thị Minh Ngọc",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "CN.Lê Trịnh Linh Dương",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": ".Huỳnh Thị Ti Na",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/httnavku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "Đại học.Phí Đắc Năm",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "12/12.Phan Ngọc",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "Cn.Phan Nguyễn Hoàng My",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "CN.Hà Phước Thiện",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "Đại học.Nguyễn Đức Phong",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "GS.Jo Kang-Hyun",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "PGS.TS..Bùi Thu Lâm",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "CN.Nguyễn Thị Ngọc Phú",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "12/12.Kiều Thị Soa",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": ".Nguyễn Thanh Sơn",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "Đại học.Nguyễn Thị Hồng Thắm",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "Đại học.Lê Thị Tuyết Thanh",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "Đại học.Nguyễn Tiến Thành",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "Đại học.Lê Thị Bích Thảo",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "GS.Mizuhito Ogawa",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": ".Nguyễn Thị Thêu",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "Cao đẳng.Phí Thị Quỳnh Thơ",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": ".Nguyễn Thị Huyền Thương",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "........ ...",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/ltgiang",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": ".Vũ Thị Thương",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "GS..Thu Ye Kyaw",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "Đại học.Hồ Thị Bích Thủy",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": ".Nguyễn Bảo Tích",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "Đại học.Nguyễn Thị Quỳnh Trang",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "Đại học.Phan Diệu Trinh",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "12/12.Bùi Đình Trọng",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "9/12.Nguyễn Thị Tươi",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "CN.Nguyễn Khánh Huyền",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "Đại học.Nguyễn Trần Việt",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "9/12.Châu Thị Thanh Yến",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "Kỹ sư.Hồ Minh Phi",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "P.Thanh Tra Pháp chế",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "Đại học.Trần Đình Tuấn",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/tdtuan",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "Chuyên viên.Thái Ngọc Nữ",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "Chuyên viên.Nguyễn Trần Nhật Hạ",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "CN.Huỳnh Thái Hưng",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "CN.Phạm Đức Hòa",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "Đại học.VP Đảng Uy",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": ".Nguyễn Thị Thùy Linh",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/nttlinh",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "KS.Phạm Hòa Bình",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/phbinh",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "KS.Nguyễn Thanh Yên Tùng",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": ".Nguyễn Thị Thân",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/ntthan",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "..Nguyễn Thị Cẩm Hà",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "CN.Nguyễn Ngọc Như Trang",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/nnntrang",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "CN.Ngô Minh Thành",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/nmthanh",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "CV.Ngô Thị Sơn Lâm",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/ntslam",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "Khoa.KH MT",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "Khoa.KTS _TMĐT",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "CN.Trần Thị Thúy Trinh",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "KS.Nguyễn Thị Diễm Châu",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "KS.Nguyễn Hữu Thiện Đức",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "KS.Nguyễn Văn Liêm",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "Khoa.KTMT _ĐT",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "KS.Từ Tấn Hoàng Sơn",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "KS.Huỳnh Kim Tài",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "KS.Ngô Thanh Tùng",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": ".Nguyễn Thị Minh",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "KS.Nguyễn Văn Bình (KS)",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "KS.Phạm Thị Kim Anh",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "CN.Thái Thị Hồng",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "CN.NTS Lâm",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "Th.S.Trịnh Quốc Bảo",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "Phòng.P Đào tạo",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "..Trần Thị Kiều",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "Mr.CHEW TECK SHIONG",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "CN.Phạm Thị Hằng",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "KS.Nguyễn Thái Minh Siêu",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "Đại học.Hoàng Thị Trang",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "KS.Nguyễn Thị Thanh Thúy",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "KS.Nguyễn Chí Thành",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "KS.Nguyễn Tuấn Vương",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "CN.Nguyễn Thanh Khánh",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "CN.Trần Thị Dung",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "CN.Nguyễn Thị Thùy Linh",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "CN.Lê Văn Hiền",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "KS.Hoàng Vũ Dạ Quỳnh",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "Đại học.Phan Thị Ngọc Hảo",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "Đại học.Nguyễn Phương Thanh Thảo",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "Sơ cấp.Nguyễn Mạnh Đoàn",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "9/12.Nguyễn Tiến Hạnh",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "Sơ cấp.Lê Thị Cúc",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": ".Nguyễn Thị Minh Loan",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "Sơ cấp.Huỳnh Thị Tú Trinh",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "Đại học.Ngô Thị Thùy Lài",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TC .Nguyễn Thị Hồng Thảo",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "Đại học.Nguyễn Thị Huyền",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TC .Phan Thị Diễm Phúc",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "Sơ cấp.Trần Thị Thanh Thuý",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "Đại học.Hà Thị Thơm",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": null,
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  },
+  {
+    "name": "TC .Lê Thị Diệu",
+    "role": "Danh bạ chuyên môn",
+    "academicProfileUrl": "http://scv.udn.vn/ltdieuvku",
+    "sourceKind": "user-supplied-directory",
+    "checkedAt": "2026-11-03"
+  }
+]

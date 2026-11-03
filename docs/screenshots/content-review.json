@@ -1,0 +1,122 @@
+[
+  {
+    "width": 320,
+    "route": "/nganh-dao-tao/tri-tue-nhan-tao",
+    "overflow": false
+  },
+  {
+    "width": 320,
+    "route": "/tuyen-sinh/hoc-phi-hoc-bong",
+    "overflow": false
+  },
+  {
+    "width": 320,
+    "route": "/gioi-thieu/lanh-dao",
+    "overflow": false
+  },
+  {
+    "width": 320,
+    "route": "/lien-he",
+    "overflow": false
+  },
+  {
+    "width": 390,
+    "route": "/nganh-dao-tao/tri-tue-nhan-tao",
+    "overflow": false
+  },
+  {
+    "width": 390,
+    "route": "/tuyen-sinh/hoc-phi-hoc-bong",
+    "overflow": false
+  },
+  {
+    "width": 390,
+    "route": "/gioi-thieu/lanh-dao",
+    "overflow": false
+  },
+  {
+    "width": 390,
+    "route": "/lien-he",
+    "overflow": false
+  },
+  {
+    "width": 768,
+    "route": "/nganh-dao-tao/tri-tue-nhan-tao",
+    "overflow": false
+  },
+  {
+    "width": 768,
+    "route": "/tuyen-sinh/hoc-phi-hoc-bong",
+    "overflow": false
+  },
+  {
+    "width": 768,
+    "route": "/gioi-thieu/lanh-dao",
+    "overflow": false
+  },
+  {
+    "width": 768,
+    "route": "/lien-he",
+    "overflow": false
+  },
+  {
+    "width": 1024,
+    "route": "/nganh-dao-tao/tri-tue-nhan-tao",
+    "overflow": false
+  },
+  {
+    "width": 1024,
+    "route": "/tuyen-sinh/hoc-phi-hoc-bong",
+    "overflow": false
+  },
+  {
+    "width": 1024,
+    "route": "/gioi-thieu/lanh-dao",
+    "overflow": false
+  },
+  {
+    "width": 1024,
+    "route": "/lien-he",
+    "overflow": false
+  },
+  {
+    "width": 1440,
+    "route": "/nganh-dao-tao/tri-tue-nhan-tao",
+    "overflow": false
+  },
+  {
+    "width": 1440,
+    "route": "/tuyen-sinh/hoc-phi-hoc-bong",
+    "overflow": false
+  },
+  {
+    "width": 1440,
+    "route": "/gioi-thieu/lanh-dao",
+    "overflow": false
+  },
+  {
+    "width": 1440,
+    "route": "/lien-he",
+    "overflow": false
+  },
+  {
+    "width": 1920,
+    "route": "/nganh-dao-tao/tri-tue-nhan-tao",
+    "overflow": false
+  },
+  {
+    "width": 1920,
+    "route": "/tuyen-sinh/hoc-phi-hoc-bong",
+    "overflow": false
+  },
+  {
+    "width": 1920,
+    "route": "/gioi-thieu/lanh-dao",
+    "overflow": false
+  },
+  {
+    "width": 1920,
+    "route": "/lien-he",
+    "overflow": false
+  }
+]

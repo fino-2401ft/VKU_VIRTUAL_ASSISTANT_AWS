@@ -1,0 +1,178 @@
+[
+  {
+    "id": "S01",
+    "name": "Trang chủ VKU",
+    "url": "https://vku.udn.vn/vi/",
+    "status": "unverified",
+    "checkedAt": "2026-11-03",
+    "note": "Timeout/502 from web tool on 2026-11-03."
+  },
+  {
+    "id": "S02",
+    "name": "Giới thiệu VKU",
+    "url": "https://vku.udn.vn/vi/gioi-thieu/",
+    "status": "verified",
+    "checkedAt": "2026-11-03",
+    "note": "Fetched directly with local research script; snapshot in docs/research. Source labels and applicable years retained."
+  },
+  {
+    "id": "S03",
+    "name": "Ban giám hiệu",
+    "url": "https://vku.udn.vn/vi/co-cau-to-chuc/ban-giam-hieu/",
+    "status": "verified",
+    "checkedAt": "2026-11-03",
+    "note": "Fetched directly with local research script; snapshot in docs/research. Source labels and applicable years retained."
+  },
+  {
+    "id": "S04",
+    "name": "Cổng tuyển sinh",
+    "url": "https://tuyensinh.vku.udn.vn/",
+    "status": "unverified",
+    "checkedAt": "2026-11-03",
+    "note": "Timeout/502 from web tool on 2026-11-03."
+  },
+  {
+    "id": "S05",
+    "name": "Danh sách ngành",
+    "url": "https://tuyensinh.vku.udn.vn/nganh",
+    "status": "verified",
+    "checkedAt": "2026-11-03",
+    "note": "Fetched directly with local research script; snapshot in docs/research. Source labels and applicable years retained."
+  },
+  {
+    "id": "S06",
+    "name": "Phương thức tuyển sinh",
+    "url": "https://tuyensinh.vku.udn.vn/phuongthuc",
+    "status": "verified",
+    "checkedAt": "2026-11-03",
+    "note": "Fetched directly with local research script; snapshot in docs/research. Source labels and applicable years retained."
+  },
+  {
+    "id": "S07",
+    "name": "Sứ mạng, tầm nhìn",
+    "url": "https://tuyensinh.vku.udn.vn/su-mang",
+    "status": "unverified",
+    "checkedAt": "2026-11-03",
+    "note": "Timeout/502 from web tool on 2026-11-03."
+  },
+  {
+    "id": "S08",
+    "name": "Thông tin tuyển sinh 2026",
+    "url": "https://tuyensinh.vku.udn.vn/thong-bao/699d270922d808765d0d6ad2",
+    "status": "unverified",
+    "checkedAt": "2026-11-03",
+    "note": "Timeout/502 from web tool on 2026-11-03."
+  },
+  {
+    "id": "S09",
+    "name": "Học bổng tuyển sinh khóa 2026",
+    "url": "https://tuyensinh.vku.udn.vn/thong-bao/699fedf448d97e2c10006596",
+    "status": "verified",
+    "checkedAt": "2026-11-03",
+    "note": "Fetched directly with local research script; snapshot in docs/research. Source labels and applicable years retained."
+  },
+  {
+    "id": "S10",
+    "name": "Phương thức xét tuyển kết hợp 2026 (nguyên tắc dự kiến)",
+    "url": "https://tuyensinh.vku.udn.vn/thong-bao/69af03ade1fedb5e0308e873",
+    "status": "verified",
+    "checkedAt": "2026-11-03",
+    "note": "Fetched directly with local research script; snapshot in docs/research. Source labels and applicable years retained."
+  },
+  {
+    "id": "S11",
+    "name": "Cổng đào tạo VKU",
+    "url": "https://daotao.vku.udn.vn/",
+    "status": "verified",
+    "checkedAt": "2026-11-03",
+    "note": "Fetched using web tool on 2026-11-03; content available."
+  },
+  {
+    "id": "S12",
+    "name": "Khảo thí & ĐBCLGD",
+    "url": "https://daotao.vku.udn.vn/vku-thong-bao-khao-thi",
+    "status": "verified",
+    "checkedAt": "2026-11-03",
+    "note": "Fetched using web tool on 2026-11-03; content available."
+  },
+  {
+    "id": "S13",
+    "name": "Công tác sinh viên",
+    "url": "https://daotao.vku.udn.vn/vku-thong-bao-ctsv",
+    "status": "verified",
+    "checkedAt": "2026-11-03",
+    "note": "Fetched using web tool on 2026-11-03; content available."
+  },
+  {
+    "id": "S14",
+    "name": "Học phí HK1 2026–2027",
+    "url": "https://daotao.vku.udn.vn/thong-bao-tai-vu/thong-bao-thu-hoc-phi-hoc-ky-1-nam-hoc-2026-2027-1397.html",
+    "status": "verified",
+    "checkedAt": "2026-11-03",
+    "note": "Fetched using web tool on 2026-11-03; content available."
+  },
+  {
+    "id": "S15",
+    "name": "Bảo hiểm năm 2027",
+    "url": "https://daotao.vku.udn.vn/thong-bao-tai-vu/thong-bao-ve-viec-thu-tien-bao-hiem-y-te-va-bao-hiem-than-the-nam-2027-doi-voi-sinh-vien-1399.html",
+    "status": "verified",
+    "checkedAt": "2026-11-03",
+    "note": "Fetched using web tool on 2026-11-03; content available."
+  },
+  {
+    "id": "S16",
+    "name": "Lịch thi thực tập HKI 2026–2027",
+    "url": "https://daotao.vku.udn.vn/thong-bao-khao-thi/thong-bao-lich-thi-ket-thuc-cac-hoc-phan-thuc-tap-hki-nam-hoc-2026-2027-1400.html",
+    "status": "verified",
+    "checkedAt": "2026-11-03",
+    "note": "Fetched using web tool on 2026-11-03; content available."
+  },
+  {
+    "id": "S17",
+    "name": "Xếp lớp Anh văn K26",
+    "url": "https://daotao.vku.udn.vn/thong-bao-khao-thi/thong-bao-ket-qua-xep-lop-tieng-anh-dau-vao-doi-voi-sinh-vien-khoa-tuyen-sinh-nam-2026-1396.html",
+    "status": "verified",
+    "checkedAt": "2026-11-03",
+    "note": "Fetched using web tool on 2026-11-03; content available."
+  },
+  {
+    "id": "S18",
+    "name": "Phúc khảo HK3 2025–2026",
+    "url": "https://daotao.vku.udn.vn/thong-bao-khao-thi/thong-bao-ket-qua-phuc-khao-hk32025-2026-1395.html",
+    "status": "verified",
+    "checkedAt": "2026-11-03",
+    "note": "Fetched using web tool on 2026-11-03; content available."
+  },
+  {
+    "id": "S19",
+    "name": "Chính sách SV HK1 2026–2027",
+    "url": "https://daotao.vku.udn.vn/thong-bao-ctsv/ctsv-thong-bao-ve-viec-nop-ho-so-thuc-hien-che-do-chinh-sach-cho-sinh-vien-hoc-ky-1-nam-hoc-2026-2027-1387.html",
+    "status": "verified",
+    "checkedAt": "2026-11-03",
+    "note": "Fetched using web tool on 2026-11-03; content available."
+  },
+  {
+    "id": "S20",
+    "name": "Thư ngỏ mốc phát triển",
+    "url": "https://vku.udn.vn/vi/thu-ngo-ky-niem-05-nam-thanh-lap-truong-dai-hoc-cong-nghe-thong-tin-va-truyen-thong-viet-han-hanh-trinh-22-nam-hinh-thanh-va-phat-trien/",
+    "status": "verified",
+    "checkedAt": "2026-11-03",
+    "note": "Fetched directly with local research script; snapshot in docs/research. Source labels and applicable years retained."
+  },
+  {
+    "id": "S21",
+    "name": "GitHub skill",
+    "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "status": "verified",
+    "checkedAt": "2026-11-03",
+    "note": "Fetched using web tool on 2026-11-03; content available."
+  },
+  {
+    "id": "S22",
+    "name": "CLI skill README",
+    "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/main/cli/README.md",
+    "status": "verified",
+    "checkedAt": "2026-11-03",
+    "note": "Fetched using web tool on 2026-11-03; content available."
+  }
+]

@@ -1,0 +1,76 @@
+## UI Pro Max Search Results
+**Domain:** style | **Query:** university editorial clean
+**Source:** styles.csv | **Found:** 3 results
+
+### Result 1
+- **Style ID:** editorial-grid-magazine
+- **Style Category:** Editorial Grid / Magazine
+- **Aliases:** Editorial Grid
+- **Status:** active
+- **Parent Style ID:** 
+- **Preferred Mode:** auto
+- **Type:** General
+- **Keywords:** Magazine layout, asymmetric grid, editorial typography, pull quotes, drop caps, column layout, print-inspired
+- **Primary Colors:** High contrast: Black #000000, White #FFFFFF, accent brand color
+- **Effects & Animation:** Smooth scroll, reveal on scroll, parallax images, text animations, page-flip transitions
+- **Best For:** News sites, blogs, magazines, editorial content, long-form articles, journalism, publishing
+- **Light Mode ✓:** supported
+- **Dark Mode ✓:** supported
+- **Performance:** cost:low|drivers:none
+- **Accessibility:** risk:low|requires:contrast-text-4.5,keyboard,visible-focus,reduced-motion
+- **Framework Compatibility:** css-grid|tailwind
+- **Complexity:** Low
+- **AI Prompt Keywords:** Design an editorial magazine layout. Use: asymmetric grid, pull quotes, drop caps, multi-column text, large imagery, bylines, section dividers, print-inspired typography, article hierarchy, white space balance.
+- **CSS/Technical Keywords:** display: grid with named areas, column-count for text, ::first-letter for drop caps, blockquote styling, figure/figcaption, gap variations, font: serif for body, variable widths
+- **Implementation Checklist:** ☐ Grid asymmetric, ☐ Typography editorial, ☐ Pull quotes styled, ☐ Drop caps present, ☐ Images large/impactful, ☐ Mobile reflows well
+- **Design System Variables:** --grid-cols: asymmetric, --body-font: Georgia/Merriweather, --heading-font: bold sans, --drop-cap-size: 4em, --pull-quote-size: 1.5em, --column-gap: 2rem
+- **rtl_level:** caveats
+
+### Result 2
+- **Style ID:** flat-design
+- **Style Category:** Flat Design
+- **Aliases:** 
+- **Status:** active
+- **Parent Style ID:** 
+- **Preferred Mode:** auto
+- **Type:** General
+- **Keywords:** 2D, minimalist, bold colors, no shadows, clean lines, simple shapes, typography-focused, modern, icon-heavy
+- **Primary Colors:** Solid bright: Red, Orange, Blue, Green, limited palette (4-6 max)
+- **Effects & Animation:** No gradients/shadows, simple hover (color/opacity shift), fast loading, clean transitions (150-200ms ease), minimal icons
+- **Best For:** Web apps, mobile apps, cross-platform, startup MVPs, user-friendly, SaaS, dashboards, corporate
+- **Light Mode ✓:** supported
+- **Dark Mode ✓:** supported
+- **Performance:** cost:low|drivers:none
+- **Accessibility:** risk:low|requires:contrast-text-4.5,keyboard,visible-focus,reduced-motion
+- **Framework Compatibility:** tailwind|bootstrap|mui
+- **Complexity:** Low
+- **AI Prompt Keywords:** Create a flat, 2D interface with bold colors, no shadows/gradients, clean lines, simple geometric shapes, icon-heavy, typography-focused, minimal ornamentation. Use 4-6 solid, bright colors in a limited palette with high saturation.
+- **CSS/Technical Keywords:** box-shadow: none, background: solid color, border-radius: 0-4px, color: solid (no gradients), fill: solid, stroke: 1-2px, font: bold sans-serif, icons: simplified SVG
+- **Implementation Checklist:** ☐ No shadows/gradients, ☐ 4-6 solid colors max, ☐ Clean lines consistent, ☐ Simple shapes used, ☐ Icon-heavy layout, ☐ High saturation colors, ☐ Fast loading verified
+- **Design System Variables:** --shadow: none, --color-palette: 4-6 solid, --border-radius: 2px, --gradient: none, --icons: simplified SVG, --animation: minimal 150-200ms
+- **rtl_level:** full
+
+### Result 3
+- **Style ID:** bento-box-grid
+- **Style Category:** Bento Box Grid
+- **Aliases:** Bento Grids|Masonry Grid
+- **Status:** active
+- **Parent Style ID:** 
+- **Preferred Mode:** auto
+- **Type:** General
+- **Keywords:** Modular cards, asymmetric grid, varied sizes, Apple-style, dashboard tiles, negative space, clean hierarchy, cards
+- **Primary Colors:** Neutral base + brand accent, #FFFFFF, #F5F5F5, brand primary
+- **Effects & Animation:** grid-template with varied spans, rounded-xl (16px), subtle shadows, hover scale (1.02), smooth transitions
+- **Best For:** Dashboards, product pages, portfolios, Apple-style marketing, feature showcases, SaaS
+- **Light Mode ✓:** supported
+- **Dark Mode ✓:** supported
+- **Performance:** cost:low|drivers:none
+- **Accessibility:** risk:low|requires:contrast-text-4.5,keyboard,visible-focus,reduced-motion
+- **Framework Compatibility:** tailwind|css-grid
+- **Complexity:** Low
+- **AI Prompt Keywords:** Design a Bento Box grid layout. Use: modular cards with varied sizes (1x1, 2x1, 2x2), Apple-style aesthetic, rounded corners (16-24px), soft shadows, clean hierarchy, asymmetric grid, neutral backgrounds (#F5F5F7), hover effects.
+- **CSS/Technical Keywords:** display: grid, grid-template-columns: repeat(4, 1fr), grid-auto-rows: 200px, gap: 16px, border-radius: 24px, background: #FFFFFF, box-shadow: 0 4px 6px rgba(0,0,0,0.05)
+- **Implementation Checklist:** ☐ Grid responsive (4→2→1 cols), ☐ Card spans varied, ☐ Rounded corners consistent, ☐ Shadows subtle, ☐ Content fits cards, ☐ Hover scale (1.02)
+- **Design System Variables:** --grid-gap: 16px, --card-radius: 24px, --card-bg: #FFFFFF, --page-bg: #F5F5F7, --shadow: 0 4px 6px rgba(0,0,0,0.05), --hover-scale: 1.02
+- **rtl_level:** full
+

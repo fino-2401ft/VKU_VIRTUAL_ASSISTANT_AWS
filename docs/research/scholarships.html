@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>VKU - Tuyển sinh </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900&amp;display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="../images/logo_vku_fa.jpg">
+    <link rel="stylesheet" href="../css/styles.css?v=20250115" />
+    <link rel="stylesheet" type="text/css" href="../css/menu/reset.min.css?v=20250115">
+    <link rel="stylesheet" type="text/css" href="../css/menu/style.min.css?v=20250115">
+    <link rel="stylesheet" type="text/css" href="../css/menu/ionicon.min.css?v=20250115">
+
+ 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+    <style>
+        .theh3{text-align:center;padding:1.5em 0em;text-transform:capitalize;font-size:1.5em;}
+        .post-slide{overflow:hidden;margin-right:15px;background-color:#fff!important}
+.post-slide .post-img{float:left;width:50%;position:relative;margin-right:30px}
+.post-slide .post-img img{width:100%;height:auto}
+.post-slide .post-date{background:#ec3c6a;color:#fff;position:absolute;top:0;right:0;display:block;padding:2% 3%;width:60px;height:60px;text-align:center;transition:all .5s ease}
+.post-slide .date{display:block;font-size:20px;font-weight:700}
+.post-slide .month{display:block;font-size:11px;text-transform:uppercase}
+.post-slide .post-review{padding:5% 3% 1% 0;border-top:3px solid #38cfd8}
+.post-slide:hover .post-review{border-top-color:#ec3c6a}
+.post-slide .post-title{margin:0 0 10px 0}
+.post-slide .post-title a{font-size:14px;text-transform:uppercase; font-weight: bold; text-align: justify; line-height: 1.2;}
+.post-slide .post-title a:hover{text-decoration:none;font-weight:700}
+.post-slide .post-bar{padding:0;list-style:none;text-transform:uppercase;position:relative;margin-bottom:20px}
+.post-slide .post-bar:after,.post-slide .post-bar:before{border:1px solid #38cfd8;bottom:-10px;content:"";display:block;position:absolute;right:36%;width:25px}
+.post-slide .post-bar:before{border:1px solid #ec3c6a;right:32%}
+.post-slide .post-bar li{color:#555;font-size:10px;margin-right:10px;display:inline-block}
+.post-slide .post-bar li a{font-size:13px;text-decoration:none;text-transform:uppercase;color:#ec3c6a}
+.post-slide .post-bar li a:hover{color:#ec3c6a}
+.post-slide .post-bar li i{color:#777;margin-right:5px}
+.post-slide .post-description{font-size:12px;line-height:21px;color:#444454}
+.owl-theme .owl-controls{margin-top:30px}
+.owl-theme .owl-controls .owl-page span{background:#fff;border:2px solid #37a6a4}
+.owl-theme .owl-controls .owl-page.active span,.owl-theme .owl-controls.clickable .owl-page:hover span{background:#37a6a4}
+@media only screen and (max-width:990px){.post-slide .post-img{width:100%}
+.post-slide .post-review{width:100%;border-bottom:4px solid #ec3c6a}
+.post-slide .post-bar:before{left:0}
+.post-slide .post-bar:after{left:25px}
+}
+        @media only screen and (max-width: 300px) {
+            .logovku { 
+                margin-left:-30px;
+                margin-top:5px;
+                margin-bottom: 5px; 
+                background-image: url('../images/LOGO_vku.svg'); 
+                background-size: 100%; 
+                background-repeat: no-repeat;
+                background-position: 20% 50%;
+            }
+
+        }
+        @media only screen and (max-width: 800px) {
+            .logovku{
+                margin-left:-30px;
+                margin-top:5px;
+                margin-bottom: 5px; 
+                background-image:url('../images/LOGO_vku.svg'); 
+                background-repeat: no-repeat; 
+                background-size: 100%; 
+                background-position: 0% 50%;
+            }
+            
+        }
+        @media only screen and (min-width:800px){
+            .bg01 {background-image: url('../images/2026/Bia_web_1.png')}
+            .bg02 {background-image: url('../images/2026/Bia_web_2.png')}
+            .bg03 {background-image: url('../images/2026/Bia_web_3.png')}
+            .bg08 {background-image: url('../images/2026/Bia_web_1.png')}
+        }
+
+        
+        
+        @media only screen and (max-width: 600px) {
+            
+            iframe {
+                width:100%;
+
+            }
+            .bg01 {background-image: url('../images/2026/Bia_web_mb1.png')}
+            .bg02 {background-image: url('../images/2026/Bia_web_mb2.png')}
+            .bg03 {background-image: url('../images/2026/Bia_web_mb3.png')}
+            .bg08 {background-image: url('../images/2026/Bia_web_mb1.png')}
+        }
+        
+        body{
+            font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+        }
+        #myBtn {
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            right: 100px;
+            z-index: 99;
+            font-size: 18px;
+            border: none;
+            outline: none;
+            background-color: #BB2033;
+            color: white;
+            cursor: pointer;
+            padding: 15px;
+            border-radius: 4px;
+            }
+
+            #myBtn:hover {
+            background-color: #BB2033;
+            }
+        footer{
+                border-top: 1px solid #153472;
+            }
+        .blog-entry{
+            height:571px;
+        }
+
+
+    .methods-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px; /* Khoảng cách giữa các ô */
+        justify-content: center; /* Căn giữa các ô nếu hàng cuối bị lẻ */
+    }
+
+    .method-item {
+        /* flex: grow | shrink | basis */
+        flex: 1 1 200px; 
+        max-width: 350px; /* Không cho phép 1 ô giãn quá to khi chỉ có 1-2 dữ liệu */
+        min-height: 280px;
+        display: flex;
+    }
+
+    .method-card {
+        width: 100%;
+        padding: 30px 15px;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        transition: all 0.3s ease;
+        text-decoration: none !important;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    }
+
+    .method-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+        filter: brightness(1.1); /* Làm sáng màu gốc của DB lên một chút khi hover */
+    }
+
+    .method-card .icon-circle {
+        width: 65px;
+        height: 65px;
+        background: rgba(255,255,255,0.25);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+        font-size: 28px;
+        color: white;
+    }
+
+    .method-card h4 {
+        color: white !important;
+        font-size: 1.1rem;
+        font-weight: 700;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+
+    /* Hiệu ứng badge giả nút bấm */
+    .btn-fake {
+        background: rgba(255,255,255,1);
+        color: #333 !important;
+        padding: 8px 20px;
+        border-radius: 50px;
+        font-size: 13px;
+        font-weight: 600;
+        margin-top: auto; /* Đẩy nút xuống đáy card */
+    }
+
+
+
+
+    </style>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16567437515"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'AW-16567437515');
+    </script>
+
+    <!-- Event snippet for Lượt xem trang conversion page -->
+    <script>
+      gtag('event', 'conversion', {'send_to': 'AW-16567437515/D-53COvMlrAZEMuR_Ns9'});
+    </script>
+</head>
+
+<body>
+    <div class="bg-top navbar-light">
+        <div class="container">
+            <div class="row no-gutters d-flex align-items-center align-items-stretch tpheader">
+
+                <div class="col-xs-12 col-md-8 d-flex align-items-center py-4 logovku" style="">
+                    <a class="navbar-brand " href="#" ></a>
+                </div>
+                <!--<div class="col-lg-8 d-block">
+                    <div class="row d-flex">
+                        <div class="col-md d-flex topper align-items-center align-items-stretch py-md-8">
+                            <div class="icon d-flex justify-content-center align-items-center"><span class="icon-paper-plane"></span>
+                            </div>
+                            <div class="text">
+                                <span>Email</span>
+                                <span><a href="https://preview.colorlib.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="156c7a60677078747c79557078747c793b767a78">tuyensinh@vku.udn.vn</a></span>
+                            </div>
+                        </div>
+                        <div class="col-md d-flex topper align-items-center align-items-stretch py-md-4">
+                            <div class="icon d-flex justify-content-center align-items-center"><span class="icon-phone2"></span>
+                            </div>
+                            <div class="text">
+                                <span>Điện thoại</span>
+                                <span>+ 84 236 3 667 113</span>
+                            </div>
+                        </div>
+                        <div class="col-md topper d-flex align-items-center justify-content-end">
+                            <p class="mb-0 d-block">
+                                <a href="#" class="btn py-2 px-3 btn-primary">
+                                    <span>Liên hệ</span>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>-->
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco-navbar-light" id="ftco-navbar">
+        <div class="container d-flex align-items-center">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="oi oi-menu"></span>
+            </button>
+            <form action="#" class="searchform order-lg-last">
+                <div class="form-group d-flex">
+                    <!--<input type="text" class="form-control pl-3" placeholder="Tìm">
+                    <button type="submit" placeholder="" class="form-control search"><span class="ion-ios-search"></span>
+                    </button>-->
+                </div>
+            </form>
+            <div class="collapse navbar-collapse" id="ftco-nav">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active"><a href="/" class="nav-link pl-0">Trang chủ</a>
+                    </li>
+                    
+                    <li class="nav-item active"><a href="/nganh" class="nav-link nganh">Ngành/Chuyên ngành</a>
+                    </li>
+                    <li class="nav-item active"><a href="/phuongthuc" class="nav-link">Phương thức tuyển sinh</a>
+                    </li>
+                                                                        <li class="nav-item active"><a href="https://tuyensinh.vku.udn.vn/thong-bao/699fb78248d97e2c10006594" class="nav-link">Điểm Cộng</a>
+                            </li>
+                                                                                                <li class="nav-item active"><a href="https://tuyensinh.vku.udn.vn/thong-bao/699fedf448d97e2c10006596" class="nav-link">Chính sách hỗ trợ</a>
+                            </li>
+                                                                                                                                                                                                                                                                                                                                    </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="header">
+      <section class="container">
+         <div class="wrapper">
+            
+            <div class="col-sm-12 d-flex align-items-center logovku" style="width:450px; height:70px; background-image:url(../images/LOGO_vku.svg); background-repeat: no-repeat; background-size: 100%; background-position: 0% 50%;">
+            </div>
+          
+            <button type="button" class="burger" id="burger">
+               <span class="burger-line"></span>
+               <span class="burger-line"></span>
+               <span class="burger-line"></span>
+               <span class="burger-line"></span>
+            </button>
+            <span class="overlay" id="overlay"></span>
+            <nav class="navbar" id="navbar">
+               <ul class="menu">
+                    <li class="menu-item menu-item-child">
+                        <a href="#" data-toggle="sub-menu">Giới thiệu <i class="expand"></i></a>
+                        <ul class="sub-menu">
+                            <li class="menu-item"><a href="/thongdiep">Thông điệp của Hiệu trưởng</a></li>
+                            <li class="menu-item"><a href="/su-mang">Sứ mạng</a></li>
+                            <li class="menu-item"><a href="/chuc-nang">Chức năng</a></li>
+                            <li class="menu-item"><a href="https://vku.udn.vn/co-cau-to-chuc">Cơ cấu tổ chức</a></li>
+                            <li class="menu-item"><a href="/doi-ngu-co-so-vat-chat">Đội ngũ Giảng viên</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- <li class="menu-item"><a href="/tracuu">Tra cứu</a></li> -->
+                    <!-- <li class="menu-item"><a href="/cong-cu-tinh">Công cụ tính</a></li> -->
+                    <li class="menu-item menu-item-child">
+                        <a href="#" data-toggle="sub-menu">Thông tin thêm<i class="expand"></i></a>
+                        <ul class="sub-menu">
+                                                                                                                                                                                                                        <li class="menu-item"><a href="https://tuyensinh.vku.udn.vn/thong-bao/69fd5ccf34909e10700c9422">Tra cứu đối tượng ưu tiên</a></li>
+                                                                                                                                <li class="menu-item"><a href="https://tuyensinh.vku.udn.vn/">Hướng dẫn đăng ký xét tuyển</a></li>
+                                                                                                                                <li class="menu-item"><a href="https://tuyensinh.vku.udn.vn/">Câu hỏi thường gặp</a></li>
+                                                                                                                                <li class="menu-item"><a href="https://tuyensinh.vku.udn.vn/">Hoạt động đoàn</a></li>
+                                                                                                                                <li class="menu-item"><a href="https://tuyensinh.vku.udn.vn/thong-bao/69df0e56d89568422406b4b2">Câu lạc bộ</a></li>
+                                                                                                                                <li class="menu-item"><a href="https://tuyensinh.vku.udn.vn/thong-bao/69a56561033b5a56f00215b4">Điểm trúng tuyển các năm</a></li>
+                                                                         
+                        </ul>
+                    </li>                   
+                  
+                  <!-- <li class="menu-item menu-item-child">
+                     <a href="#" data-toggle="sub-menu">Projects <i class="expand"></i></a>
+                     <ul class="sub-menu">
+                        <li class="menu-item"><a href="#">Design Project</a></li>
+                        <li class="menu-item"><a href="#">Development Project</a></li>
+                        <li class="menu-item"><a href="#">Branding Project</a></li>
+                        <li class="menu-item"><a href="#">Others Project</a></li>
+                     </ul>
+                  </li>-->
+                  <li class="menu-item"><a href="#">Liên hệ</a></li>
+               </ul>
+            </nav>
+         </div>
+      </section>
+   </header>
+
+        <section class="hero-wrap hero-wrap-2" style="background-image:url(../images/bg_1.jpg)">
+        <div class="overlay"></div>
+            <div class="container">
+                <div class="row no-gutters slider-text align-items-center justify-content-center">
+                    <div class="col-md-9 ftco-animate text-center">
+                        <h1 class="mb-2 bread">CHI TIẾT THÔNG BÁO</h1>
+                        <p class="breadcrumbs" style="text-align:center"><span class="mr-2"><a href="/">Trang chủ <i class="ion-ios-arrow-forward"></i></a></span> <span>Chi tiết</span></p>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="ftco-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 ftco-animate">
+                    <h2 class="mb-3 fw-bold">HỌC BỔNG ĐẦU VÀO VÀ CHÍNH SÁCH HỖ TRỢ NGƯỜI HỌC TRONG TUYỂN SINH ĐẠI HỌC - KHÓA 2026</h2>
+                    <p class="text-muted" style="font-size: 14px;">
+                        <i class="ion-md-calendar mr-2"></i> Ngày đăng: 01/06/2026
+                    </p>
+                    
+                    <hr>
+
+                    <div class="content-detail mt-4" style="line-height: 1.8; font-size: 16px; color: #333;">
+                        <h4><span style="color:#002060;"><span lang="EN-GB" dir="ltr"><strong>HỌC BỔNG ĐẦU VÀO VÀ CHÍNH SÁCH HỖ TRỢ NGƯỜI HỌC TRONG TUYỂN SINH ĐẠI HỌC - KHÓA 2026&nbsp;</strong></span></span></h4><p><strong>I. </strong><span style="color:#002060;"><span lang="EN-GB" dir="ltr"><strong>MỨC HỌC BỔNG ĐẦU VÀO VÀ HỖ TRỢ ĐỐI VỚI CÁC THÍ SINH ĐẠT THÀNH TÍCH CAO TRONG TUYỂN SINH ĐẠI HỌC</strong></span></span></p><p><span style="color:#002060;"><span lang="EN-GB" dir="ltr"><strong>I.1. Học bổng đầu vào</strong></span></span></p><p><span style="color:#002060;"><i><span lang="EN-GB" dir="ltr"><strong>I.1.1. Mức học bổng</strong></span></i></span></p><figure class="table"><table><tbody><tr><td style="border:1.0pt solid windowtext;height:21.95pt;padding:0cm 2.85pt;width:28.1pt;"><p style="margin-left:0cm;text-align:center;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr"><strong>TT</strong></span></span></p></td><td style="border-bottom-style:solid;border-color:windowtext;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;height:21.95pt;padding:0cm 2.85pt;width:191.4pt;"><p style="margin-left:0cm;text-align:center;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr"><strong>Danh hiệu</strong></span></span></p></td><td style="border-bottom-style:solid;border-color:windowtext;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;height:21.95pt;padding:0cm 2.85pt;width:240.95pt;"><p style="margin-left:14.2pt;text-align:center;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr"><strong>Mức học bổng</strong></span></span></p></td></tr><tr><td style="border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 2.85pt;width:28.1pt;"><p style="margin-left:0cm;text-align:center;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr">1</span></span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 2.85pt;width:191.4pt;"><p style="margin-left:0cm;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr">Thủ khoa</span></span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 2.85pt;width:240.95pt;"><p style="margin-left:0cm;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr">70 triệu (tương đương 100% học phí 6 học kỳ đầu tiên của khóa học)</span></span></p></td></tr><tr><td style="border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 2.85pt;width:28.1pt;"><p style="margin-left:0cm;text-align:center;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr">2</span></span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 2.85pt;width:191.4pt;"><p style="margin-left:0cm;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr">Á khoa 1</span></span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 2.85pt;width:240.95pt;"><p style="margin-left:0cm;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr">50 triệu (tương đương 100% học phí 4 học kỳ đầu tiên của khóa học)</span></span></p></td></tr><tr><td style="border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 2.85pt;width:28.1pt;"><p style="margin-left:0cm;text-align:center;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr">3</span></span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 2.85pt;width:191.4pt;"><p style="margin-left:0cm;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr">Á khoa 2</span></span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 2.85pt;width:240.95pt;"><p style="margin-left:0cm;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr">40 triệu (tương đương 100% học phí 3 học kỳ đầu tiên của khóa học)</span></span></p></td></tr><tr><td style="border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:41.7pt;padding:0cm 2.85pt;width:28.1pt;"><p style="margin-left:0cm;text-align:center;">4</p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:41.7pt;padding:0cm 2.85pt;width:191.4pt;"><p style="margin-left:0cm;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr">TOP 10 sinh viên có thành tích xuất sắc nhất (</span><span lang="VI" dir="ltr">trừ Thủ khoa, Á khoa</span><span lang="EN-US" dir="ltr">)</span></span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:41.7pt;padding:0cm 2.85pt;width:240.95pt;"><p style="margin-left:0cm;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr">25 triệu (tương đương 100% học phí 2 học kỳ đầu tiên của khóa học)</span></span></p></td></tr></tbody></table></figure><p style="margin-left:0cm;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr">*Các trường hợp đặc biệt khác, Hội đồng chế độ chính sách sinh viên sẽ xem xét cụ thể và tham mưu Hiệu trưởng quyết định.</span></span></p><p style="margin-left:0cm;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr"><strong>I.1.2. </strong></span><i><span lang="EN-GB" dir="ltr"><strong>Phương án xét học bổng đầu vào</strong></span></i></span></p><p style="margin-left:0cm;"><span style="color:#002060;"><i><span lang="EN-GB" dir="ltr">a) </span></i><span lang="EN-GB" dir="ltr">Điểm xét học bổng đầu vào được tính như sau (theo phương thức kết hợp):</span></span></p><p style="text-align:justify;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr">&nbsp; - Điểm học bạ THPT (theo tổ hợp xét tuyển): 60%.</span></span></p><p style="text-align:justify;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr">&nbsp; - Điểm thi tốt nghiệp THPT (theo tổ hợp xét tuyển): 40%.</span></span></p><p style="text-align:justify;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr">&nbsp; - Điểm cộng (thành tích) nếu có: tính theo Đề án tuyển sinh hằng năm.</span></span></p><p style="text-align:justify;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr">b) </span><span lang="EN-US" dir="ltr">Học bổng được trừ dần vào tiền học phí phải nộp của sinh viên, không quy đổi ra tiền mặt và không được rút tiền học bổng nếu sinh viên nghỉ học. H</span><span lang="EN-GB" dir="ltr">ọc phí mỗi học kỳ được tính dựa trên số tín chỉ thực học trong học kỳ của sinh viên (không bao gồm học phần Tiếng Anh dự bị, giáo dục quốc phòng và giáo dục thể chất) và chỉ áp dụng đối với học phần đăng ký lần đầu</span></span></p><p style="text-align:justify;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr"><strong>1.2. Hỗ trợ đối với các thí sinh đạt thành tích cao</strong></span></span></p><p style="text-align:justify;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr">Đối với các thí sinh đạt thành tích cao trong tuyển sinh và gia đình có hoàn cảnh khó khăn, hỗ trợ 2.000.000 đồng/sinh viên.&nbsp;</span></span></p><p style="text-align:justify;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr"><strong>II. HỌC BỔNG ƯU TÚ&nbsp;</strong></span></span></p><p style="text-align:justify;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr">1. Đối tượng</span></span></p><p style="text-align:justify;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr">a) Thí sinh trúng tuyển Chương trình đào tạo kỹ sư về vi mạch bán dẫn hoặc các ngành thuộc nhóm ngành máy tính, công nghệ thông tin đáp ứng một trong các yêu cầu sau:</span></span></p><p style="text-align:justify;"><span style="color:#002060;"><span lang="EN-US" dir="ltr">- Đạt giải <strong>Nhất, Nhì, Ba trong kỳ thi chọn học sinh giỏi quốc gia hoặc quốc tế</strong> dành cho học sinh trung học phổ thông; thời gian đạt giải không quá 03 năm tính tới thời điểm xét duyệt;</span></span></p><p style="text-align:justify;"><span style="color:#002060;"><span lang="EN-US" dir="ltr">- Đối với thí sinh xét tuyển dựa trên kết quả thi kỳ thi tốt nghiệp THTP:</span></span></p><p style="text-align:justify;"><span style="color:#002060;"><span lang="EN-US" dir="ltr">+ Bắt buộc có môn Toán và ít nhất một môn thuộc nhóm khoa học tự nhiên;</span></span></p><p style="text-align:justify;"><span style="color:#002060;"><span lang="EN-US" dir="ltr">+ Tổng điểm các môn tổ hợp xét tuyển thuộc nhóm 20% thí sinh đạt điểm cao nhất toàn quốc trong cùng tổ hợp.</span></span></p><p style="text-align:justify;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr">b) Thí sinh trúng tuyển Chương trình đào tạo các ngành/chuyên ngành khác:</span><span lang="EN-US" dir="ltr"> Đạt giải <strong>Nhất, Nhì, Ba trong kỳ thi chọn học sinh giỏi quốc gia hoặc quốc tế</strong> dành cho học sinh trung học phổ thông; thời gian đạt giải không quá 03 năm tính tới thời điểm xét duyệt.</span></span></p><p style="text-align:justify;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr">2. Mức học bổng: <strong>6 triệu đồng/tháng;&nbsp;</strong>thời gian hưởng:<strong> 10 tháng/năm</strong>&nbsp;(tương đương 60 triệu đồng/năm)</span></span></p><p style="text-align:justify;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr">3. Điều kiện tiếp tục được hưởng chính sách học bổng</span></span></p><p style="text-align:justify;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr">Sinh viên tiếp tục được hưởng học bổng khi không bị kỷ luật từ mức khiển trách trở lên trong kỳ xét học bổng và đáp ứng các yêu cầu sau:</span></span></p><p style="text-align:justify;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr">- Kết quả học tập trung bình tích lũy của các năm học liền trước đạt loại Giỏi trở lên.</span></span></p><p style="text-align:justify;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr">- Tích lũy tối thiểu 24 tín chỉ sau năm học đầu tiên, tối thiểu 28 tín chỉ trong một năm học kể từ năm học thứ hai.</span></span></p><p style="text-align:justify;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr"><strong>III. CHÍNH SÁCH HỌC BỔNG THEO NGHỊ ĐỊNH 179&nbsp;</strong></span></span></p><p style="text-align:justify;"><span style="color:#002060;"><i><span lang="EN-GB" dir="ltr"><strong>1. Thí sinh trúng tuyển Chương trình đào tạo kỹ sư về vi mạch bán dẫn</strong></span></i></span></p><p style="text-align:justify;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr">&nbsp; - Ngành học:</span></span></p><p style="text-align:justify;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr">Công nghệ kỹ thuật máy tính - Chuyên ngành Thiết kế vi mạch bán dẫn (7480108IC)</span></span></p><p style="text-align:justify;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr">Công nghệ kỹ thuật máy tính - Chuyên ngành Đóng gói và kiểm thử vi mạch bán dẫn (7480108PT)</span></span></p><p style="text-align:justify;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr">&nbsp; - Mức học bổng: <strong>4,2 triệu đồng/tháng;&nbsp;</strong>thời gian hưởng:<strong> 10 tháng/năm</strong>&nbsp;(tương đương 42 triệu đồng/năm)</span></span></p><p style="text-align:justify;"><span style="color:#002060;"><i><span lang="EN-GB" dir="ltr"><strong>2. Thí sinh trúng tuyển Chương trình đào tạo các ngành thuộc nhóm ngành máy tính, công nghệ thông tin</strong></span></i></span></p><p style="text-align:justify;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr">&nbsp; - Ngành học:</span></span></p><figure class="table"><table><tbody><tr><td style="border:1.0pt solid windowtext;padding:.75pt 2.85pt 0cm;width:347.05pt;"><p style="text-align:center;"><span style="background-color:white;color:#002060;"><span lang="EN-US" dir="ltr"><strong>Ngành/chuyên ngành</strong></span></span></p></td><td style="border-bottom-style:solid;border-color:windowtext;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;padding:.75pt 2.85pt 0cm;width:99.15pt;"><p style="text-align:center;"><span style="background-color:white;color:#002060;"><span lang="EN-US" dir="ltr"><strong>Mã xét tuyển</strong></span></span></p></td></tr><tr><td style="border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:.75pt 2.85pt 0cm;width:347.05pt;"><p style="text-align:justify;"><span style="background-color:white;color:#002060;"><span lang="EN-US" dir="ltr">Công nghệ thông tin (kỹ sư)</span></span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:.75pt 2.85pt 0cm;width:99.15pt;"><p style="text-align:center;"><span style="background-color:white;color:#002060;"><span lang="EN-US" dir="ltr">7480201</span></span></p></td></tr><tr><td style="border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:.75pt 2.85pt 0cm;width:347.05pt;"><p style="text-align:justify;"><span style="background-color:white;color:#002060;"><span lang="EN-US" dir="ltr">Công nghệ thông tin (cử nhân)</span></span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:.75pt 2.85pt 0cm;width:99.15pt;"><p style="text-align:center;"><span style="background-color:white;color:#002060;"><span lang="EN-US" dir="ltr">7480201B</span></span></p></td></tr><tr><td style="border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:.75pt 2.85pt 0cm;width:347.05pt;"><p style="text-align:justify;"><span style="background-color:white;color:#002060;"><span lang="EN-US" dir="ltr">Công nghệ thông tin - Chuyên ngành Công nghệ Game (kỹ sư)</span></span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:.75pt 2.85pt 0cm;width:99.15pt;"><p style="text-align:center;"><span style="background-color:white;color:#002060;"><span lang="EN-US" dir="ltr">7480201GT</span></span></p></td></tr><tr><td style="border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:.75pt 2.85pt 0cm;width:347.05pt;"><p style="text-align:justify;"><span style="background-color:white;color:#002060;"><span lang="EN-US" dir="ltr">An toàn thông tin (kỹ sư)</span></span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:.75pt 2.85pt 0cm;width:99.15pt;"><p style="text-align:center;"><span style="background-color:white;color:#002060;"><span lang="EN-US" dir="ltr">7480202</span></span></p></td></tr><tr><td style="border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:.75pt 2.85pt 0cm;width:347.05pt;"><p style="text-align:justify;"><span style="background-color:white;color:#002060;"><span lang="EN-US" dir="ltr">Trí tuệ nhân tạo (kỹ sư)</span></span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:.75pt 2.85pt 0cm;width:99.15pt;"><p style="text-align:center;"><span style="background-color:white;color:#002060;"><span lang="EN-US" dir="ltr">7480107</span></span></p></td></tr><tr><td style="border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:.75pt 2.85pt 0cm;width:347.05pt;"><p style="text-align:justify;"><span style="background-color:white;color:#002060;"><span lang="EN-US" dir="ltr">Trí tuệ nhân tạo - Chuyên ngành Phân tích dữ liệu (kỹ sư)</span></span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:.75pt 2.85pt 0cm;width:99.15pt;"><p style="text-align:center;"><span style="background-color:white;color:#002060;"><span lang="EN-US" dir="ltr">7480107DA</span></span></p></td></tr><tr><td style="border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:.75pt 2.85pt 0cm;width:347.05pt;"><p style="text-align:justify;"><span style="background-color:white;color:#002060;"><span lang="EN-US" dir="ltr">Công nghệ kỹ thuật máy tính (kỹ sư)</span></span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:.75pt 2.85pt 0cm;width:99.15pt;"><p style="text-align:center;"><span style="background-color:white;color:#002060;"><span lang="EN-US" dir="ltr">7480108</span></span></p></td></tr><tr><td style="border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:.75pt 2.85pt 0cm;width:347.05pt;"><p style="text-align:justify;"><span style="background-color:white;color:#002060;"><span lang="EN-US" dir="ltr">Công nghệ kỹ thuật máy tính (cử nhân)</span></span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:.75pt 2.85pt 0cm;width:99.15pt;"><p style="text-align:center;"><span style="background-color:white;color:#002060;"><span lang="EN-US" dir="ltr">7480108B</span></span></p></td></tr><tr><td style="border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:.75pt 2.85pt 0cm;width:347.05pt;"><p style="text-align:justify;"><span style="background-color:white;color:#002060;"><span lang="EN-US" dir="ltr">Công nghệ kỹ thuật máy tính - Chuyên ngành Kỹ thuật phần mềm ô tô (kỹ sư)</span></span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:.75pt 2.85pt 0cm;width:99.15pt;"><p style="text-align:center;"><span style="background-color:white;color:#002060;"><span lang="EN-US" dir="ltr">7480108AS</span></span></p></td></tr><tr><td style="border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:.75pt 2.85pt 0cm;width:347.05pt;"><p style="text-align:justify;"><span style="background-color:white;color:#002060;"><span lang="EN-US" dir="ltr">Công nghệ kỹ thuật máy tính - Chuyên ngành Thiết bị bay không người lái (kỹ sư)</span></span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:.75pt 2.85pt 0cm;width:99.15pt;"><p style="text-align:center;"><span style="background-color:white;color:#002060;"><span lang="EN-US" dir="ltr">7480108UA</span></span></p></td></tr><tr><td style="border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:.75pt 2.85pt 0cm;width:347.05pt;"><p style="text-align:justify;"><span style="background-color:white;color:#002060;"><span lang="EN-US" dir="ltr">Công nghệ kỹ thuật máy tính - Chuyên ngành Kỹ thuật Robot và Trí tuệ nhân tạo (kỹ sư)</span></span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:.75pt 2.85pt 0cm;width:99.15pt;"><p style="text-align:center;"><span style="background-color:white;color:#002060;"><span lang="EN-US" dir="ltr">7480108RA</span></span></p></td></tr></tbody></table></figure><p style="text-align:justify;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr">&nbsp; - Mức học bổng: <strong>3,7 triệu đồng/tháng;&nbsp;</strong>thời gian hưởng:<strong> 10 tháng/năm</strong>&nbsp;(tương đương 37 triệu đồng/năm)</span></span></p><p style="text-align:justify;"><span style="color:#002060;"><span lang="EN-US" dir="ltr">&nbsp; - Điều kiện: thí sinh cần đáp ứng một trong các điều kiện sau:</span></span></p><p style="text-align:justify;"><span style="color:#002060;"><span lang="EN-US" dir="ltr">a) Đạt giải <strong>Nhất, Nhì, Ba trong kỳ thi chọn học sinh giỏi quốc gia hoặc quốc tế</strong> dành cho học sinh trung học phổ thông; thời gian đạt giải không quá 03 năm tính tới thời điểm xét duyệt;</span></span></p><p style="text-align:justify;"><span style="color:#002060;"><span lang="EN-US" dir="ltr">b) Tổng điểm môn Toán và hai trong các môn Vật lí, Hoá học, Sinh học và Tiếng Anh của kỳ <strong>thi tốt nghiệp trung học phổ thông từ 22,50 trở lên</strong> (không bao gồm điểm ưu tiên, điểm cộng) và trúng tuyển thuộc <strong>nhóm 30%</strong> thí sinh đạt điểm trúng tuyển cao nhất cùng nhóm ngành đào tạo <strong>trên phạm vi toàn quốc</strong> trong đợt xét tuyển chung của năm tuyển sinh.</span></span></p><p style="text-align:justify;"><span style="color:#002060;"><i><span lang="EN-GB" dir="ltr"><strong>3. Điều kiện tiếp tục được hưởng chính sách học bổng</strong></span></i></span></p><p style="text-align:justify;"><span style="color:#002060;"><span lang="EN-US" dir="ltr">Người học tiếp tục được hưởng học bổng khi không bị kỷ luật từ mức khiển trách trở lên trong kỳ xét học bổng và đáp ứng các yêu cầu sau:</span></span></p><p style="text-align:justify;"><span style="color:#002060;"><span lang="EN-US" dir="ltr">- Kết quả học tập trung bình tích lũy của các năm học liền trước đạt loại Khá trở lên&nbsp;</span></span></p><p style="text-align:justify;"><span style="color:#002060;"><span lang="EN-US" dir="ltr">- Tích lũy tối thiểu 24 tín chỉ sau năm học đầu tiên, tối thiểu 28 tín chỉ trong một năm học kể từ năm học thứ hai.</span></span></p><p style="text-align:justify;"><span style="color:#002060;"><span lang="EN-US" dir="ltr"><strong>IV.</strong> </span><span lang="EN-GB" dir="ltr"><strong>CHÍNH SÁCH HỖ TRỢ NGƯỜI HỌC TRONG TUYỂN SINH ĐẠI HỌC</strong></span></span></p><p style="text-align:justify;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr"><strong>IV.1. Chính sách hỗ trợ tài chính (tương đương học phí)</strong></span></span></p><p style="text-align:justify;"><span style="color:#002060;"><i><span lang="EN-GB" dir="ltr"><strong>IV.1.1. Đối tượng</strong></span></i></span></p><p style="text-align:justify;"><span style="color:#002060;"><i><span lang="EN-GB" dir="ltr"><strong>(1) Đối với thí sinh trúng tuyển theo các phương thức xét tuyển</strong></span></i></span></p><p style="margin-left:0cm;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr">Thí sinh trúng tuyển vào Trường được xét hỗ trợ tài chính tương đương 50% - 100% học phí của các học kỳ của khóa học. Mức hỗ trợ tài chính đối với từng nhóm thí sinh trúng tuyển cụ thể như bảng sau:</span></span></p><figure class="table"><table><tbody><tr><td style="border:1.0pt solid windowtext;padding:0cm 2.85pt;vertical-align:top;width:84.8pt;"><p style="margin-left:0cm;text-align:center;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr"><strong>Mức hỗ trợ</strong></span></span></p></td><td style="border-bottom-style:solid;border-color:windowtext;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;padding:0cm 2.85pt;vertical-align:top;width:390.1pt;"><p style="margin-left:0cm;text-align:center;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr"><strong>Đối tượng</strong></span></span></p></td></tr><tr><td style="border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 2.85pt;width:84.8pt;"><p style="margin-left:0cm;text-align:center;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr">100% học phí toàn khóa học</span></span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 2.85pt;width:390.1pt;"><p style="margin-left:0cm;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr">Thí sinh&nbsp;</span><span lang="SV" dir="ltr">đoạt giải Ba trở lên trong kỳ thi học sinh giỏi (HSG) Quốc tế.</span></span></p></td></tr><tr><td style="border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 2.85pt;width:84.8pt;"><p style="margin-left:0cm;text-align:center;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr">100% học phí 4 học kỳ&nbsp;</span></span><br><span style="color:#002060;"><span lang="EN-GB" dir="ltr">đầu tiên</span></span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 2.85pt;vertical-align:top;width:390.1pt;"><p style="margin-left:0cm;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr">Thí sinh&nbsp;</span><span lang="SV" dir="ltr">đoạt một trong các giải:</span></span></p><p style="margin-left:0cm;"><span style="color:#002060;"><span lang="SV" dir="ltr">a) Giải Khuyến khích kỳ thi HSG Quốc tế;</span></span></p><p style="margin-left:0cm;"><span style="color:#002060;"><span lang="SV" dir="ltr">b) Giải Khuyến khích trở lên trong các cuộc thi khoa học, kỹ thuật; các kỳ thi tay nghề khu vực ASEAN và thi tay nghề quốc tế;</span></span></p><p style="margin-left:0cm;"><span style="color:#002060;"><span lang="SV" dir="ltr">c) Giải Nhất kỳ thi HSG Quốc gia;</span></span></p><p style="margin-left:0cm;"><span style="color:#002060;"><span lang="SV" dir="ltr">d) Giải Nhất trong cuộc thi khoa học, kỹ thuật cấp quốc gia trong thời gian học THPT.</span></span></p></td></tr><tr><td style="border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 2.85pt;width:84.8pt;"><p style="margin-left:0cm;text-align:center;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr">100% học phí 3 học kỳ&nbsp;</span></span><br><span style="color:#002060;"><span lang="EN-GB" dir="ltr">đầu tiên</span></span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 2.85pt;width:390.1pt;"><p style="margin-left:0cm;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr">Thí sinh&nbsp;</span><span lang="SV" dir="ltr">đoạt giải Nhì kỳ thi HSG Quốc gia.</span></span></p></td></tr><tr><td style="border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 2.85pt;width:84.8pt;"><p style="margin-left:0cm;text-align:center;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr">100% học phí 2 học kỳ&nbsp;</span></span><br><span style="color:#002060;"><span lang="EN-GB" dir="ltr">đầu tiên</span></span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 2.85pt;vertical-align:top;width:390.1pt;"><p style="margin-left:0cm;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr">Thí sinh&nbsp;</span><span lang="SV" dir="ltr">đoạt một trong các giải:&nbsp;</span></span></p><p style="margin-left:0cm;"><span style="color:#002060;"><span lang="SV" dir="ltr">a) Giải Ba kỳ thi HSG Quốc gia;</span></span></p><p style="margin-left:0cm;"><span style="color:#002060;"><span lang="SV" dir="ltr">b) Giải Nhì, Ba trong cuộc thi khoa học, kỹ thuật cấp quốc gia trong thời gian học THPT.</span></span></p><p style="margin-left:0cm;"><span style="color:#002060;"><span lang="SV" dir="ltr">c) Giải Vô địch, Nhất, Nhì, Ba, Khuyến khích - Bảng Siêu Cúp trong Kỳ thi Olympic Tin học do Trường Đại học Công nghệ Thông tin và Truyền thông Việt - Hàn phối hợp tổ chức.</span></span></p></td></tr><tr><td style="border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:91.85pt;padding:0cm 2.85pt;width:84.8pt;"><p style="margin-left:0cm;text-align:center;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr">75% học phí&nbsp;</span></span><br><span style="color:#002060;"><span lang="EN-GB" dir="ltr">2 học kỳ&nbsp;</span></span><br><span style="color:#002060;"><span lang="EN-GB" dir="ltr">đầu tiên</span></span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:91.85pt;padding:0cm 2.85pt;vertical-align:top;width:390.1pt;"><p style="margin-left:0cm;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr">1. Thí sinh&nbsp;</span><span lang="SV" dir="ltr">đoạt một trong các giải</span><span lang="EN-GB" dir="ltr">:</span></span></p><p style="margin-left:0cm;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr">a) G</span><span lang="SV" dir="ltr">iải Khuyến khích kỳ thi HSG Quốc gia.</span></span></p><p style="margin-left:0cm;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr">b) G</span><span lang="SV" dir="ltr">iải Tư trong cuộc thi khoa học, kỹ thuật cấp quốc gia trong thời gian học THPT.</span></span></p><p style="margin-left:0cm;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr">2. Thí sinh đoạt giải Nhất, Nhì, Ba trong kỳ thi HSG cấp tỉnh, thành phố trực thuộc Trung ương; Huy chương vàng, bạc, đồng trong Kỳ thi Olympic truyền thống 30/4 hoặc kỳ thi HSG các trường THPT chuyên khu vực Duyên hải và Đồng bằng Bắc bộ hoặc Kỳ thi Olympic cấp tỉnh, thành phố trực thuộc Trung ương; Đoạt giải Nhất trong kỳ thi khoa học kỹ thuật cấp tỉnh/thành phố trực thuộc Trung ương.</span></span></p><p style="text-align:justify;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr">3.&nbsp;</span><span lang="SV" dir="ltr">Thí sinh tham dự cuộc thi Đường lên đỉnh Olympia vòng thi tuần trở lên do Đài truyền hình Việt Nam tổ chức.</span></span></p><p style="margin-left:0cm;"><span style="color:#002060;"><span lang="SV" dir="ltr">4. Thí sinh đoạt giải Vô địch, Nhất, Nhì, Ba - Bảng Chuyên Tin và Bảng AI Challenges trong Kỳ thi Olympic Tin học do Trường Đại học Công nghệ Thông tin và Truyền thông Việt - Hàn phối hợp tổ chức.</span></span></p></td></tr><tr><td style="border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:160.4pt;padding:0cm 2.85pt;width:84.8pt;"><p style="margin-left:0cm;text-align:center;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr">50% học phí&nbsp;</span></span><br><span style="color:#002060;"><span lang="EN-GB" dir="ltr">2 học kỳ&nbsp;</span></span><br><span style="color:#002060;"><span lang="EN-GB" dir="ltr">đầu tiên</span></span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:160.4pt;padding:0cm 2.85pt;vertical-align:top;width:390.1pt;"><p style="margin-left:0cm;"><span style="color:#002060;"><span lang="SV" dir="ltr">1. Thí sinh đoạt giải Nhì trong cuộc thi khoa học kỹ thuật cấp tỉnh/thành phố trực thuộc Trung ương.</span></span></p><p style="margin-left:0cm;"><span style="color:#002060;"><span lang="SV" dir="ltr">2. Thí sinh là học sinh thuộc lớp chuyên một trong các môn có trong tổ hợp xét tuyển của ngành/chuyên ngành đăng ký có điểm trung bình môn chuyên 3 năm THPT đạt từ 8,0 trở lên; Trung bình các môn 3 năm THPT thuộc tổ hợp xét tuyển đạt từ 8.00 trở lên.</span></span></p><p style="margin-left:0cm;"><span style="color:#002060;"><span lang="SV" dir="ltr">3. Thí sinh đoạt giải Khuyến khích - Bảng Chuyên Tin hoặc Bảng AI Challenges, giải Vô địch, Nhất, Nhì, Ba - Bảng không chuyên trong Kỳ thi Olympic Tin học do Trường Đại học Công nghệ Thông tin và Truyền thông Việt - Hàn phối hợp tổ chức.</span></span></p></td></tr><tr><td style="border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:155.1pt;padding:0cm 2.85pt;width:84.8pt;"><p style="margin-left:0cm;text-align:center;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr">50% học phí</span></span><br><span style="color:#002060;"><span lang="EN-GB" dir="ltr">1 học kỳ&nbsp;</span></span><br><span style="color:#002060;"><span lang="EN-GB" dir="ltr">đầu tiên</span></span></p></td><td style="border-bottom-width:1.0pt;border-color:hsl(240, 75%, 60%);border-right-width:1.0pt;border-style:solid;height:155.1pt;padding:0cm 2.85pt;vertical-align:top;width:390.1pt;"><p style="margin-left:0cm;"><span style="color:#002060;"><span lang="SV" dir="ltr">1. Thí sinh đoạt giải Khuyến khích trong kỳ thi HSG cấp tỉnh/thành phố trực thuộc Trung ương; Đoạt giải Ba trong kỳ thi khoa học kỹ thuật cấp tỉnh/thành phố trực thuộc Trung ương.</span></span></p><p style="text-align:justify;"><span style="color:#002060;"><span lang="SV" dir="ltr">2. Thí sinh có 2 năm học đạt danh hiệu học sinh Giỏi trở lên trong thời gian học THPT, trong đó bắt buộc năm lớp 12 phải đạt danh hiệu học sinh Giỏi trở lên và năm còn lại phải đạt học lực mức Khá (hoặc học sinh tiên tiến) trở lên.</span></span></p><p style="text-align:justify;"><span style="color:#002060;"><span lang="SV" dir="ltr">3. Thí sinh trúng tuyển theo các phương thức có điểm xét tuyển từ 26 điểm trở lên (thang điểm 30).</span></span></p></td></tr></tbody></table></figure><p><span style="color:#002060;"><i><span lang="EN-GB" dir="ltr"><strong>(2) Đối với thí sinh trúng tuyển theo các phương thức có điểm xét tuyển từ 26 điểm trở lên (thang điểm 30) và có Thư giới thiệu của Hiệu trưởng trường THPT thí sinh đang theo học</strong></span></i></span></p><p style="margin-left:0cm;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr">Thí sinh trúng tuyển theo các phương thức có điểm xét tuyển từ 26 điểm trở lên (thang điểm 30) và có Thư giới thiệu của Hiệu trưởng trường THPT thí sinh đang theo học (mỗi Hiệu trưởng chỉ được giới thiệu 01 học sinh) được xét hỗ trợ tài chính tương đương 50% học phí của 02 học kỳ đầu của khóa học.</span></span></p><p style="margin-left:0cm;"><span style="color:#002060;"><i><span lang="EN-GB" dir="ltr"><strong>(3) Đối với thí sinh trúng tuyển ngành Công nghệ tài chính, các chuyên ngành thuộc lĩnh vực Vi mạch bán dẫn và các ngành hoặc chuyên ngành lần đầu tổ chức xét tuyển tại Trường</strong></span></i></span></p><p style="margin-left:0cm;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr">Thí sinh trúng tuyển&nbsp;ngành Công nghệ tài chính, chuyên ngành Thiết kế vi mạch bán dẫn và các ngành hoặc chuyên ngành lần đầu tổ chức xét tuyển tại Trường được xét hỗ trợ tài chính tương đương 50% - 100% học phí của các học kỳ của khóa học, cụ thể như sau:</span></span></p><figure class="table"><table><tbody><tr><td style="border:1.0pt solid windowtext;height:22.75pt;padding:0cm 5.4pt;vertical-align:top;width:141.5pt;"><p style="margin-left:0cm;text-align:center;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr"><strong>Mức hỗ trợ</strong></span></span></p></td><td style="border-bottom-style:solid;border-color:windowtext;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;height:22.75pt;padding:0cm 5.4pt;vertical-align:top;width:320.65pt;"><p style="margin-left:0cm;text-align:center;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr"><strong>Đối tượng</strong></span></span></p></td></tr><tr><td style="border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:21.95pt;padding:0cm 5.4pt;width:141.5pt;"><p style="margin-left:0cm;text-align:center;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr">100% học phí 2 học kỳ đầu tiên</span></span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:21.95pt;padding:0cm 5.4pt;width:320.65pt;"><p style="margin-left:0cm;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr">1. Thí sinh&nbsp;</span><span lang="SV" dir="ltr">có điểm xét&nbsp;</span><span lang="EN-GB" dir="ltr">chính sách&nbsp;</span><span lang="SV" dir="ltr">hỗ trợ tuyển sinh từ 27 điểm trở lên.</span></span></p></td></tr><tr><td style="border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:38.25pt;padding:0cm 5.4pt;width:141.5pt;"><p style="margin-left:0cm;text-align:center;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr">50% học phí 2 học kỳ đầu tiên</span></span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:38.25pt;padding:0cm 5.4pt;width:320.65pt;"><p style="margin-left:0cm;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr">2. Thí sinh&nbsp;</span><span lang="SV" dir="ltr">có điểm xét&nbsp;</span><span lang="EN-GB" dir="ltr">chính sách&nbsp;</span><span lang="SV" dir="ltr">hỗ trợ tuyển sinh từ 26 điểm trở lên đến dưới 27 điểm.</span></span></p></td></tr></tbody></table></figure><p><strong>4.1.2.</strong> <span style="color:#002060;"><i><span lang="EN-GB" dir="ltr"><strong>Phương án xét hỗ trợ người học</strong></span></i></span></p><p><span style="color:#002060;"><span lang="EN-GB" dir="ltr">&nbsp; &nbsp;a) Tổng số lượng thí sinh được cấp hỗ trợ tài chính của tất cả các phương thức tuyển sinh không vượt quá 20% tổng chỉ tiêu tuyển sinh trình độ đại học của năm.</span></span></p><p><span style="color:#002060;"><span lang="EN-GB" dir="ltr">&nbsp; &nbsp;b)&nbsp;Việc xét chọn hỗ trợ tài chính ở mục 4.1.1 sẽ được thực hiện thông qua hội đồng của Trường theo quy định. Đối với thí sinh trúng tuyển thuộc đối tượng ở mục 4.1.1 (2) được ưu tiên xét chọn và số lượng xét chọn không quá 30 thí sinh.&nbsp;</span></span></p><p><span style="color:#002060;"><span lang="EN-GB" dir="ltr">&nbsp; &nbsp;c)&nbsp; Việc xét chọn hỗ trợ tài chính được ưu tiên áp dụng đối với <strong>thí sinh trúng tuyển có mức hỗ trợ từ 75% trở lên</strong>. Trường hợp tổng số thí sinh đủ điều kiện nhưng vượt quá 20% tổng chỉ tiêu tuyển sinh, thí sinh được chọn căn cứ vào điểm xét chính sách hỗ trợ tuyển sinh và <strong>ưu tiên xét chọn các thí sinh được hưởng mức hỗ trợ tài chính 100%</strong>.</span></span></p><p><span style="color:#002060;"><span lang="EN-GB" dir="ltr">&nbsp; &nbsp;d)&nbsp;Đối với thí sinh trúng tuyển đủ điều kiện đưa vào xét chọn mức hỗ trợ 50%, thí sinh được chọn căn cứ vào điểm xét chính sách hỗ trợ tuyển sinh.</span></span></p><p><span style="color:#002060;"><span lang="EN-GB" dir="ltr">&nbsp; &nbsp;e)&nbsp;Thứ tự ưu tiên xét chọn thí sinh được hưởng chính sách hỗ trợ tài chính như sau:</span></span></p><figure class="table"><table><tbody><tr><td style="border:1.0pt solid windowtext;height:25.05pt;padding:0cm 2.85pt;vertical-align:top;width:28.2pt;"><p style="margin-left:0cm;text-align:center;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr"><strong>TT</strong></span></span></p></td><td style="border-bottom-style:solid;border-color:windowtext;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;height:25.05pt;padding:0cm 2.85pt;vertical-align:top;width:213.75pt;"><p style="margin-left:0cm;text-align:center;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr"><strong>Đối tượng</strong></span></span></p></td><td style="border-bottom-style:solid;border-color:windowtext;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;height:25.05pt;padding:0cm 2.85pt;vertical-align:top;width:119.35pt;"><p style="margin-left:0cm;text-align:center;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr"><strong>Mức cấp</strong></span></span></p></td><td style="border-bottom-style:solid;border-color:windowtext;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;height:25.05pt;padding:0cm 2.85pt;vertical-align:top;width:97.05pt;"><p style="margin-left:0cm;text-align:center;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr"><strong>Thứ tự ưu tiên</strong></span></span></p></td></tr><tr><td style="border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:25.85pt;padding:0cm 2.85pt;vertical-align:top;width:28.2pt;"><p style="margin-left:0cm;text-align:center;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr">1</span></span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:25.85pt;padding:0cm 2.85pt;vertical-align:top;width:213.75pt;"><p style="margin-left:0cm;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr">Thí sinh có thành tích như mục 4.1.1(1)</span></span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:25.85pt;padding:0cm 2.85pt;vertical-align:top;width:119.35pt;"><p style="margin-left:0cm;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr">100% học phí</span></span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:25.85pt;padding:0cm 2.85pt;vertical-align:top;width:97.05pt;"><p style="margin-left:0cm;text-align:center;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr">1</span></span></p></td></tr><tr><td style="border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:25.05pt;padding:0cm 2.85pt;vertical-align:top;width:28.2pt;"><p style="margin-left:0cm;text-align:center;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr">2</span></span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:25.05pt;padding:0cm 2.85pt;vertical-align:top;width:213.75pt;"><p style="margin-left:0cm;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr">Thí sinh có thành tích như mục 4.1.1(1)</span></span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:25.05pt;padding:0cm 2.85pt;vertical-align:top;width:119.35pt;"><p style="margin-left:0cm;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr">75% học phí</span></span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:25.05pt;padding:0cm 2.85pt;vertical-align:top;width:97.05pt;"><p style="margin-left:0cm;text-align:center;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr">2</span></span></p></td></tr><tr><td style="border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:25.05pt;padding:0cm 2.85pt;vertical-align:top;width:28.2pt;"><p style="margin-left:0cm;text-align:center;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr">3</span></span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:25.05pt;padding:0cm 2.85pt;vertical-align:top;width:213.75pt;"><p style="margin-left:0cm;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr">Thí sinh có thành tích như mục 4.1.1(2)</span></span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:25.05pt;padding:0cm 2.85pt;vertical-align:top;width:119.35pt;"><p style="margin-left:0cm;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr">50% học phí 2 học kỳ</span></span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:25.05pt;padding:0cm 2.85pt;vertical-align:top;width:97.05pt;"><p style="margin-left:0cm;text-align:center;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr">3</span></span></p></td></tr><tr><td style="border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:25.05pt;padding:0cm 2.85pt;vertical-align:top;width:28.2pt;"><p style="margin-left:0cm;text-align:center;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr">4</span></span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:25.05pt;padding:0cm 2.85pt;vertical-align:top;width:213.75pt;"><p style="margin-left:0cm;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr">Thí sinh có thành tích như mục 4.1.1(3)</span></span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:25.05pt;padding:0cm 2.85pt;vertical-align:top;width:119.35pt;"><p style="margin-left:0cm;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr">50% học phí 2 học kỳ</span></span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:25.05pt;padding:0cm 2.85pt;vertical-align:top;width:97.05pt;"><p style="margin-left:0cm;text-align:center;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr">4</span></span></p></td></tr><tr><td style="border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:25.05pt;padding:0cm 2.85pt;vertical-align:top;width:28.2pt;"><p style="margin-left:0cm;text-align:center;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr">5</span></span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:25.05pt;padding:0cm 2.85pt;vertical-align:top;width:213.75pt;"><p style="margin-left:0cm;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr">Thí sinh có thành tích như mục 4.1.1(1)</span></span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:25.05pt;padding:0cm 2.85pt;vertical-align:top;width:119.35pt;"><p style="margin-left:0cm;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr">50% học phí&nbsp;</span></span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:25.05pt;padding:0cm 2.85pt;vertical-align:top;width:97.05pt;"><p style="margin-left:0cm;text-align:center;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr">5</span></span></p></td></tr></tbody></table></figure><p><span style="color:#002060;"><span lang="EN-GB" dir="ltr">&nbsp; &nbsp;f. Điểm xét chính sách hỗ trợ tuyển sinh được tính như sau (theo phương thức kết hợp):</span></span></p><p><span style="color:#002060;"><span lang="EN-GB" dir="ltr">&nbsp; - Điểm học bạ THPT (theo tổ hợp xét tuyển): 60%.</span></span></p><p><span style="color:#002060;"><span lang="EN-GB" dir="ltr">&nbsp; -&nbsp;Điểm thi tốt nghiệp THPT (theo tổ hợp xét tuyển): 40%.</span></span></p><p><span style="color:#002060;"><span lang="EN-GB" dir="ltr">&nbsp; -&nbsp;Điểm cộng (thành tích) nếu có: tính theo Đề án tuyển sinh hằng năm.</span></span></p><p><span style="color:#002060;"><span lang="EN-GB" dir="ltr">&nbsp; &nbsp;g. Khoản hỗ trợ mỗi học kỳ ở trên được tính dựa trên số tín chỉ thực học trong học kỳ của sinh viên (không bao gồm học phần Tiếng Anh dự bị, giáo dục quốc phòng và giáo dục thể chất) và chỉ áp dụng chế độ hỗ trợ tài chính tương đương học phí đối với học phần đăng ký lần đầu.</span></span></p><p><span style="color:#002060;"><span lang="EN-GB" dir="ltr"><strong>V. CHÍNH SÁCH HỖ TRỢ KÝ TÚC XÁ</strong></span></span></p><p style="margin-left:0cm;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr">Thí sinh trúng tuyển được xét miễn phí chỗ ở trong ký túc xá của Trường (áp dụng đối với loại phòng ở 08 người/phòng) với mức hỗ trợ cụ thể như sau:</span></span></p><p><span style="color:#002060;"><span lang="EN-GB" dir="ltr">&nbsp; &nbsp;a. Thí sinh trúng tuyển thuộc đối tượng hưởng chính sách học bổng ưu tú và chính sách học bổng theo Nghị định 179 (Mục II, III): miễn phí chỗ ở trong ký túc xá của Trường;</span></span></p><p><span style="color:#002060;"><span lang="EN-GB" dir="ltr">&nbsp; b.&nbsp;Thí sinh trúng tuyển thuộc đối tượng ở mục 4.1.1 (1) có mức hỗ trợ 100%: miễn phí chỗ ở 04 học kỳ đầu trong ký túc xá của Trường;</span></span></p><p><span style="color:#002060;"><span lang="EN-GB" dir="ltr">&nbsp; c.&nbsp;Thí sinh trúng tuyển thuộc đối tượng ở mục 4.1.1 (1) có mức hỗ trợ 75%; mục 4.1.1 (2) và mục 4.1.1 (3): miễn phí chỗ ở 02 học kỳ đầu trong ký túc xá của Trường;</span></span></p><p><span style="color:#002060;"><span lang="EN-GB" dir="ltr">&nbsp; d.&nbsp;Thí sinh trúng tuyển thuộc đối tượng ở mục 4.1.1 (1) có mức hỗ trợ 50%: miễn phí chỗ ở 01 học kỳ đầu trong ký túc xá của Trường.</span></span></p><p style="margin-left:0cm;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr">&nbsp; Việc xét chọn miễn phí chỗ ở trong ký túc xá sẽ được thực hiện thông qua hội đồng của Trường theo quy định.</span></span></p><p style="margin-left:0cm;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr"><strong>VI. CÁC NỘI DUNG KHÁC LIÊN QUAN ĐẾN HỌC BỔNG VÀ CHÍNH SÁCH HỖ TRỢ</strong></span></span></p><p style="margin-left:0cm;"><span style="color:#002060;"><span lang="EN-GB" dir="ltr">1. Nếu thí sinh đủ điều kiện đưa vào xét học bổng đầu vào ở mục 1.1 và các chính sách học bổng, hỗ trợ tài chính khác thì chỉ nhận ở mức cao nhất.</span></span></p><p><span style="color:#002060;"><span lang="EN-GB" dir="ltr">2. Đối với các thí sinh được hưởng chế độ chính sách theo quy định của Nhà nước về miễn, giảm học phí; được hỗ trợ học phí theo quy định của Đại học Đà Nẵng (chính sách hỗ trợ học phí cho con viên chức - người lao động đang công tác tại Đại học Đà Nẵng) và của Trường (chính sách hỗ trợ học phí cho con viên chức - người lao động đang công tác tại Trường), tiền học bổng đầu vào (xét ở mục 1.1), học bổng ưu tú (xét ở mục II) sẽ được khấu trừ dần vào học phí trong các học kỳ tiếp theo cho đến hết số tiền được xét cấp. Số tiền còn lại (nếu có), sẽ được trao cho sinh viên với mức tương ứng được hưởng của mỗi học kỳ.</span></span></p> 
+                    </div>
+
+                                                            
+                    <div class="mt-5">
+                        <a href="https://tuyensinh.vku.udn.vn" class="btn btn-outline-primary rounded-pill">
+                            <i class="ion-md-arrow-back mr-2"></i> Quay lại danh sách
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 sidebar ftco-animate">
+                    <div class="sidebar-box p-4 bg-light">
+                        <h4 class="fw-bold mb-4">Thông báo mới nhất</h4>
+                                                <div class="block-21 mb-4 d-flex">
+                            <div class="text">
+                                <h5 class="heading" style="font-size: 15px;">
+                                    <a href="https://tuyensinh.vku.udn.vn/thong-bao/6a79472c0619ded1f20e9b44">TRƯỜNG ĐẠI HỌC CÔNG NGHỆ THÔNG TIN VÀ TRUYỀN THÔNG VIỆT - HÀN CÔNG BỐ ĐIỂM TRÚNG TUYỂN ĐẠI HỌC NĂM 2026!</a>
+                                </h5>
+                                <div class="meta">
+                                    <div><small><i class="ion-md-calendar"></i> 09/08/2026</small></div>
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="block-21 mb-4 d-flex">
+                            <div class="text">
+                                <h5 class="heading" style="font-size: 15px;">
+                                    <a href="https://tuyensinh.vku.udn.vn/thong-bao/6a7067db1b897aba700a1894">THÔNG BÁO: QUY TẮC QUY ĐỔI TƯƠNG ĐƯƠNG ĐIỂM TRÚNG TUYỂN VÀO VKU NĂM 2026</a>
+                                </h5>
+                                <div class="meta">
+                                    <div><small><i class="ion-md-calendar"></i> 03/08/2026</small></div>
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="block-21 mb-4 d-flex">
+                            <div class="text">
+                                <h5 class="heading" style="font-size: 15px;">
+                                    <a href="https://tuyensinh.vku.udn.vn/thong-bao/6a029fac0004d709a40b5c02">📢 [VKU] CHÍNH THỨC MỞ CỔNG NHẬN HỒ SƠ MINH CHỨNG ĐIỂM CỘNG - HỒ SƠ THÍ SINH TỰ DO  - HỒ SƠ XÉT TUYỂN THẲNG NĂM 2026! 🎓</a>
+                                </h5>
+                                <div class="meta">
+                                    <div><small><i class="ion-md-calendar"></i> 11/05/2026</small></div>
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="block-21 mb-4 d-flex">
+                            <div class="text">
+                                <h5 class="heading" style="font-size: 15px;">
+                                    <a href="https://tuyensinh.vku.udn.vn/thong-bao/699d270922d808765d0d6ad2">Trường Đại học Công nghệ Thông tin và Truyền thông Việt - Hàn công bố Thông tin tuyển sinh năm 2026</a>
+                                </h5>
+                                <div class="meta">
+                                    <div><small><i class="ion-md-calendar"></i> 14/02/2026</small></div>
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="block-21 mb-4 d-flex">
+                            <div class="text">
+                                <h5 class="heading" style="font-size: 15px;">
+                                    <a href="https://tuyensinh.vku.udn.vn/thong-bao/699fb78248d97e2c10006594">Cách tính điểm Cộng</a>
+                                </h5>
+                                <div class="meta">
+                                    <div><small><i class="ion-md-calendar"></i> 13/02/2026</small></div>
+                                </div>
+                            </div>
+                        </div>
+                                            </div>
+                    <div class="sidebar-box ftco-animate">
+                        <h3>Có thể bạn quan tâm</h3>
+                        <!-- <div class="block-21 mb-4 d-flex">
+                            <a class="blog-img mr-4" style="background-image:url(../images/ximage_2.jpg.pagespeed.ic.mQGyn1P_Li.jpg)"></a>
+                            <div class="text">
+                                <h3 class="heading"><a href="/cong-cu-tinh">Công cụ tính điểm học bạ</a></h3>
+                                <div class="meta">
+                                </div>
+                            </div>
+                        </div> -->
+                        <div class="block-21 mb-4 d-flex">
+                            <a class="blog-img mr-4" style="background-image:url(../images/ximage_3.jpg.pagespeed.ic.CWHmT1gFhf.jpg)"></a>
+                            <div class="text">
+                                <h3 class="heading"><a href="/doi-tuong-uu-tien">Tra cứu đối tượng ưu tiên</a></h3>
+                                <div class="meta">
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="block-21 mb-4 d-flex">
+                            <a class="blog-img mr-4" style="background-image:url(../images/ximage_1.jpg.pagespeed.ic.Yc6gAsaZ2Y.jpg)"></a>
+                            <div class="text">
+                                <h3 class="heading"><a href="#">Câu hỏi thường gặp</a></h3>
+                                <div class="meta">
+                                    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>                    <div class="sidebar-box ftco-animate">
+                        <h3>Tag Cloud</h3>
+                        <ul class="tagcloud m-0 p-0">
+                            <a href="#" class="tag-cloud-link">VKU</a>
+                            <a href="#" class="tag-cloud-link">TUYENSINHVKU</a>
+                            <a href="#" class="tag-cloud-link">VKU2026</a>
+                            <a href="#" class="tag-cloud-link">TUYENSINH</a>
+                            <a href="#" class="tag-cloud-link">TUYENSINH2026</a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="ftco-intro ftco-no-pb img" style="background-image:url(../images/bg_3.jpg)">
+        <div class="container">
+            <div class="row justify-content-center mb-5">
+                <div class="col-md-10 text-center heading-section heading-section-white ftco-animate">
+                    <h2 class="mb-0">Thông tin Tuyển sinh 2026</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+<section class="ftco-counter" id="section-counter">
+        <div class="container">
+            <div class="row d-md-flex align-items-center justify-content-center">
+                <div class="wrapper">
+                    <div class="row d-md-flex align-items-center">
+                        <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+                            <div class="block-18">
+                                <div class="icon"><span class="flaticon-doctor"></span>
+                                </div>
+                                <div class="text">
+                                    <strong class="number" style="color:#153472">1500</strong>
+                                    <span style="color:#153472"><b>Chỉ tiêu</b></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+                            <div class="block-18">
+                                <div class="icon"><span class="flaticon-doctor"></span>
+                                </div>
+                                <div class="text">
+                                    <strong class="number" style="color:#153472">22</strong>
+                                    <span style="color:#153472"><b>Ngành/Chuyên ngành</b></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+                            <div class="block-18">
+                                <div class="icon"><span class="flaticon-doctor"></span>
+                                </div>
+                                <div class="text">
+                                    <strong class="number" style="color:#153472">3</strong>
+                                    <span style="color:#153472"><b>Phương thức tuyển sinh</b></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+                            <div class="block-18">
+                                <div class="icon"><span class="flaticon-doctor"></span>
+                                </div>
+                                <div class="text">
+                                    <strong class="number" style="color:#153472">100%</strong>
+                                    <span style="color:#153472"><b>Sinh viên có việc làm khi ra trường</b></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="ftco-section testimony-section">
+        <div class="container">
+            <div class="row justify-content-center mb-5">
+                <div class="col-md-10 text-center heading-section ftco-animate">
+                    <h2 class="mb-4">Trải nghiệm Sinh viên VKU</h2>
+                    <p style="text-align:center">
+                        TỰ HÀO LÀ TRƯỜNG ĐẠI HỌC CÔNG LẬP QUỐC TẾ HÀNG ĐẦU VỀ ĐÀO TẠO,<BR>NGHIÊN CỨU CÔNG NGHỆ THÔNG TIN - TRUYỀN THÔNG VÀ KINH TẾ SỐ CỦA MIỀN TRUNG - TÂY NGUYÊN VÀ CẢ NƯỚC
+                    </p>
+                </div>
+            </div>
+            <div class="row ftco-animate justify-content-center">
+                <div class="col-md-12">
+                    <div class="carousel-testimony owl-carousel">
+                        <div class="item">
+                            <div class="testimony-wrap d-flex">
+                                <div class="user-img" style="background-image:url(../images/nguyet.jpg)">
+                                </div>
+                                <div class="text pl-4">
+                                    <span class="quote d-flex align-items-center justify-content-center">
+<i class="icon-quote-left"></i>
+</span>
+                                    <p>Tại VKU, mình may mắn gặp được những người bạn đồng hành thật sự rất tuyệt vời. Bọn mình cũng nhau vui chơi, cùng nhau học tập, cùng nhau nghiên cứu, cùng nhau vui vẻ, cùng nhau thất vọng, rồi lại cùng nhau đứng dậy và bước tiếp. Bọn mình cùng nhau trải qua những năm tháng sinh viên và thật sự coi nhau như anh em, như một gia đình.</p>
+                                    <p class="name">Phạm Vũ Thu Nguyệt</p>
+                                    <span class="position">Lớp 19IT1</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimony-wrap d-flex">
+                                <div class="user-img" style="background-image:url(../images/the.jpg)">
+                                </div>
+                                <div class="text pl-4">
+                                    <span class="quote d-flex align-items-center justify-content-center">
+<i class="icon-quote-left"></i>
+</span>
+                                    <p>Sự nhân văn trong chính sách học tập mà VKU hướng đến sinh viên Việt Nam đã thuyết phục Minh Thế vì "VKU là chỗ dựa vững vàng, tạo cơ hội thuận lợi cho tất cả thí sinh trên mọi miền đất nước hiện thực được ước mơ chinh phục giảng đường đại học, đặc biệt với những thí sinh khó khăn như em khi nhà có tận 3 anh em cùng đi học đại học</p>
+                                    <p class="name">Lê Minh Thế</p>
+                                    <span class="position">Lớp: 21GIT</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimony-wrap d-flex">
+                                <div class="user-img" style="background-image:url(../images/thao.jpg)">
+                                </div>
+                                <div class="text pl-4">
+                                    <span class="quote d-flex align-items-center justify-content-center">
+<i class="icon-quote-left"></i>
+</span>
+                                    <p>Trước kia mình đã từng tham gia giải vô địch Vovinam do tỉnh tổ chức và cũng gặt hái được một số thành tích nho nhỏ, mình cũng hay tham gia các hoạt động văn nghệ, thể thao do trường tổ chức,... Hy vọng mình sẽ có nhiều cơ hội được tham gia các hoạt động và hành trình 4 năm học diễn ra suôn sẻ, gặt hái được nhiều thành tích học tập khi đến với VKU.</p>
+                                    <p class="name">Nguyễn Thị Thu Thảo</p>
+                                    <span class="position">Ngành Quản trị Kinh doanh</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimony-wrap d-flex">
+                                <div class="user-img" style="background-image:url(../images/hanh.jpg)">
+                                </div>
+                                <div class="text pl-4">
+                                    <span class="quote d-flex align-items-center justify-content-center">
+<i class="icon-quote-left"></i>
+</span>
+                                    <p>Với em, VKU là sự lựa chọn lí tưởng để em có được 4 năm đại học tuyệt với... Em tin chắc rằng ngôi nhà VKU sẽ trang bị cho em những kiến thức chuyên ngành và kỹ năng mềm để em phát triển bản thân, thực hiện được ước mơ của mình. 4 năm-1 hành chình sẽ có đầy chông gai và thử thách nhưng em vẫn luôn quan niệm rằng: Tất cả mọi thứ có được đều phải đánh đổi.</p>
+                                    <p class="name">Lê Văn Hạnh</p>
+                                    <span class="position">Ngành Công nghệ Thông tin</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>    <!-- Messenger Plugin chat Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Plugin chat code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "112197230340250");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v13.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+        
+
+        <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+        }
+        </script>
+    <footer class="ftco-footer ftco-bg-dark ftco-section">
+        <div class="container">
+            <div class="row mb-3">
+                <div class="col-md-6 col-lg-4">
+                    <div class="ftco-footer-widget mb-5">
+                        <h2 class="ftco-heading-2">Liên hệ</h2>
+                        <div class="block-23 mb-3">
+                            <ul>
+                                <li><span class="icon icon-map-marker"></span><span class="text" style="color: #fff">470 Trần Đại Nghĩa, P. Ngũ Hành Sơn, Tp. Đà Nẵng</span>
+                                </li>
+                                <li><span class="icon icon-phone"></span><span class="text" style="color: #fff">0236 3 667 113</span>
+                                </li>
+                                <li><span class="icon icon-envelope"></span><span class="text" style="color: #fff">tuyensinh@vku.udn.vn</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="ftco-footer-widget mb-5">
+                        <h2 class="ftco-heading-2">Liên kết</h2>
+                        <div class="block-21 mb-4 d-flex">
+                            <div class="text">
+                                <h3 class="heading"><a href="https://vku.udn.vn/">Trang chủ VKU</a></h3>
+                                <h3 class="heading"><a href="https://www.facebook.com/cs.vku.udn.vn">Khoa Khoa học máy tính</a></h3>
+                                <h3 class="heading"><a href="https://www.facebook.com/ce.vku.udn.vn">Khoa Kỹ thuật máy tính và điện tử</a></h3>
+                                <h3 class="heading"><a href="https://www.facebook.com/de.vku.udn.vn">Khoa Kinh tế số & TMĐT</a></h3>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="ftco-footer-widget mb-5">
+                        <h2 class="ftco-heading-2">Đăng ký xét tuyển!</h2>
+                        <form action="#" class="subscribe-form">
+                            <div class="form-group">
+                                <a href="https://xettuyen.vku.udn.vn"><input type="submit" value="https://xettuyen.vku.udn.vn" class="form-control submit px-3"></a>                           
+                                
+                            </div>
+                        </form>
+                    </div>
+                    <div class="ftco-footer-widget mb-5">
+                        <h2 class="ftco-heading-2 mb-0">Liên hệ</h2>
+                        <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
+                            <li class="ftco-animate"><a href="https://twitter.com/vku_udn_vn"><span class="icon-twitter"></span></a>
+                            </li>
+                            <li class="ftco-animate"><a href="https://www.facebook.com/vku.udn.vn"><span class="icon-facebook"></span></a>
+                            </li>
+                            <li class="ftco-animate"><a href="https://www.instagram.com/vku.udn.vn/?hl=en"><span class="icon-instagram"></span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p>
+                        Bản quyền thuộc về Trường Đại học Công nghệ Thông tin và Truyền thông Việt - Hàn
+                        
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div id="ftco-loader" class="show fullscreen">
+        <svg class="circular" width="48px" height="48px">
+            <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+            <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00" />
+        </svg>
+    </div>
+    <script defer src="../css/menu/script.js?v=20250115"></script>
+    <script src="../js/jquery.min.js?v=20250115"></script>
+    <script src="../js/jquery-migrate-3.0.1.min.js%2bpopper.min.js%2bbootstrap.min.js.pagespeed.jc.-waaHJRH53.js?v=20250115"></script>
+    <script>
+        eval(mod_pagespeed_2RTyXK5Orp);
+    </script>
+    <script>
+        eval(mod_pagespeed_2v5bfFyPJ5);
+    </script>
+    <script>
+        eval(mod_pagespeed_mR96Zij9SP);
+    </script>
+    <script src="../js/jquery.easing.1.3.js%2bjquery.waypoints.min.js%2bjquery.stellar.min.js%2bowl.carousel.min.js.pagespeed.jc.LO94h43Whv.js?v=20250115"></script>
+    <script>
+        eval(mod_pagespeed_FjRwX7Kbxe);
+    </script>
+    <script>
+        eval(mod_pagespeed_pf0ppyQgZ6);
+    </script>
+    <script>
+        eval(mod_pagespeed_az0C1sjZgG);
+    </script>
+    <script>
+        eval(mod_pagespeed_6exUBPje5j);
+    </script>
+    <script src="../js/jquery.magnific-popup.min.js%2baos.js%2bjquery.animateNumber.min.js%2bscrollax.min.js%2bgoogle-map.js%2bmain.js.pagespeed.jc.Qb1TWqfkjq.js?v=20250115"></script>
+    <script>
+        eval(mod_pagespeed_HGoNukMl9$);
+    </script>
+    <script>
+        eval(mod_pagespeed_upFaBxDpPv);
+    </script>
+    <script>
+        eval(mod_pagespeed_gou$v8L2wH);
+    </script>
+    <script>
+        eval(mod_pagespeed__u3GoWjRoa);
+    </script>
+    
+    <script>
+        eval(mod_pagespeed_qy1S82iJgm);
+    </script>
+    <script>
+        eval(mod_pagespeed_2s8I3HAVqC);
+    </script>
+
+    
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-23581568-13');
+    </script>
+    <script defer src="../../../static.cloudflareinsights.com/beacon.min.js?v=20250115" data-cf-beacon='{"rayId":"67948a330a03197f","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2021.7.0","si":10}'></script>
+
+   
+</body>
+
+
+</html>

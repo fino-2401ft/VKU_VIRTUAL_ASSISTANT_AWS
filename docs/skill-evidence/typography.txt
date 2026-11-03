@@ -1,0 +1,40 @@
+## UI Pro Max Search Results
+**Domain:** typography | **Query:** readable multilingual
+**Source:** typography.csv | **Found:** 3 results
+
+### Result 1
+- **Font Pairing Name:** Vietnamese Friendly
+- **Category:** Sans + Sans
+- **Heading Font:** Be Vietnam Pro
+- **Body Font:** Noto Sans
+- **Mood/Style Keywords:** vietnamese, international, readable, clean, multilingual, accessible
+- **Best For:** Vietnamese sites, multilingual apps, international products
+- **Google Fonts URL:** https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700&family=Noto+Sans:wght@300;400;500;600;700&display=swap
+- **CSS Import:** @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700&family=Noto+Sans:wght@300;400;500;600;700&display=swap');
+- **Tailwind Config:** fontFamily: { sans: ['Be Vietnam Pro', 'Noto Sans', 'sans-serif'] }
+- **Notes:** Be Vietnam Pro excellent Vietnamese support. Noto as fallback.
+
+### Result 2
+- **Font Pairing Name:** Korean Modern
+- **Category:** Sans + Sans
+- **Heading Font:** Noto Sans KR
+- **Body Font:** Noto Sans KR
+- **Mood/Style Keywords:** korean, modern, clean, professional, multilingual, readable
+- **Best For:** Korean sites, K-beauty, K-pop, Korean businesses, multilingual
+- **Google Fonts URL:** https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap
+- **CSS Import:** @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+- **Tailwind Config:** fontFamily: { sans: ['Noto Sans KR', 'sans-serif'] }
+- **Notes:** Clean Korean typography. Single font with weight variations.
+
+### Result 3
+- **Font Pairing Name:** Thai Modern
+- **Category:** Sans + Sans
+- **Heading Font:** Noto Sans Thai
+- **Body Font:** Noto Sans Thai
+- **Mood/Style Keywords:** thai, modern, readable, clean, multilingual, accessible
+- **Best For:** Thai sites, Southeast Asia, tourism, Thai restaurants
+- **Google Fonts URL:** https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@300;400;500;700&display=swap
+- **CSS Import:** @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@300;400;500;700&display=swap');
+- **Tailwind Config:** fontFamily: { sans: ['Noto Sans Thai', 'sans-serif'] }
+- **Notes:** Clean Thai typography. Excellent readability.
+

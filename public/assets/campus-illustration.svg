@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 820" fill="none">
+<defs><linearGradient id="sky" x2="960" y2="820" gradientUnits="userSpaceOnUse"><stop stop-color="#c2ebec"/><stop offset="1" stop-color="#f1e8d3"/></linearGradient><linearGradient id="wall" x2="1" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#d2dde5"/></linearGradient><pattern id="windows" width="57" height="53" patternUnits="userSpaceOnUse"><path fill="#164c6a" d="M10 9h31v34H10z"/><path stroke="#75b5c5" stroke-width="2" d="M25 9v34"/></pattern></defs>
+<path fill="url(#sky)" d="M0 0h960v820H0z"/><circle cx="710" cy="181" r="87" fill="#fff4d9"/>
+<path d="M0 473c170-77 261-82 441-27s352 3 519-70v444H0Z" fill="#b4c6b7"/>
+<path d="M0 665 960 511v309H0Z" fill="#9dac9e"/>
+<path d="m111 342 427-115 295 106-425 121Z" fill="#fff"/>
+<path d="m111 342 297 112v252L111 578Z" fill="#d6dfe0"/>
+<path d="m408 454 425-121v252L408 706Z" fill="url(#wall)"/>
+<path d="m431 472 378-110v180L431 652Z" fill="url(#windows)"/>
+<path d="m137 389 243 88v163l-243-98Z" fill="#235a6e"/>
+<path d="m139 435 239 87m-239-33 239 92m-239-33 239 92m-183-238v162m62-138v162m61-139v164" stroke="#a5c3c8" stroke-width="12"/>
+<path d="m111 342 427-115v-21L111 319Zm297 112 425-121v-24L408 430Z" fill="#25849b"/>
+<path d="m408 529 425-122m-425 187 425-122m-425 187 425-122" stroke="#f7f5ef" stroke-width="12"/>
+<path d="m527 666 110-32v-92l-110 32Z" fill="#183c50"/>
+<path d="m443 698 290-84 91 31-292 92Z" fill="#eff2e9"/>
+<path d="m532 737 292-92v16l-292 92Z" fill="#c0cbbb"/>
+<path d="m0 744 202-69 122 56-245 89H0Z" fill="#d3d9cb"/>
+<path d="m623 820 337-109v109Z" fill="#c2cdbb"/>
+<path d="M59 596v154m799-280v180m-755-100v146" stroke="#665f4b" stroke-width="13"/>
+<g fill="#477d70"><circle cx="59" cy="582" r="62"/><circle cx="29" cy="559" r="37"/><circle cx="858" cy="446" r="55"/><circle cx="884" cy="463" r="43"/><circle cx="103" cy="536" r="44"/></g>
+<path d="M42 79h84m-42-42v84M784 741h68m-34-34v68" stroke="#fff" stroke-width="2" opacity=".7"/>
+<path d="M0 786 960 476M355 0v820" stroke="#fff" stroke-opacity=".16"/>
+</svg>

@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>VKU - Tuyển sinh </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900&amp;display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="../images/logo_vku_fa.jpg">
+    <link rel="stylesheet" href="../css/styles.css?v=20250115" />
+    <link rel="stylesheet" type="text/css" href="../css/menu/reset.min.css?v=20250115">
+    <link rel="stylesheet" type="text/css" href="../css/menu/style.min.css?v=20250115">
+    <link rel="stylesheet" type="text/css" href="../css/menu/ionicon.min.css?v=20250115">
+
+ 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+    <style>
+        .theh3{text-align:center;padding:1.5em 0em;text-transform:capitalize;font-size:1.5em;}
+        .post-slide{overflow:hidden;margin-right:15px;background-color:#fff!important}
+.post-slide .post-img{float:left;width:50%;position:relative;margin-right:30px}
+.post-slide .post-img img{width:100%;height:auto}
+.post-slide .post-date{background:#ec3c6a;color:#fff;position:absolute;top:0;right:0;display:block;padding:2% 3%;width:60px;height:60px;text-align:center;transition:all .5s ease}
+.post-slide .date{display:block;font-size:20px;font-weight:700}
+.post-slide .month{display:block;font-size:11px;text-transform:uppercase}
+.post-slide .post-review{padding:5% 3% 1% 0;border-top:3px solid #38cfd8}
+.post-slide:hover .post-review{border-top-color:#ec3c6a}
+.post-slide .post-title{margin:0 0 10px 0}
+.post-slide .post-title a{font-size:14px;text-transform:uppercase; font-weight: bold; text-align: justify; line-height: 1.2;}
+.post-slide .post-title a:hover{text-decoration:none;font-weight:700}
+.post-slide .post-bar{padding:0;list-style:none;text-transform:uppercase;position:relative;margin-bottom:20px}
+.post-slide .post-bar:after,.post-slide .post-bar:before{border:1px solid #38cfd8;bottom:-10px;content:"";display:block;position:absolute;right:36%;width:25px}
+.post-slide .post-bar:before{border:1px solid #ec3c6a;right:32%}
+.post-slide .post-bar li{color:#555;font-size:10px;margin-right:10px;display:inline-block}
+.post-slide .post-bar li a{font-size:13px;text-decoration:none;text-transform:uppercase;color:#ec3c6a}
+.post-slide .post-bar li a:hover{color:#ec3c6a}
+.post-slide .post-bar li i{color:#777;margin-right:5px}
+.post-slide .post-description{font-size:12px;line-height:21px;color:#444454}
+.owl-theme .owl-controls{margin-top:30px}
+.owl-theme .owl-controls .owl-page span{background:#fff;border:2px solid #37a6a4}
+.owl-theme .owl-controls .owl-page.active span,.owl-theme .owl-controls.clickable .owl-page:hover span{background:#37a6a4}
+@media only screen and (max-width:990px){.post-slide .post-img{width:100%}
+.post-slide .post-review{width:100%;border-bottom:4px solid #ec3c6a}
+.post-slide .post-bar:before{left:0}
+.post-slide .post-bar:after{left:25px}
+}
+        @media only screen and (max-width: 300px) {
+            .logovku { 
+                margin-left:-30px;
+                margin-top:5px;
+                margin-bottom: 5px; 
+                background-image: url('../images/LOGO_vku.svg'); 
+                background-size: 100%; 
+                background-repeat: no-repeat;
+                background-position: 20% 50%;
+            }
+
+        }
+        @media only screen and (max-width: 800px) {
+            .logovku{
+                margin-left:-30px;
+                margin-top:5px;
+                margin-bottom: 5px; 
+                background-image:url('../images/LOGO_vku.svg'); 
+                background-repeat: no-repeat; 
+                background-size: 100%; 
+                background-position: 0% 50%;
+            }
+            
+        }
+        @media only screen and (min-width:800px){
+            .bg01 {background-image: url('../images/2026/Bia_web_1.png')}
+            .bg02 {background-image: url('../images/2026/Bia_web_2.png')}
+            .bg03 {background-image: url('../images/2026/Bia_web_3.png')}
+            .bg08 {background-image: url('../images/2026/Bia_web_1.png')}
+        }
+
+        
+        
+        @media only screen and (max-width: 600px) {
+            
+            iframe {
+                width:100%;
+
+            }
+            .bg01 {background-image: url('../images/2026/Bia_web_mb1.png')}
+            .bg02 {background-image: url('../images/2026/Bia_web_mb2.png')}
+            .bg03 {background-image: url('../images/2026/Bia_web_mb3.png')}
+            .bg08 {background-image: url('../images/2026/Bia_web_mb1.png')}
+        }
+        
+        body{
+            font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+        }
+        #myBtn {
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            right: 100px;
+            z-index: 99;
+            font-size: 18px;
+            border: none;
+            outline: none;
+            background-color: #BB2033;
+            color: white;
+            cursor: pointer;
+            padding: 15px;
+            border-radius: 4px;
+            }
+
+            #myBtn:hover {
+            background-color: #BB2033;
+            }
+        footer{
+                border-top: 1px solid #153472;
+            }
+        .blog-entry{
+            height:571px;
+        }
+
+
+    .methods-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px; /* Khoảng cách giữa các ô */
+        justify-content: center; /* Căn giữa các ô nếu hàng cuối bị lẻ */
+    }
+
+    .method-item {
+        /* flex: grow | shrink | basis */
+        flex: 1 1 200px; 
+        max-width: 350px; /* Không cho phép 1 ô giãn quá to khi chỉ có 1-2 dữ liệu */
+        min-height: 280px;
+        display: flex;
+    }
+
+    .method-card {
+        width: 100%;
+        padding: 30px 15px;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        transition: all 0.3s ease;
+        text-decoration: none !important;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    }
+
+    .method-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+        filter: brightness(1.1); /* Làm sáng màu gốc của DB lên một chút khi hover */
+    }
+
+    .method-card .icon-circle {
+        width: 65px;
+        height: 65px;
+        background: rgba(255,255,255,0.25);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+        font-size: 28px;
+        color: white;
+    }
+
+    .method-card h4 {
+        color: white !important;
+        font-size: 1.1rem;
+        font-weight: 700;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+
+    /* Hiệu ứng badge giả nút bấm */
+    .btn-fake {
+        background: rgba(255,255,255,1);
+        color: #333 !important;
+        padding: 8px 20px;
+        border-radius: 50px;
+        font-size: 13px;
+        font-weight: 600;
+        margin-top: auto; /* Đẩy nút xuống đáy card */
+    }
+
+
+
+
+    </style>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16567437515"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'AW-16567437515');
+    </script>
+
+    <!-- Event snippet for Lượt xem trang conversion page -->
+    <script>
+      gtag('event', 'conversion', {'send_to': 'AW-16567437515/D-53COvMlrAZEMuR_Ns9'});
+    </script>
+</head>
+
+<body>
+    <div class="bg-top navbar-light">
+        <div class="container">
+            <div class="row no-gutters d-flex align-items-center align-items-stretch tpheader">
+
+                <div class="col-xs-12 col-md-8 d-flex align-items-center py-4 logovku" style="">
+                    <a class="navbar-brand " href="#" ></a>
+                </div>
+                <!--<div class="col-lg-8 d-block">
+                    <div class="row d-flex">
+                        <div class="col-md d-flex topper align-items-center align-items-stretch py-md-8">
+                            <div class="icon d-flex justify-content-center align-items-center"><span class="icon-paper-plane"></span>
+                            </div>
+                            <div class="text">
+                                <span>Email</span>
+                                <span><a href="https://preview.colorlib.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="156c7a60677078747c79557078747c793b767a78">tuyensinh@vku.udn.vn</a></span>
+                            </div>
+                        </div>
+                        <div class="col-md d-flex topper align-items-center align-items-stretch py-md-4">
+                            <div class="icon d-flex justify-content-center align-items-center"><span class="icon-phone2"></span>
+                            </div>
+                            <div class="text">
+                                <span>Điện thoại</span>
+                                <span>+ 84 236 3 667 113</span>
+                            </div>
+                        </div>
+                        <div class="col-md topper d-flex align-items-center justify-content-end">
+                            <p class="mb-0 d-block">
+                                <a href="#" class="btn py-2 px-3 btn-primary">
+                                    <span>Liên hệ</span>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>-->
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco-navbar-light" id="ftco-navbar">
+        <div class="container d-flex align-items-center">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="oi oi-menu"></span>
+            </button>
+            <form action="#" class="searchform order-lg-last">
+                <div class="form-group d-flex">
+                    <!--<input type="text" class="form-control pl-3" placeholder="Tìm">
+                    <button type="submit" placeholder="" class="form-control search"><span class="ion-ios-search"></span>
+                    </button>-->
+                </div>
+            </form>
+            <div class="collapse navbar-collapse" id="ftco-nav">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active"><a href="/" class="nav-link pl-0">Trang chủ</a>
+                    </li>
+                    
+                    <li class="nav-item active"><a href="/nganh" class="nav-link nganh">Ngành/Chuyên ngành</a>
+                    </li>
+                    <li class="nav-item active"><a href="/phuongthuc" class="nav-link">Phương thức tuyển sinh</a>
+                    </li>
+                                                                        <li class="nav-item active"><a href="https://tuyensinh.vku.udn.vn/thong-bao/699fb78248d97e2c10006594" class="nav-link">Điểm Cộng</a>
+                            </li>
+                                                                                                <li class="nav-item active"><a href="https://tuyensinh.vku.udn.vn/thong-bao/699fedf448d97e2c10006596" class="nav-link">Chính sách hỗ trợ</a>
+                            </li>
+                                                                                                                                                                                                                                                                                                                                    </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="header">
+      <section class="container">
+         <div class="wrapper">
+            
+            <div class="col-sm-12 d-flex align-items-center logovku" style="width:450px; height:70px; background-image:url(../images/LOGO_vku.svg); background-repeat: no-repeat; background-size: 100%; background-position: 0% 50%;">
+            </div>
+          
+            <button type="button" class="burger" id="burger">
+               <span class="burger-line"></span>
+               <span class="burger-line"></span>
+               <span class="burger-line"></span>
+               <span class="burger-line"></span>
+            </button>
+            <span class="overlay" id="overlay"></span>
+            <nav class="navbar" id="navbar">
+               <ul class="menu">
+                    <li class="menu-item menu-item-child">
+                        <a href="#" data-toggle="sub-menu">Giới thiệu <i class="expand"></i></a>
+                        <ul class="sub-menu">
+                            <li class="menu-item"><a href="/thongdiep">Thông điệp của Hiệu trưởng</a></li>
+                            <li class="menu-item"><a href="/su-mang">Sứ mạng</a></li>
+                            <li class="menu-item"><a href="/chuc-nang">Chức năng</a></li>
+                            <li class="menu-item"><a href="https://vku.udn.vn/co-cau-to-chuc">Cơ cấu tổ chức</a></li>
+                            <li class="menu-item"><a href="/doi-ngu-co-so-vat-chat">Đội ngũ Giảng viên</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- <li class="menu-item"><a href="/tracuu">Tra cứu</a></li> -->
+                    <!-- <li class="menu-item"><a href="/cong-cu-tinh">Công cụ tính</a></li> -->
+                    <li class="menu-item menu-item-child">
+                        <a href="#" data-toggle="sub-menu">Thông tin thêm<i class="expand"></i></a>
+                        <ul class="sub-menu">
+                                                                                                                                                                                                                        <li class="menu-item"><a href="https://tuyensinh.vku.udn.vn/thong-bao/69fd5ccf34909e10700c9422">Tra cứu đối tượng ưu tiên</a></li>
+                                                                                                                                <li class="menu-item"><a href="https://tuyensinh.vku.udn.vn/">Hướng dẫn đăng ký xét tuyển</a></li>
+                                                                                                                                <li class="menu-item"><a href="https://tuyensinh.vku.udn.vn/">Câu hỏi thường gặp</a></li>
+                                                                                                                                <li class="menu-item"><a href="https://tuyensinh.vku.udn.vn/">Hoạt động đoàn</a></li>
+                                                                                                                                <li class="menu-item"><a href="https://tuyensinh.vku.udn.vn/thong-bao/69df0e56d89568422406b4b2">Câu lạc bộ</a></li>
+                                                                                                                                <li class="menu-item"><a href="https://tuyensinh.vku.udn.vn/thong-bao/69a56561033b5a56f00215b4">Điểm trúng tuyển các năm</a></li>
+                                                                         
+                        </ul>
+                    </li>                   
+                  
+                  <!-- <li class="menu-item menu-item-child">
+                     <a href="#" data-toggle="sub-menu">Projects <i class="expand"></i></a>
+                     <ul class="sub-menu">
+                        <li class="menu-item"><a href="#">Design Project</a></li>
+                        <li class="menu-item"><a href="#">Development Project</a></li>
+                        <li class="menu-item"><a href="#">Branding Project</a></li>
+                        <li class="menu-item"><a href="#">Others Project</a></li>
+                     </ul>
+                  </li>-->
+                  <li class="menu-item"><a href="#">Liên hệ</a></li>
+               </ul>
+            </nav>
+         </div>
+      </section>
+   </header>
+
+        <section class="hero-wrap hero-wrap-2" style="background-image:url(../images/bg_1.jpg)">
+        <div class="overlay"></div>
+            <div class="container">
+                <div class="row no-gutters slider-text align-items-center justify-content-center">
+                    <div class="col-md-9 ftco-animate text-center">
+                        <h1 class="mb-2 bread">CHI TIẾT THÔNG BÁO</h1>
+                        <p class="breadcrumbs" style="text-align:center"><span class="mr-2"><a href="/">Trang chủ <i class="ion-ios-arrow-forward"></i></a></span> <span>Chi tiết</span></p>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="ftco-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 ftco-animate">
+                    <h2 class="mb-3 fw-bold">Phương thức xét tuyển kết hợp</h2>
+                    <p class="text-muted" style="font-size: 14px;">
+                        <i class="ion-md-calendar mr-2"></i> Ngày đăng: 10/02/2026
+                    </p>
+                    
+                    <hr>
+
+                    <div class="content-detail mt-4" style="line-height: 1.8; font-size: 16px; color: #333;">
+                        <h3><span style="color:#002060;"><span lang="SV" dir="ltr">Phương thức xét tuyển kết hợp</span></span></h3><p><span style="color:#002060;"><span lang="SV" dir="ltr"><strong>a) Mã phương thức xét tuyển:</strong>&nbsp;<strong>407</strong></span></span></p><p><span style="color:#002060;"><span lang="SV" dir="ltr"><strong>b) Đối tượng xét tuyển:&nbsp;</strong></span></span></p><p style="text-align:justify;"><span style="color:#002060;"><span lang="SV" dir="ltr">Thí sinh tốt nghiệp chương trình THPT trên toàn quốc có tổ hợp môn phù hợp với tổ hợp môn xét tuyển theo quy định, đảm bảo ngưỡng đầu vào theo quy chế tuyển sinh hiện hành.</span></span></p><p><span style="color:#002060;"><span lang="SV" dir="ltr"><strong>c) Nguyên tắc xét tuyển (Dự kiến):</strong></span></span></p><p style="margin-left:0cm;text-align:justify;"><span style="color:#002060;"><span lang="SV" dir="ltr"><strong>- Điểm xét tuyển = Đ</strong></span><span lang="EN-US" dir="ltr"><strong>iểm học bạ * 60% + Điểm thi TN THPT* 40% + Điểm cộng + Điểm ưu tiên</strong></span></span></p><p style="margin-left:0cm;text-align:justify;"><span style="background-color:white;">+ Điểm học bạ: là tổng điểm 03 môn trong học bạ THPT thuộc tổ hợp xét tuyển, quy về thang điểm 30, làm tròn đến hai chữ số thập phân. Điểm của mỗi môn học bạ được tính bằng điểm trung bình kết quả học tập cả năm của 03 năm học (lớp 10, lớp 11 và lớp 12), làm tròn đến hai chữ số thập phân;&nbsp;</span></p><p style="margin-left:0cm;text-align:justify;"><span style="background-color:white;">+ Điểm thi TN THPT: là tổng điểm 03 môn thi tốt nghiệp THPT thuộc tổ hợp xét tuyển, quy về thang điểm 30, làm tròn đến hai chữ số thập phân;</span></p><p style="margin-left:0cm;text-align:justify;"><span style="background-color:white;">+ Điểm cộng; Điểm ưu tiên: Chi tiết sẽ được công bố theo kế hoạch của Bộ GD&amp;ĐT<i>.</i></span></p><p style="margin-left:0cm;text-align:justify;"><span style="background-color:white;"><span lang="SV" dir="ltr">Điểm xét tuyển được làm tròn đến 02 chữ số thập phân.&nbsp;</span>Tổng điểm xét tuyển sau khi cộng điểm cộng và điểm ưu tiên không vượt quá 30 điểm<span lang="SV" dir="ltr">;</span></span></p><p style="margin-left:0cm;text-align:justify;"><span style="background-color:white;"><span lang="SV" dir="ltr">Lưu ý:</span></span></p><p style="margin-left:0cm;text-align:justify;"><span style="background-color:white;">+ Tổ hợp môn xét tuyển sử dụng cho điểm thi TN THPT và điểm học bạ phải sử dụng chung 01 tổ hợp xét tuyển. Môn Tiếng Anh dùng trong xét tuyển là ngoại ngữ chính (ngoại ngữ 1) được ghi trong học bạ THPT.&nbsp;</span></p><p style="margin-left:0cm;text-align:justify;"><span lang="SV" dir="ltr">+ Thí sinh không cung cấp minh chứng hoặc minh chứng không hợp lệ&nbsp;sẽ&nbsp;không được cộng Điểm cộng và Điểm ưu tiên&nbsp;đối tượng, khu vực;</span></p><p style="margin-left:0cm;text-align:justify;"><span lang="SV" dir="ltr">+&nbsp;Đối với thí sinh không tham dự kỳ thi tốt nghiệp THPT năm 2026: thực hiện theo hướng dẫn, quy định của Bộ Giáo dục và Đào tạo để làm căn cứ xét tuyển.</span></p><p style="margin-left:0cm;text-align:justify;"><span lang="SV" dir="ltr">+&nbsp;</span>Trường hợp các thí sinh ở cuối danh sách có điểm xét tuyển bằng nhau, ưu tiên thí sinh có điểm cộng ít hơn và thứ tự nguyện vọng nhỏ hơn<span lang="SV" dir="ltr">.</span></p><p style="text-align:justify;"><span style="color:#002060;"><span lang="SV" dir="ltr"><strong>d) Tổ hợp xét tuyển (dự kiến)</strong></span></span></p><figure class="table" style="width:100%;"><table class="ck-table-resized"><colgroup><col style="width:5.22%;"><col style="width:4.42%;"><col style="width:45.93%;"><col style="width:10.92%;"><col style="width:22.59%;"><col style="width:10.92%;"></colgroup><tbody><tr><td style="background-color:white;border:1.0pt solid windowtext;height:46.1pt;padding:0cm 1.4pt;width:21.15pt;"><p style="margin-left:0cm;text-align:center;"><span style="color:black;"><span lang="EN-US" dir="ltr"><strong>TT</strong></span></span></p></td><td style="background-color:white;border-bottom-style:solid;border-color:windowtext;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;height:46.1pt;padding:0cm 1.4pt;width:42.7pt;"><p style="margin-left:0cm;text-align:center;"><span style="color:black;"><span lang="EN-US" dir="ltr"><strong>Mã trường</strong></span></span></p></td><td style="background-color:white;border-bottom-style:solid;border-color:windowtext;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;height:46.1pt;padding:0cm 1.4pt;width:155.65pt;"><p style="margin-left:0cm;text-align:center;"><span style="color:black;"><span lang="EN-US" dir="ltr"><strong>Tên ngành - Chuyên ngành</strong></span></span></p></td><td style="background-color:white;border-bottom-style:solid;border-color:windowtext;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;height:46.1pt;padding:0cm 1.4pt;width:70.7pt;"><p style="margin-left:0cm;text-align:center;"><span style="color:black;"><span lang="EN-US" dir="ltr"><strong>Mã xét tuyển</strong></span></span></p></td><td style="background-color:white;border-bottom-style:solid;border-color:windowtext;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;height:46.1pt;padding:0cm 1.4pt;width:113.9pt;"><p style="margin-left:0cm;text-align:center;"><span style="color:black;"><span lang="EN-US" dir="ltr"><strong>Tổ hợp xét tuyển</strong></span></span></p></td><td style="background-color:white;border-bottom-style:solid;border-color:windowtext;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;height:46.1pt;padding:0cm 1.4pt;width:49.65pt;"><p style="margin-left:0cm;text-align:center;"><span style="color:black;"><span lang="EN-US" dir="ltr"><strong>Mã tổ hợp xét tuyển</strong></span></span></p></td></tr><tr><td style="border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:14.6pt;padding:0cm 1.4pt;width:21.15pt;"><p style="margin-left:0cm;text-align:center;"><span lang="EN-US" dir="ltr"><strong>(1)</strong></span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:14.6pt;padding:0cm 1.4pt;width:42.7pt;"><p style="margin-left:0cm;text-align:center;"><span lang="EN-US" dir="ltr"><strong>(2)</strong></span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:14.6pt;padding:0cm 1.4pt;width:155.65pt;"><p style="margin-left:0cm;text-align:center;"><span lang="EN-US" dir="ltr"><strong>(3)</strong></span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:14.6pt;padding:0cm 1.4pt;width:70.7pt;"><p style="margin-left:0cm;text-align:center;"><span lang="EN-US" dir="ltr"><strong>(4)</strong></span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:14.6pt;padding:0cm 1.4pt;width:113.9pt;"><p style="margin-left:0cm;text-align:center;"><span lang="EN-US" dir="ltr"><strong>(5)</strong></span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:14.6pt;padding:0cm 1.4pt;width:49.65pt;"><p style="margin-left:0cm;text-align:center;"><span lang="EN-US" dir="ltr"><strong>(6)</strong></span></p></td></tr><tr><td style="border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:21.15pt;padding:0cm 1.4pt;width:21.15pt;"><p style="margin-left:0cm;text-align:center;"><span lang="EN-US" dir="ltr">1</span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:21.15pt;padding:0cm 1.4pt;width:42.7pt;"><p style="margin-left:0cm;text-align:center;"><span lang="EN-US" dir="ltr">VKU</span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:21.15pt;padding:0cm 1.4pt;width:155.65pt;"><p style="margin-left:0cm;"><span lang="EN-US" dir="ltr">Công nghệ truyền thông (cử nhân)</span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:21.15pt;padding:0cm 1.4pt;text-align:center;width:70.7pt;"><p style="margin-left:0cm;"><span lang="EN-US" dir="ltr">7320106</span></p></td><td style="border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:21.15pt;padding:0cm 1.4pt;width:113.9pt;" rowspan="9"><p style="margin-left:0cm;"><span lang="EN-US" dir="ltr">1.&nbsp;Toán + Tiếng Anh + Ngữ Văn</span></p><p style="margin-left:0cm;"><span lang="EN-US" dir="ltr">2.&nbsp;Toán + Tiếng Anh + Lịch Sử</span></p><p style="margin-left:0cm;"><span lang="EN-US" dir="ltr">3. Toán + Tiếng Anh + Tin học</span></p><p style="margin-left:0cm;"><span lang="EN-US" dir="ltr">4. Toán + Tiếng Anh + Địa lí</span></p><p style="margin-left:0cm;"><span lang="EN-US" dir="ltr">5a. Ngữ Văn + Tiếng Anh + GDKT&amp;PL</span></p><p style="margin-left:0cm;"><span lang="EN-US" dir="ltr">5b. Ngữ Văn + Tiếng Anh + GDCD</span></p><p style="margin-left:0cm;"><span lang="EN-US" dir="ltr">6. Ngữ Văn + Lịch Sử + Địa lí</span></p></td><td style="border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:21.15pt;padding:0cm 1.4pt;width:49.65pt;" rowspan="9"><p style="margin-left:0cm;text-align:center;"><span lang="EN-US" dir="ltr">1.&nbsp;D00</span></p><p style="margin-left:0cm;text-align:center;"><span lang="EN-US" dir="ltr">2.&nbsp;D09</span></p><p style="margin-left:0cm;text-align:center;"><span lang="EN-US" dir="ltr">3. X26</span></p><p style="margin-left:0cm;text-align:center;"><span lang="EN-US" dir="ltr">4. D10</span></p><p style="margin-left:0cm;text-align:center;"><span lang="EN-US" dir="ltr">5a. X78</span></p><p style="margin-left:0cm;text-align:center;"><span lang="EN-US" dir="ltr">5b. D66</span></p><p style="margin-left:0cm;text-align:center;"><span lang="EN-US" dir="ltr">6. C00</span></p></td></tr><tr><td style="border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:52.7pt;padding:0cm 1.4pt;width:21.15pt;"><p style="margin-left:0cm;text-align:center;"><span lang="EN-US" dir="ltr">2</span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:52.7pt;padding:0cm 1.4pt;width:42.7pt;"><p style="margin-left:0cm;text-align:center;"><span lang="EN-US" dir="ltr">VKU</span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:52.7pt;padding:0cm 1.4pt;width:155.65pt;"><p style="margin-left:0cm;"><span lang="EN-US" dir="ltr">Công nghệ truyền thông - Chuyên ngành Thiết kế mỹ thuật số (cử nhân)</span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:52.7pt;padding:0cm 1.4pt;text-align:center;width:70.7pt;"><p style="margin-left:0cm;"><span lang="EN-US" dir="ltr">7320106DA</span></p></td></tr><tr><td style="border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:15.35pt;padding:0cm 1.4pt;width:21.15pt;"><p style="margin-left:0cm;text-align:center;"><span lang="EN-US" dir="ltr">3</span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:15.35pt;padding:0cm 1.4pt;width:42.7pt;"><p style="margin-left:0cm;text-align:center;"><span lang="EN-US" dir="ltr">VKU</span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:15.35pt;padding:0cm 1.4pt;width:155.65pt;"><p style="margin-left:0cm;"><span lang="EN-US" dir="ltr">Quản trị kinh doanh (cử nhân)</span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:15.35pt;padding:0cm 1.4pt;text-align:center;width:70.7pt;"><p style="margin-left:0cm;"><span lang="EN-US" dir="ltr">7340101</span></p></td></tr><tr><td style="border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:30.75pt;padding:0cm 1.4pt;width:21.15pt;"><p style="margin-left:0cm;text-align:center;"><span lang="EN-US" dir="ltr">4</span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:30.75pt;padding:0cm 1.4pt;width:42.7pt;"><p style="margin-left:0cm;text-align:center;"><span lang="EN-US" dir="ltr">VKU</span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:30.75pt;padding:0cm 1.4pt;width:155.65pt;"><p style="margin-left:0cm;"><span lang="EN-US" dir="ltr">Quản trị kinh doanh - Chuyên ngành Quản trị Logistics &amp; Chuỗi cung ứng số (cử nhân)</span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:30.75pt;padding:0cm 1.4pt;text-align:center;width:70.7pt;"><p style="margin-left:0cm;"><span lang="EN-US" dir="ltr">7340101EL</span></p></td></tr><tr><td style="border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:46.1pt;padding:0cm 1.4pt;width:21.15pt;"><p style="margin-left:0cm;text-align:center;"><span lang="EN-US" dir="ltr">5</span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:46.1pt;padding:0cm 1.4pt;width:42.7pt;"><p style="margin-left:0cm;text-align:center;"><span lang="EN-US" dir="ltr">VKU</span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:46.1pt;padding:0cm 1.4pt;width:155.65pt;"><p style="margin-left:0cm;"><span lang="EN-US" dir="ltr">Quản trị kinh doanh - Chuyên ngành Quản trị dịch vụ du lịch và lữ hành số (cử nhân)</span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:46.1pt;padding:0cm 1.4pt;text-align:center;width:70.7pt;"><p style="margin-left:0cm;"><span lang="EN-US" dir="ltr">7340101ET</span></p></td></tr><tr><td style="border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:30.75pt;padding:0cm 1.4pt;width:21.15pt;"><p style="margin-left:0cm;text-align:center;"><span lang="EN-US" dir="ltr">6</span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:30.75pt;padding:0cm 1.4pt;width:42.7pt;"><p style="margin-left:0cm;text-align:center;"><span lang="EN-US" dir="ltr">VKU</span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:30.75pt;padding:0cm 1.4pt;width:155.65pt;"><p style="margin-left:0cm;"><span lang="EN-US" dir="ltr">Quản trị kinh doanh - Chuyên ngành Quản trị dự án Công nghệ thông tin (cử nhân)</span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:30.75pt;padding:0cm 1.4pt;text-align:center;width:70.7pt;"><p style="margin-left:0cm;"><span lang="EN-US" dir="ltr">7340101IM</span></p></td></tr><tr><td style="border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:30.75pt;padding:0cm 1.4pt;width:21.15pt;"><p style="margin-left:0cm;text-align:center;"><span lang="EN-US" dir="ltr">7</span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:30.75pt;padding:0cm 1.4pt;width:42.7pt;"><p style="margin-left:0cm;text-align:center;"><span lang="EN-US" dir="ltr">VKU</span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:30.75pt;padding:0cm 1.4pt;width:155.65pt;"><p style="margin-left:0cm;"><span lang="EN-US" dir="ltr">Quản trị kinh doanh - Chuyên ngành Giải trí và Truyền thông số (cử nhân)</span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:30.75pt;padding:0cm 1.4pt;text-align:center;width:70.7pt;"><p style="margin-left:0cm;"><span lang="EN-US" dir="ltr">&nbsp;7340101DE</span></p></td></tr><tr><td style="border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:15.35pt;padding:0cm 1.4pt;width:21.15pt;"><p style="margin-left:0cm;text-align:center;"><span lang="EN-US" dir="ltr">8</span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:15.35pt;padding:0cm 1.4pt;width:42.7pt;"><p style="margin-left:0cm;text-align:center;"><span lang="EN-US" dir="ltr">VKU</span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:15.35pt;padding:0cm 1.4pt;width:155.65pt;"><p style="margin-left:0cm;"><span lang="EN-US" dir="ltr">Marketing (cử nhân)</span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:15.35pt;padding:0cm 1.4pt;text-align:center;width:70.7pt;"><p style="margin-left:0cm;"><span lang="EN-US" dir="ltr">7340115</span></p></td></tr><tr><td style="border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:15.35pt;padding:0cm 1.4pt;width:21.15pt;"><p style="margin-left:0cm;text-align:center;"><span lang="EN-US" dir="ltr">9</span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:15.35pt;padding:0cm 1.4pt;width:42.7pt;"><p style="margin-left:0cm;text-align:center;"><span lang="EN-US" dir="ltr">VKU</span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:15.35pt;padding:0cm 1.4pt;width:155.65pt;"><p style="margin-left:0cm;"><span lang="EN-US" dir="ltr">Công nghệ Tài chính (cử nhân)</span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:15.35pt;padding:0cm 1.4pt;text-align:center;width:70.7pt;"><p style="margin-left:0cm;"><span lang="EN-US" dir="ltr">7340205</span></p></td></tr><tr><td style="border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:30.0pt;padding:0cm 1.4pt;width:21.15pt;"><p style="margin-left:0cm;text-align:center;"><span lang="EN-US" dir="ltr">10</span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:30.0pt;padding:0cm 1.4pt;width:42.7pt;"><p style="margin-left:0cm;text-align:center;"><span lang="EN-US" dir="ltr">VKU</span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:30.0pt;padding:0cm 1.4pt;width:155.65pt;"><p style="margin-left:0cm;"><span lang="EN-US" dir="ltr">Công nghệ kỹ thuật máy tính (kỹ sư)</span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:30.0pt;padding:0cm 1.4pt;text-align:center;width:70.7pt;"><p style="margin-left:0cm;"><span lang="EN-US" dir="ltr">7480108</span></p></td><td style="border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:30.0pt;padding:0cm 1.4pt;width:113.9pt;" rowspan="11"><p style="margin-left:0cm;"><span lang="EN-US" dir="ltr">1. Toán + Vật lí + Hóa học</span></p><p style="margin-left:0cm;"><span lang="EN-US" dir="ltr">2. Toán + Tiếng Anh + Tin học</span></p><p style="margin-left:0cm;"><span lang="EN-US" dir="ltr">3.&nbsp;Toán + Vật lí + Tiếng Anh</span></p><p style="margin-left:0cm;"><span lang="EN-US" dir="ltr">4. Toán + Ngữ Văn + Tiếng Anh</span></p><p style="margin-left:0cm;"><span lang="EN-US" dir="ltr">5. Toán + Vật lí + Tin học</span></p><p style="margin-left:0cm;"><span lang="EN-US" dir="ltr">6. Toán + Tiếng Anh + Hóa học</span></p></td><td style="border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:30.0pt;padding:0cm 1.4pt;width:49.65pt;" rowspan="11"><p style="margin-left:0cm;text-align:center;"><span lang="EN-US" dir="ltr">1.&nbsp;A00</span></p><p style="margin-left:0cm;text-align:center;"><span lang="EN-US" dir="ltr">2. X26</span></p><p style="margin-left:0cm;text-align:center;"><span lang="EN-US" dir="ltr">3. A01</span></p><p style="margin-left:0cm;text-align:center;"><span lang="EN-US" dir="ltr">4. D01</span></p><p style="margin-left:0cm;text-align:center;"><span lang="EN-US" dir="ltr">5. X06</span></p><p style="margin-left:0cm;text-align:center;"><span lang="EN-US" dir="ltr">6. D07</span></p></td></tr><tr><td style="border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:30.75pt;padding:0cm 1.4pt;width:21.15pt;"><p style="margin-left:0cm;text-align:center;"><span lang="EN-US" dir="ltr">11</span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:30.75pt;padding:0cm 1.4pt;width:42.7pt;"><p style="margin-left:0cm;text-align:center;"><span lang="EN-US" dir="ltr">VKU</span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:30.75pt;padding:0cm 1.4pt;width:155.65pt;"><p style="margin-left:0cm;"><span lang="EN-US" dir="ltr">Công nghệ kỹ thuật máy tính (cử nhân)</span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:30.75pt;padding:0cm 1.4pt;text-align:center;width:70.7pt;"><p style="margin-left:0cm;"><span lang="EN-US" dir="ltr">7480108B</span></p></td></tr><tr><td style="border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:46.1pt;padding:0cm 1.4pt;width:21.15pt;"><p style="margin-left:0cm;text-align:center;"><span lang="EN-US" dir="ltr">12</span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:46.1pt;padding:0cm 1.4pt;width:42.7pt;"><p style="margin-left:0cm;text-align:center;"><span lang="EN-US" dir="ltr">VKU</span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:46.1pt;padding:0cm 1.4pt;width:155.65pt;"><p style="margin-left:0cm;"><span lang="EN-US" dir="ltr">Công nghệ kỹ thuật máy tính - Chuyên ngành Kỹ thuật phần mềm ô tô (kỹ sư)</span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:46.1pt;padding:0cm 1.4pt;text-align:center;width:70.7pt;"><p style="margin-left:0cm;"><span lang="EN-US" dir="ltr">7480108AS</span></p></td></tr><tr><td style="border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:30.75pt;padding:0cm 1.4pt;width:21.15pt;"><p style="margin-left:0cm;text-align:center;"><span lang="EN-US" dir="ltr">13</span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:30.75pt;padding:0cm 1.4pt;width:42.7pt;"><p style="margin-left:0cm;text-align:center;"><span lang="EN-US" dir="ltr">VKU</span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:30.75pt;padding:0cm 1.4pt;width:155.65pt;"><p style="margin-left:0cm;"><span lang="EN-US" dir="ltr">Công nghệ kỹ thuật máy tính - Thiết bị bay không người lái (kỹ sư)</span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:30.75pt;padding:0cm 1.4pt;text-align:center;width:70.7pt;"><p style="margin-left:0cm;"><span lang="EN-US" dir="ltr">&nbsp;7480108UA</span></p></td></tr><tr><td style="border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:30.75pt;padding:0cm 1.4pt;width:21.15pt;"><p style="margin-left:0cm;text-align:center;"><span lang="EN-US" dir="ltr">14</span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:30.75pt;padding:0cm 1.4pt;width:42.7pt;"><p style="margin-left:0cm;text-align:center;"><span lang="EN-US" dir="ltr">VKU</span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:30.75pt;padding:0cm 1.4pt;width:155.65pt;"><p style="margin-left:0cm;"><span lang="EN-US" dir="ltr">Công nghệ kỹ thuật máy tính - Kỹ thuật Robot và trí tuệ nhân tạo (kỹ sư)</span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:30.75pt;padding:0cm 1.4pt;text-align:center;width:70.7pt;"><p style="margin-left:0cm;"><span lang="EN-US" dir="ltr">&nbsp;7480108RA</span></p></td></tr><tr><td style="border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:15.35pt;padding:0cm 1.4pt;width:21.15pt;"><p style="margin-left:0cm;text-align:center;"><span lang="EN-US" dir="ltr">15</span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:15.35pt;padding:0cm 1.4pt;width:42.7pt;"><p style="margin-left:0cm;text-align:center;"><span lang="EN-US" dir="ltr">VKU</span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:15.35pt;padding:0cm 1.4pt;width:155.65pt;"><p style="margin-left:0cm;"><span lang="EN-US" dir="ltr">An toàn thông tin (kỹ sư)</span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:15.35pt;padding:0cm 1.4pt;text-align:center;width:70.7pt;"><p style="margin-left:0cm;"><span lang="EN-US" dir="ltr">7480202</span></p></td></tr><tr><td style="border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:15.35pt;padding:0cm 1.4pt;width:21.15pt;"><p style="margin-left:0cm;text-align:center;"><span lang="EN-US" dir="ltr">16</span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:15.35pt;padding:0cm 1.4pt;width:42.7pt;"><p style="margin-left:0cm;text-align:center;"><span lang="EN-US" dir="ltr">VKU</span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:15.35pt;padding:0cm 1.4pt;width:155.65pt;"><p style="margin-left:0cm;"><span lang="EN-US" dir="ltr">Trí tuệ nhân tạo (kỹ sư)</span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:15.35pt;padding:0cm 1.4pt;text-align:center;width:70.7pt;"><p style="margin-left:0cm;"><span lang="EN-US" dir="ltr">7480107</span></p></td></tr><tr><td style="border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:30.75pt;padding:0cm 1.4pt;width:21.15pt;"><p style="margin-left:0cm;text-align:center;"><span lang="EN-US" dir="ltr">17</span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:30.75pt;padding:0cm 1.4pt;width:42.7pt;"><p style="margin-left:0cm;text-align:center;"><span lang="EN-US" dir="ltr">VKU</span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:30.75pt;padding:0cm 1.4pt;width:155.65pt;"><p style="margin-left:0cm;"><span lang="EN-US" dir="ltr">Trí tuệ nhân tạo - Chuyên ngành Phân tích dữ liệu (kỹ sư)</span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:30.75pt;padding:0cm 1.4pt;text-align:center;width:70.7pt;"><p style="margin-left:0cm;"><span lang="EN-US" dir="ltr">7480107DA</span></p></td></tr><tr><td style="border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:15.35pt;padding:0cm 1.4pt;width:21.15pt;"><p style="margin-left:0cm;text-align:center;"><span lang="EN-US" dir="ltr">18</span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:15.35pt;padding:0cm 1.4pt;width:42.7pt;"><p style="margin-left:0cm;text-align:center;"><span lang="EN-US" dir="ltr">VKU</span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:15.35pt;padding:0cm 1.4pt;width:155.65pt;"><p style="margin-left:0cm;"><span lang="EN-US" dir="ltr">Công nghệ thông tin (kỹ sư)</span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:15.35pt;padding:0cm 1.4pt;text-align:center;width:70.7pt;"><p style="margin-left:0cm;"><span lang="EN-US" dir="ltr">7480201</span></p></td></tr><tr><td style="border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:15.35pt;padding:0cm 1.4pt;width:21.15pt;"><p style="margin-left:0cm;text-align:center;"><span lang="EN-US" dir="ltr">19</span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:15.35pt;padding:0cm 1.4pt;width:42.7pt;"><p style="margin-left:0cm;text-align:center;"><span lang="EN-US" dir="ltr">VKU</span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:15.35pt;padding:0cm 1.4pt;width:155.65pt;"><p style="margin-left:0cm;"><span lang="EN-US" dir="ltr">Công nghệ thông tin (cử nhân)</span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:15.35pt;padding:0cm 1.4pt;text-align:center;width:70.7pt;"><p style="margin-left:0cm;"><span lang="EN-US" dir="ltr">7480201B</span></p></td></tr><tr><td style="border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:30.75pt;padding:0cm 1.4pt;width:21.15pt;"><p style="margin-left:0cm;text-align:center;"><span lang="EN-US" dir="ltr">20</span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:30.75pt;padding:0cm 1.4pt;width:42.7pt;"><p style="margin-left:0cm;text-align:center;"><span lang="EN-US" dir="ltr">VKU</span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:30.75pt;padding:0cm 1.4pt;width:155.65pt;"><p style="margin-left:0cm;"><span lang="EN-US" dir="ltr">Công nghệ thông tin - Chuyên ngành Công nghệ Game (kỹ sư)</span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:30.75pt;padding:0cm 1.4pt;text-align:center;width:70.7pt;"><p style="margin-left:0cm;"><span lang="EN-US" dir="ltr">7480201GT</span></p></td></tr><tr><td style="border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:107.4pt;padding:0cm 1.4pt;width:21.15pt;"><p style="margin-left:0cm;text-align:center;"><span lang="EN-US" dir="ltr">21</span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:107.4pt;padding:0cm 1.4pt;width:42.7pt;"><p style="margin-left:0cm;text-align:center;"><span lang="EN-US" dir="ltr">VKU</span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:107.4pt;padding:0cm 1.4pt;width:155.65pt;"><p style="margin-left:0cm;"><span lang="EN-US" dir="ltr">Công nghệ kỹ thuật máy tính - Chuyên ngành Thiết kế vi mạch bán dẫn (kỹ sư)</span></p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:107.4pt;padding:0cm 1.4pt;text-align:center;width:70.7pt;"><p style="margin-left:0cm;"><span lang="EN-US" dir="ltr">7480108IC</span></p></td><td style="border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:107.4pt;padding:3px;width:113.9pt;" rowspan="2"><p style="margin-left:0cm;"><span lang="EN-US" dir="ltr">1. Toán + Vật lí + Hóa học</span></p><p style="margin-left:0cm;"><span lang="EN-US" dir="ltr">2. Toán + Vật lí + Tiếng Anh</span></p><p style="margin-left:0cm;"><span lang="EN-US" dir="ltr">3.&nbsp;Toán + Vật lí + Tin học</span></p><p style="margin-left:0cm;"><span lang="EN-US" dir="ltr">4. Toán + Vật lí + Ngữ Văn</span></p><p style="margin-left:0cm;"><span lang="EN-US" dir="ltr">5. Toán + Tiếng Anh + Hóa học</span></p><p style="margin-left:0cm;"><span lang="EN-US" dir="ltr">6. Toán + Tiếng Anh + Tin học</span></p></td><td style="border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:107.4pt;padding:0cm 1.4pt;width:49.65pt;" rowspan="2"><p style="margin-left:0cm;text-align:center;"><span lang="EN-US" dir="ltr">1.&nbsp;A00</span></p><p style="margin-left:0cm;text-align:center;"><span lang="EN-US" dir="ltr">2. A01</span></p><p style="margin-left:0cm;text-align:center;"><span lang="EN-US" dir="ltr">3. X06</span></p><p style="margin-left:0cm;text-align:center;"><span lang="EN-US" dir="ltr">4. C01</span></p><p style="margin-left:0cm;text-align:center;"><span lang="EN-US" dir="ltr">5. D07</span></p><p style="margin-left:0cm;text-align:center;"><span lang="EN-US" dir="ltr">6. X26</span></p></td></tr><tr><td style="border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:46.1pt;padding:0cm 1.4pt;width:21.15pt;"><p style="margin-left:0cm;text-align:center;">&nbsp;</p><p style="margin-left:0cm;text-align:center;"><span lang="EN-US" dir="ltr">22</span></p><p style="margin-left:0cm;text-align:center;">&nbsp;</p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:46.1pt;padding:0cm 1.4pt;width:42.7pt;"><p style="margin-left:0cm;text-align:center;">&nbsp;</p><p style="margin-left:0cm;text-align:center;"><span lang="EN-US" dir="ltr">VKU</span></p><p style="margin-left:0cm;text-align:center;">&nbsp;</p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:46.1pt;padding:0cm 1.4pt;width:155.65pt;"><p style="margin-left:0cm;">&nbsp;</p><p style="margin-left:0cm;"><span lang="EN-US" dir="ltr">Công nghệ kỹ thuật máy tính - Chuyên ngành Đóng gói và kiểm thử vi mạch bán dẫn (kỹ sư)</span></p><p style="margin-left:0cm;">&nbsp;</p></td><td style="border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:46.1pt;padding:0cm 1.4pt;text-align:center;width:70.7pt;"><p style="margin-left:0cm;"><span lang="EN-US" dir="ltr">&nbsp;</span></p><p style="margin-left:0cm;"><span lang="EN-US" dir="ltr">7480108PT</span></p><p style="margin-left:0cm;">&nbsp;</p></td></tr></tbody></table></figure> 
+                    </div>
+
+                                                            
+                    <div class="mt-5">
+                        <a href="https://tuyensinh.vku.udn.vn" class="btn btn-outline-primary rounded-pill">
+                            <i class="ion-md-arrow-back mr-2"></i> Quay lại danh sách
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 sidebar ftco-animate">
+                    <div class="sidebar-box p-4 bg-light">
+                        <h4 class="fw-bold mb-4">Thông báo mới nhất</h4>
+                                                <div class="block-21 mb-4 d-flex">
+                            <div class="text">
+                                <h5 class="heading" style="font-size: 15px;">
+                                    <a href="https://tuyensinh.vku.udn.vn/thong-bao/6a79472c0619ded1f20e9b44">TRƯỜNG ĐẠI HỌC CÔNG NGHỆ THÔNG TIN VÀ TRUYỀN THÔNG VIỆT - HÀN CÔNG BỐ ĐIỂM TRÚNG TUYỂN ĐẠI HỌC NĂM 2026!</a>
+                                </h5>
+                                <div class="meta">
+                                    <div><small><i class="ion-md-calendar"></i> 09/08/2026</small></div>
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="block-21 mb-4 d-flex">
+                            <div class="text">
+                                <h5 class="heading" style="font-size: 15px;">
+                                    <a href="https://tuyensinh.vku.udn.vn/thong-bao/6a7067db1b897aba700a1894">THÔNG BÁO: QUY TẮC QUY ĐỔI TƯƠNG ĐƯƠNG ĐIỂM TRÚNG TUYỂN VÀO VKU NĂM 2026</a>
+                                </h5>
+                                <div class="meta">
+                                    <div><small><i class="ion-md-calendar"></i> 03/08/2026</small></div>
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="block-21 mb-4 d-flex">
+                            <div class="text">
+                                <h5 class="heading" style="font-size: 15px;">
+                                    <a href="https://tuyensinh.vku.udn.vn/thong-bao/699fedf448d97e2c10006596">HỌC BỔNG ĐẦU VÀO VÀ CHÍNH SÁCH HỖ TRỢ NGƯỜI HỌC TRONG TUYỂN SINH ĐẠI HỌC - KHÓA 2026</a>
+                                </h5>
+                                <div class="meta">
+                                    <div><small><i class="ion-md-calendar"></i> 01/06/2026</small></div>
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="block-21 mb-4 d-flex">
+                            <div class="text">
+                                <h5 class="heading" style="font-size: 15px;">
+                                    <a href="https://tuyensinh.vku.udn.vn/thong-bao/6a029fac0004d709a40b5c02">📢 [VKU] CHÍNH THỨC MỞ CỔNG NHẬN HỒ SƠ MINH CHỨNG ĐIỂM CỘNG - HỒ SƠ THÍ SINH TỰ DO  - HỒ SƠ XÉT TUYỂN THẲNG NĂM 2026! 🎓</a>
+                                </h5>
+                                <div class="meta">
+                                    <div><small><i class="ion-md-calendar"></i> 11/05/2026</small></div>
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="block-21 mb-4 d-flex">
+                            <div class="text">
+                                <h5 class="heading" style="font-size: 15px;">
+                                    <a href="https://tuyensinh.vku.udn.vn/thong-bao/699d270922d808765d0d6ad2">Trường Đại học Công nghệ Thông tin và Truyền thông Việt - Hàn công bố Thông tin tuyển sinh năm 2026</a>
+                                </h5>
+                                <div class="meta">
+                                    <div><small><i class="ion-md-calendar"></i> 14/02/2026</small></div>
+                                </div>
+                            </div>
+                        </div>
+                                            </div>
+                    <div class="sidebar-box ftco-animate">
+                        <h3>Có thể bạn quan tâm</h3>
+                        <!-- <div class="block-21 mb-4 d-flex">
+                            <a class="blog-img mr-4" style="background-image:url(../images/ximage_2.jpg.pagespeed.ic.mQGyn1P_Li.jpg)"></a>
+                            <div class="text">
+                                <h3 class="heading"><a href="/cong-cu-tinh">Công cụ tính điểm học bạ</a></h3>
+                                <div class="meta">
+                                </div>
+                            </div>
+                        </div> -->
+                        <div class="block-21 mb-4 d-flex">
+                            <a class="blog-img mr-4" style="background-image:url(../images/ximage_3.jpg.pagespeed.ic.CWHmT1gFhf.jpg)"></a>
+                            <div class="text">
+                                <h3 class="heading"><a href="/doi-tuong-uu-tien">Tra cứu đối tượng ưu tiên</a></h3>
+                                <div class="meta">
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="block-21 mb-4 d-flex">
+                            <a class="blog-img mr-4" style="background-image:url(../images/ximage_1.jpg.pagespeed.ic.Yc6gAsaZ2Y.jpg)"></a>
+                            <div class="text">
+                                <h3 class="heading"><a href="#">Câu hỏi thường gặp</a></h3>
+                                <div class="meta">
+                                    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>                    <div class="sidebar-box ftco-animate">
+                        <h3>Tag Cloud</h3>
+                        <ul class="tagcloud m-0 p-0">
+                            <a href="#" class="tag-cloud-link">VKU</a>
+                            <a href="#" class="tag-cloud-link">TUYENSINHVKU</a>
+                            <a href="#" class="tag-cloud-link">VKU2026</a>
+                            <a href="#" class="tag-cloud-link">TUYENSINH</a>
+                            <a href="#" class="tag-cloud-link">TUYENSINH2026</a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="ftco-intro ftco-no-pb img" style="background-image:url(../images/bg_3.jpg)">
+        <div class="container">
+            <div class="row justify-content-center mb-5">
+                <div class="col-md-10 text-center heading-section heading-section-white ftco-animate">
+                    <h2 class="mb-0">Thông tin Tuyển sinh 2026</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+<section class="ftco-counter" id="section-counter">
+        <div class="container">
+            <div class="row d-md-flex align-items-center justify-content-center">
+                <div class="wrapper">
+                    <div class="row d-md-flex align-items-center">
+                        <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+                            <div class="block-18">
+                                <div class="icon"><span class="flaticon-doctor"></span>
+                                </div>
+                                <div class="text">
+                                    <strong class="number" style="color:#153472">1500</strong>
+                                    <span style="color:#153472"><b>Chỉ tiêu</b></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+                            <div class="block-18">
+                                <div class="icon"><span class="flaticon-doctor"></span>
+                                </div>
+                                <div class="text">
+                                    <strong class="number" style="color:#153472">22</strong>
+                                    <span style="color:#153472"><b>Ngành/Chuyên ngành</b></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+                            <div class="block-18">
+                                <div class="icon"><span class="flaticon-doctor"></span>
+                                </div>
+                                <div class="text">
+                                    <strong class="number" style="color:#153472">3</strong>
+                                    <span style="color:#153472"><b>Phương thức tuyển sinh</b></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+                            <div class="block-18">
+                                <div class="icon"><span class="flaticon-doctor"></span>
+                                </div>
+                                <div class="text">
+                                    <strong class="number" style="color:#153472">100%</strong>
+                                    <span style="color:#153472"><b>Sinh viên có việc làm khi ra trường</b></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="ftco-section testimony-section">
+        <div class="container">
+            <div class="row justify-content-center mb-5">
+                <div class="col-md-10 text-center heading-section ftco-animate">
+                    <h2 class="mb-4">Trải nghiệm Sinh viên VKU</h2>
+                    <p style="text-align:center">
+                        TỰ HÀO LÀ TRƯỜNG ĐẠI HỌC CÔNG LẬP QUỐC TẾ HÀNG ĐẦU VỀ ĐÀO TẠO,<BR>NGHIÊN CỨU CÔNG NGHỆ THÔNG TIN - TRUYỀN THÔNG VÀ KINH TẾ SỐ CỦA MIỀN TRUNG - TÂY NGUYÊN VÀ CẢ NƯỚC
+                    </p>
+                </div>
+            </div>
+            <div class="row ftco-animate justify-content-center">
+                <div class="col-md-12">
+                    <div class="carousel-testimony owl-carousel">
+                        <div class="item">
+                            <div class="testimony-wrap d-flex">
+                                <div class="user-img" style="background-image:url(../images/nguyet.jpg)">
+                                </div>
+                                <div class="text pl-4">
+                                    <span class="quote d-flex align-items-center justify-content-center">
+<i class="icon-quote-left"></i>
+</span>
+                                    <p>Tại VKU, mình may mắn gặp được những người bạn đồng hành thật sự rất tuyệt vời. Bọn mình cũng nhau vui chơi, cùng nhau học tập, cùng nhau nghiên cứu, cùng nhau vui vẻ, cùng nhau thất vọng, rồi lại cùng nhau đứng dậy và bước tiếp. Bọn mình cùng nhau trải qua những năm tháng sinh viên và thật sự coi nhau như anh em, như một gia đình.</p>
+                                    <p class="name">Phạm Vũ Thu Nguyệt</p>
+                                    <span class="position">Lớp 19IT1</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimony-wrap d-flex">
+                                <div class="user-img" style="background-image:url(../images/the.jpg)">
+                                </div>
+                                <div class="text pl-4">
+                                    <span class="quote d-flex align-items-center justify-content-center">
+<i class="icon-quote-left"></i>
+</span>
+                                    <p>Sự nhân văn trong chính sách học tập mà VKU hướng đến sinh viên Việt Nam đã thuyết phục Minh Thế vì "VKU là chỗ dựa vững vàng, tạo cơ hội thuận lợi cho tất cả thí sinh trên mọi miền đất nước hiện thực được ước mơ chinh phục giảng đường đại học, đặc biệt với những thí sinh khó khăn như em khi nhà có tận 3 anh em cùng đi học đại học</p>
+                                    <p class="name">Lê Minh Thế</p>
+                                    <span class="position">Lớp: 21GIT</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimony-wrap d-flex">
+                                <div class="user-img" style="background-image:url(../images/thao.jpg)">
+                                </div>
+                                <div class="text pl-4">
+                                    <span class="quote d-flex align-items-center justify-content-center">
+<i class="icon-quote-left"></i>
+</span>
+                                    <p>Trước kia mình đã từng tham gia giải vô địch Vovinam do tỉnh tổ chức và cũng gặt hái được một số thành tích nho nhỏ, mình cũng hay tham gia các hoạt động văn nghệ, thể thao do trường tổ chức,... Hy vọng mình sẽ có nhiều cơ hội được tham gia các hoạt động và hành trình 4 năm học diễn ra suôn sẻ, gặt hái được nhiều thành tích học tập khi đến với VKU.</p>
+                                    <p class="name">Nguyễn Thị Thu Thảo</p>
+                                    <span class="position">Ngành Quản trị Kinh doanh</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimony-wrap d-flex">
+                                <div class="user-img" style="background-image:url(../images/hanh.jpg)">
+                                </div>
+                                <div class="text pl-4">
+                                    <span class="quote d-flex align-items-center justify-content-center">
+<i class="icon-quote-left"></i>
+</span>
+                                    <p>Với em, VKU là sự lựa chọn lí tưởng để em có được 4 năm đại học tuyệt với... Em tin chắc rằng ngôi nhà VKU sẽ trang bị cho em những kiến thức chuyên ngành và kỹ năng mềm để em phát triển bản thân, thực hiện được ước mơ của mình. 4 năm-1 hành chình sẽ có đầy chông gai và thử thách nhưng em vẫn luôn quan niệm rằng: Tất cả mọi thứ có được đều phải đánh đổi.</p>
+                                    <p class="name">Lê Văn Hạnh</p>
+                                    <span class="position">Ngành Công nghệ Thông tin</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>    <!-- Messenger Plugin chat Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Plugin chat code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "112197230340250");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v13.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+        
+
+        <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+        }
+        </script>
+    <footer class="ftco-footer ftco-bg-dark ftco-section">
+        <div class="container">
+            <div class="row mb-3">
+                <div class="col-md-6 col-lg-4">
+                    <div class="ftco-footer-widget mb-5">
+                        <h2 class="ftco-heading-2">Liên hệ</h2>
+                        <div class="block-23 mb-3">
+                            <ul>
+                                <li><span class="icon icon-map-marker"></span><span class="text" style="color: #fff">470 Trần Đại Nghĩa, P. Ngũ Hành Sơn, Tp. Đà Nẵng</span>
+                                </li>
+                                <li><span class="icon icon-phone"></span><span class="text" style="color: #fff">0236 3 667 113</span>
+                                </li>
+                                <li><span class="icon icon-envelope"></span><span class="text" style="color: #fff">tuyensinh@vku.udn.vn</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="ftco-footer-widget mb-5">
+                        <h2 class="ftco-heading-2">Liên kết</h2>
+                        <div class="block-21 mb-4 d-flex">
+                            <div class="text">
+                                <h3 class="heading"><a href="https://vku.udn.vn/">Trang chủ VKU</a></h3>
+                                <h3 class="heading"><a href="https://www.facebook.com/cs.vku.udn.vn">Khoa Khoa học máy tính</a></h3>
+                                <h3 class="heading"><a href="https://www.facebook.com/ce.vku.udn.vn">Khoa Kỹ thuật máy tính và điện tử</a></h3>
+                                <h3 class="heading"><a href="https://www.facebook.com/de.vku.udn.vn">Khoa Kinh tế số & TMĐT</a></h3>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="ftco-footer-widget mb-5">
+                        <h2 class="ftco-heading-2">Đăng ký xét tuyển!</h2>
+                        <form action="#" class="subscribe-form">
+                            <div class="form-group">
+                                <a href="https://xettuyen.vku.udn.vn"><input type="submit" value="https://xettuyen.vku.udn.vn" class="form-control submit px-3"></a>                           
+                                
+                            </div>
+                        </form>
+                    </div>
+                    <div class="ftco-footer-widget mb-5">
+                        <h2 class="ftco-heading-2 mb-0">Liên hệ</h2>
+                        <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
+                            <li class="ftco-animate"><a href="https://twitter.com/vku_udn_vn"><span class="icon-twitter"></span></a>
+                            </li>
+                            <li class="ftco-animate"><a href="https://www.facebook.com/vku.udn.vn"><span class="icon-facebook"></span></a>
+                            </li>
+                            <li class="ftco-animate"><a href="https://www.instagram.com/vku.udn.vn/?hl=en"><span class="icon-instagram"></span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p>
+                        Bản quyền thuộc về Trường Đại học Công nghệ Thông tin và Truyền thông Việt - Hàn
+                        
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div id="ftco-loader" class="show fullscreen">
+        <svg class="circular" width="48px" height="48px">
+            <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+            <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00" />
+        </svg>
+    </div>
+    <script defer src="../css/menu/script.js?v=20250115"></script>
+    <script src="../js/jquery.min.js?v=20250115"></script>
+    <script src="../js/jquery-migrate-3.0.1.min.js%2bpopper.min.js%2bbootstrap.min.js.pagespeed.jc.-waaHJRH53.js?v=20250115"></script>
+    <script>
+        eval(mod_pagespeed_2RTyXK5Orp);
+    </script>
+    <script>
+        eval(mod_pagespeed_2v5bfFyPJ5);
+    </script>
+    <script>
+        eval(mod_pagespeed_mR96Zij9SP);
+    </script>
+    <script src="../js/jquery.easing.1.3.js%2bjquery.waypoints.min.js%2bjquery.stellar.min.js%2bowl.carousel.min.js.pagespeed.jc.LO94h43Whv.js?v=20250115"></script>
+    <script>
+        eval(mod_pagespeed_FjRwX7Kbxe);
+    </script>
+    <script>
+        eval(mod_pagespeed_pf0ppyQgZ6);
+    </script>
+    <script>
+        eval(mod_pagespeed_az0C1sjZgG);
+    </script>
+    <script>
+        eval(mod_pagespeed_6exUBPje5j);
+    </script>
+    <script src="../js/jquery.magnific-popup.min.js%2baos.js%2bjquery.animateNumber.min.js%2bscrollax.min.js%2bgoogle-map.js%2bmain.js.pagespeed.jc.Qb1TWqfkjq.js?v=20250115"></script>
+    <script>
+        eval(mod_pagespeed_HGoNukMl9$);
+    </script>
+    <script>
+        eval(mod_pagespeed_upFaBxDpPv);
+    </script>
+    <script>
+        eval(mod_pagespeed_gou$v8L2wH);
+    </script>
+    <script>
+        eval(mod_pagespeed__u3GoWjRoa);
+    </script>
+    
+    <script>
+        eval(mod_pagespeed_qy1S82iJgm);
+    </script>
+    <script>
+        eval(mod_pagespeed_2s8I3HAVqC);
+    </script>
+
+    
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-23581568-13');
+    </script>
+    <script defer src="../../../static.cloudflareinsights.com/beacon.min.js?v=20250115" data-cf-beacon='{"rayId":"67948a330a03197f","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2021.7.0","si":10}'></script>
+
+   
+</body>
+
+
+</html>

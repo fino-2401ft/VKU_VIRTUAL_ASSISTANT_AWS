@@ -1,0 +1,20 @@
+[
+  {
+    "assetFilename": "campus-illustration.svg",
+    "alt": "Minh họa ý tưởng khuôn viên đại học, không phải ảnh hoặc kiến trúc thật của VKU",
+    "sourceUrl": null,
+    "provenance": "Created locally for this educational demo",
+    "credit": "VKU Demo project",
+    "licenseOrPermission": "Project-created vector; no third-party university photo or logo reused",
+    "width": 960,
+    "height": 820,
+    "usage": ["Home hero", "Facilities illustration and zoom dialog"]
+  },
+  {
+    "assetFilename": "Be Vietnam Pro self-hosted font files",
+    "sourceUrl": "https://fontsource.org/fonts/be-vietnam-pro",
+    "credit": "Be Vietnam Pro authors; distribution through @fontsource/be-vietnam-pro",
+    "licenseOrPermission": "SIL Open Font License 1.1; see Be-Vietnam-Pro-LICENSE.txt",
+    "usage": ["Headings", "Body", "UI"]
+  }
+]
