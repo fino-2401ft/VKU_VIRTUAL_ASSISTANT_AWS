@@ -2,6 +2,7 @@ import { Link, useLocation } from 'react-router-dom';
 import { contentRoutes } from '../data/routes';
 import { ActionLink, EmptyState, FaqList, PageIntro, SourceLink } from '../components/ui';
 import { official } from '../data/site';
+import DemoContactForm from '../components/DemoContactForm';
 
 export function ContentPage() {
   const { pathname } = useLocation();
@@ -118,10 +119,7 @@ export function ContactFoundationPage() {
             </SourceLink>
             <SourceLink href={official.admissions}>Kênh tuyển sinh chính thức</SourceLink>
           </div>
-          <div className="info-banner">
-            Biểu mẫu minh họa đang được chuẩn bị. Không gửi giấy tờ hoặc thông tin nhạy cảm qua bản
-            demo.
-          </div>
+          <DemoContactForm />
         </div>
       </section>
     </>

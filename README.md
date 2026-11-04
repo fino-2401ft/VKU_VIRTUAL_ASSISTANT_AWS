@@ -17,9 +17,11 @@ Sửa dữ liệu trong src/data; mỗi record phải có URL nguồn, ngày ki�
 
 ## Tiến độ và bàn giao
 
-Đọc docs/CURRENT_STATUS.md, TASK_BOARD.md, NEXT_STEPS.md, DECISIONS.md. Hiện P0–P3 có checkpoint triển khai; P4/P5 chưa hoàn thành. Programs, notices, About, Admissions hoạt động; Life/News/Events/Contact còn foundation, ba demo chưa có form/wizard/tour.
+Đọc docs/CURRENT_STATUS.md, TASK_BOARD.md, NEXT_STEPS.md, DECISIONS.md. Website có nội dung trực tiếp về ngành, mã/bằng/thời lượng/tổ hợp, phương thức/hồ sơ, bảng học phí theo khóa, học bổng và điều kiện. Giới thiệu/liên hệ và danh bạ chuyên môn đã bổ sung từ nguồn chính thức và bản HTML người dùng cung cấp.
 
-Mốc kiểm tra 03/11/2026: build/typecheck/lint đạt, 7 unit/integration và 14 Playwright tests đạt. Screenshot thực tại docs/screenshots. Axe đã kiểm 10 routes desktop/mobile, chưa có Lighthouse/full accessibility audit.
+Các form liên hệ/tư vấn, wizard hồ sơ và Campus Tour chỉ là demo. Có validation và thông báo chưa gửi; không POST/storage/upload hoặc tạo hồ sơ/booking. Nhóm bổ sung ảnh/tin/CLB/sự kiện đã bỏ theo yêu cầu; P5 hiệu năng và audit cuối còn tiếp tục.
+
+Mốc kiểm tra 04/11/2026: build/typecheck/lint đạt, 10 unit/integration và 22 Playwright tests đạt. Screenshot thực tại docs/screenshots; đã kiểm axe desktop/mobile và overflow các trang nội dung ở sáu kích thước. Chưa có Lighthouse/full accessibility audit.
 
 Skill được dùng từ `C:/Users/Admin/.codex/skills/ui-ux-pro-max/`; evidence trong docs/skill-evidence, không cần cài lại global. `scripts/seed_from_master.py` là công cụ trích seed ban đầu, không chạy lại để ghi đè các dữ liệu/audit đã biên tập.
 

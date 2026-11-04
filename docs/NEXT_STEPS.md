@@ -1,9 +1,7 @@
 # Next steps
 
-1. VKU-401 / P4: thay ContactFoundationPage và PendingDemoPage bằng form demo có validation, modal “chưa được gửi”, wizard hồ sơ 3 bước và Campus Tour không booking. Không thu giấy tờ/upload/storage/network. Bắt đầu một task nhỏ: Contact form + tests chống POST/storage.
-2. Hoàn thiện bố cục Life/Clubs/Research, News empty state có search/filter phù hợp, Events không tạo ngày giả. Giữ Notices/FAQ đang chạy; chỉ thêm tin/CLB/ảnh khi có nguồn và quyền. Tái kiểm nguồn tuyển sinh và xung đột chỉ tiêu nếu truy cập phục hồi.
-3. VKU-501 / P5: kiểm 320/390/768/1024/1440/1920, forms/keyboard/reduced-motion/axe, Lighthouse mobile/desktop; xử lý dev dependency advisories tương thích; audit copy/metadata/README và ghi final DoD. Không tự deploy.
+1. VKU-501 / P5: Lighthouse desktop/mobile trên production preview, đọc báo cáo rồi tối ưu các điểm thực sự ảnh hưởng. Không tuyên bố đã đạt điểm Lighthouse khi chưa chạy. Chưa có lighthouse trong dependency.
+2. QA form/wizard/tour ở 320/768/1024/1920 và reduced-motion/keyboard/zoom; hiện E2E 22/22 và axe demo đã đạt 1440/390. Nội dung ngành/học phí/đội ngũ trước đó đã qua 24 kiểm tra overflow sáu viewport.
+3. Xử lý dev dependency advisory minimatch theo cách tương thích (production audit trước 0, dev 11 moderate), audit copy/SEO/README/DoD rồi bàn giao. Không tự deploy, không tìm riêng K26, không bổ sung nhóm ảnh/tin/CLB/sự kiện đã bỏ.
 
-Resume: đọc master và tất cả docs checkpoint; kiểm tra package-lock và code hiện tại, chạy `npm run typecheck`, `npm run build`, `npm test` trước khi sửa. Hiện 7 unit/integration và 14 E2E pass. Trong môi trường này Vitest và Chrome localhost cần chạy ngoài sandbox; lỗi EPERM/ERR_NETWORK_ACCESS_DENIED không đồng nghĩa code fail. Không scaffold lại hoặc xóa thư mục có sẵn.
-
-Chạy app: `npm run dev` → http://127.0.0.1:5173/. Chạy E2E: `npm run test:e2e` tự tạo/dừng server port 5175 và dùng Chrome đã cài. Review Home: `node scripts/review-home.mjs` tự tạo/dừng server 5174. Không cần cài thêm browser.
+Resume: đọc master + CURRENT_STATUS/DECISIONS/TASK_BOARD/CONTENT_AUDIT; giữ thay đổi hiện có. Baseline: build/typecheck/lint, 10 unit và 22 E2E pass. Browser/Vitest có thể cần quyền chạy ngoài sandbox do localhost/temp bị chặn. npm run dev để xem local; test:e2e tự tạo/dừng server 5175. Chỉ chạy lại các check bị ảnh hưởng khi có thay đổi; không scaffold hoặc chạy seed_from_master.py ghi đè dữ liệu đã biên tập.

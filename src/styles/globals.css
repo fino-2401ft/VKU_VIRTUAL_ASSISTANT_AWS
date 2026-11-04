@@ -1606,6 +1606,117 @@ textarea::placeholder {
   margin-bottom: 36px;
   border-radius: 0 var(--radius-button) var(--radius-button) 0;
 }
+.demo-form {
+  display: grid;
+  gap: 24px;
+  margin-top: 28px;
+}
+.demo-form .button {
+  justify-self: start;
+}
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+}
+.field-error {
+  color: var(--color-danger);
+  font-size: 14px;
+  margin-top: 8px;
+}
+.error-summary {
+  border: 2px solid var(--color-danger);
+  border-radius: var(--radius-button);
+  padding: 20px;
+}
+.error-summary h3 {
+  font-size: 18px;
+}
+.error-summary ul {
+  padding-left: 20px;
+}
+.error-summary a {
+  color: var(--color-danger);
+  text-decoration: underline;
+}
+.demo-dialog {
+  width: min(640px, calc(100% - 40px));
+  max-height: 90dvh;
+  margin: auto;
+  padding: 32px;
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-card);
+  color: var(--color-ink);
+}
+.demo-dialog::backdrop {
+  background: rgb(8 38 90 / 75%);
+}
+.demo-dialog h2 {
+  font-size: 28px;
+  margin-bottom: 24px;
+}
+.demo-dialog p {
+  margin-bottom: 20px;
+}
+.demo-dialog .button {
+  display: flex;
+  margin-top: 16px;
+}
+.wizard-steps {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  list-style: none;
+  padding: 0;
+  gap: 16px;
+  margin-bottom: 40px;
+  font-size: 12px;
+  color: var(--color-muted);
+}
+.wizard-steps li {
+  border-bottom: 2px solid var(--color-line);
+  padding-bottom: 16px;
+}
+.wizard-steps [aria-current='step'] {
+  color: var(--color-brand);
+  border-color: var(--color-brand);
+  font-weight: 600;
+}
+.wizard-steps span {
+  display: block;
+  font-size: 24px;
+}
+.wizard-checks {
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-card);
+  padding: 20px;
+  margin: 24px 0;
+}
+.wizard-checks label {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  min-height: 52px;
+  padding-block: 8px;
+  font-size: 15px;
+}
+.wizard-checks input {
+  width: 20px;
+  height: 20px;
+  min-height: 20px;
+  margin: 0;
+  flex-shrink: 0;
+}
+@media (max-width: 767px) {
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+  .demo-dialog {
+    padding: 24px;
+  }
+  .demo-dialog h2 {
+    font-size: 24px;
+  }
+}
 .admission-stats {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));

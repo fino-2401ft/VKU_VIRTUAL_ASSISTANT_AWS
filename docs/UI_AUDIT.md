@@ -39,3 +39,14 @@
 - Giảm homepage từ 6 ngành nổi bật thành 5 nhóm lĩnh vực + CTA FAQ vì từng ngành chưa tái xác minh. Không dùng 1500 làm trust counter, không hiển thị học bổng chưa kiểm chứng. Đây là fallback nội dung có chủ đích.
 - Asset credits tại public/assets/credits.json, OFL license được giữ trong public. Không dùng logo/ảnh trường chưa có quyền.
 - Chưa chạy Lighthouse hoặc 320/768/1024/1920; chưa nghiệm thu P4 form/wizard/tour, tin hoạt động và lịch sự kiện. P5 còn TODO.
+
+## Content correction + P4 demo checkpoint — 04/11/2026
+
+- Nội dung đã hiển thị trực tiếp: mã/bằng/thời lượng/tổ hợp ngành, ba phương thức, hồ sơ/hạn, bảng học phí chọn khóa/nhóm, học bổng và điều kiện, giới thiệu/liên hệ/danh bạ. Không còn banner chưa xác minh ở dữ liệu đã đọc được nguồn. Sổ nguồn mới thay thế các giới hạn nội dung P3 cũ ở trên.
+- Unit/integration: 10/10 PASS; build/typecheck/lint PASS. E2E cuối 22/22 PASS (1.4m), gồm 16 foundation/content tests và 6 demo tests desktop/mobile.
+- Axe các trang nội dung và form/wizard/tour tại 1440/390: 0 violations; modal contact cũng đã scan. Không có POST và localStorage/sessionStorage vẫn trống sau thao tác demo. Không input upload hoặc ngày booking.
+- Form invalid có summary nhận focus, lỗi liên kết trường. Modal đóng bằng Escape/trả focus. Wizard có validation checklist, back/reset; hoàn tất nói rõ không tạo hồ sơ. Tour không tạo lịch hẹn.
+- Đã xem contact-demo-result-desktop/mobile.png, application-demo-desktop.png, tour-demo-result-mobile.png. Layout và copy xác nhận đúng; không có thông tin thật trong ảnh test.
+- scripts/review-content.mjs: 24/24 trường hợp không overflow (4 trang x 320/390/768/1024/1440/1920). Các demo mới được kiểm tại 1440/390, còn viewport trung gian/reduced-motion/zoom ở P5.
+- Test đầu phát hiện select accessible label bao gồm options do label bọc select; đã tách label + htmlFor. Rerun toàn bộ PASS, không giảm assertion.
+- Chưa có Lighthouse, chưa nhận đạt WCAG toàn diện. Không thêm ảnh/tin/CLB/sự kiện theo mục 5 người dùng đã bỏ.

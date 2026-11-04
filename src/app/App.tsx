@@ -8,7 +8,6 @@ import {
   ContactFoundationPage,
   FaqPage,
   NotFoundPage,
-  PendingDemoPage,
 } from '../pages/FoundationPages';
 
 const ProgramsPage = lazy(() => import('../pages/ProgramsPage'));
@@ -19,6 +18,7 @@ const NoticeDetailPage = lazy(() =>
 );
 const AboutPages = lazy(() => import('../pages/AboutPages'));
 const AdmissionsPages = lazy(() => import('../pages/AdmissionsPages'));
+const DemoPages = lazy(() => import('../pages/DemoPages'));
 
 export default function App() {
   return (
@@ -41,7 +41,7 @@ export default function App() {
           />
         ))}
         {demoRoutes.map((p) => (
-          <Route key={p.path} path={p.path} element={<PendingDemoPage />} />
+          <Route key={p.path} path={p.path} element={<DemoPages />} />
         ))}
         <Route path="nganh-dao-tao" element={<ProgramsPage />} />
         <Route path="nganh-dao-tao/:slug" element={<ProgramDetailPage />} />

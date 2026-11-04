@@ -1,39 +1,37 @@
 # Current status
 
-Updated: 2026-11-03 21:51 (Asia/Bangkok)
-Current phase: P3 implementation checkpoint; P4 next
-Current task ID: VKU-301 DONE với giới hạn nội dung; VKU-401 TODO tiếp theo
-Branch / last commit: Không có Git repository; không init/commit.
+Updated: 2026-11-04 (Asia/Bangkok)
+Current phase: P4 checkpoint hoàn tất trong phạm vi điều chỉnh; P5 tiếp theo
+Current task ID: VKU-C01, VKU-401a, VKU-401b DONE; VKU-501 TODO
+Git: không có repository; không init/commit/push/deploy.
 
 ## Đã hoàn thành
 
-- P0: đọc toàn bộ master, audit môi trường, dùng skill có sẵn, sổ nguồn S01–S22 và giới hạn xác minh.
-- P1: Design System editorial navy/cyan, typography Việt self-host, 2 phương án, 5 wireframes; Home/menu 1440/390 screenshots đã xem.
-- P2: Vite React TS strict + Tailwind v4 + Router; layout, metadata, lazy/loading/error/404, data contracts, 22 ngành, 6 thông báo, 22 nguồn và test scripts.
-- P3: Home, Program explorer/detail/related, About/History/Leadership/Campus, Admissions/Methods/Tuition. Có năm/trạng thái nguồn, gallery dialog keyboard/Escape. Dữ liệu chưa kiểm chứng dùng trạng thái cập nhật/tham khảo, không tự bịa phần còn thiếu.
-- Một phần chuẩn bị P4: Notices/detail/filter và FAQ đã hoạt động. Các route Life/Clubs/Research/News/Events/Contact vẫn là foundation có nguồn, chưa hoàn thiện layout/tương tác. Ba route demo chỉ có trạng thái thông báo, chưa có form/wizard/tour.
+P0–P3 nền tảng và bố cục đã có. Theo điều chỉnh của người dùng, website đã hiển thị nội dung trực tiếp thay vì chỉ dẫn link:
 
-## Kết quả cuối
+- 22 ngành/1500 chỉ tiêu năm 2026 đã đọc và đối chiếu nguồn chính thức: mã xét tuyển, bằng cấp, thời gian 4/4,5 năm, tổ hợp dự kiến và ngành liên quan. Bộ lọc bằng cấp hoạt động.
+- Ba phương thức 301/407/402 có đối tượng, nguyên tắc và yêu cầu; giữ nhãn dự kiến ở phần nguồn ghi dự kiến. Ba nhóm hồ sơ và hạn năm 2026 được trình bày trực tiếp, nhãn đã qua hạn.
+- Bảng học phí tín chỉ HK1 2026–2027 cho các khóa 2020–2025, chọn khóa/nhóm chương trình; ô thiếu giữ null. Bốn mức học bổng 70/50/40/25 triệu có điều kiện và cách khấu trừ.
+- Giới thiệu/triết lý/giá trị và lịch sử có nội dung. Ban giám hiệu gắn nhiệm kỳ 2020–2025. Danh bạ trích từ HTML người dùng có tìm kiếm không dấu, lọc học vị, phân trang; 491 mục/178 link khoa học hợp lệ, không coi là thống kê nhân sự cơ hữu. Không lưu tài khoản, liên hệ cá nhân, ảnh hoặc scripts trong dữ liệu app.
+- Liên hệ có địa chỉ, số/email văn phòng/tuyển sinh/đào tạo, nguồn đi kèm. Không bổ sung ảnh/tin/CLB/sự kiện theo mục 5 người dùng bỏ.
 
-- `npm run typecheck`: PASS.
-- `npm run build`: PASS, Vite 8.3.5; JS entry khoảng 302.57kB / gzip 95.26kB, có lazy chunks. Build cuối đã có credits/font license trong public.
-- `npm run lint`, `npm run format:check`: PASS trước cập nhật checkpoint cuối; định dạng docs sẽ được kiểm lại.
-- `npm test`: 2 files / 7 tests PASS (ngoài sandbox vì Vitest temp rename EPERM trong sandbox).
-- `npm run test:e2e`: 14 tests PASS / 1.0m trên Chrome 1440/390. Bao gồm route smoke, search/filter/reset/detail/refresh, notices date/expiry/source, admissions liên trang, history/campus dialog, FAQ keyboard, 404.
-- Axe: 0 violations trên 10 trang mỗi viewport 1440/390; không overflow và không runtime request ngoài localhost trong các trang đã kiểm tra. Không có nghĩa đã đạt toàn bộ WCAG.
-- `node scripts/review-home.mjs`: PASS, Home 1440/390 overflow=false, axe=0; menu Escape PASS.
-- Dependency audit: production 0; dev toolchain 11 moderate qua minimatch. Chưa áp dụng fix --force/downgrade.
+## Kiểm thử gần nhất
 
-## File và giới hạn
+- Build/typecheck/lint PASS.
+- Unit/integration: 10/10 PASS (3 files).
+- E2E cuối: 22/22 PASS (1.4m). Có search/detail, tuition filters, scholarship values, faculty search/rank/pagination, form validation, modal focus/Escape, không POST/storage, wizard và tour không hồ sơ/booking, keyboard, 404 và source checks.
+- Axe 0 violations trên 11 routes ở 1440/390; không runtime request ngoài localhost trong các trang kiểm tra.
+- scripts/review-content.mjs: 24 trường hợp (4 trang x 320/390/768/1024/1440/1920), không overflow. Screenshots tuition/faculty/program-detail/contact đã lưu; đã xem học phí desktop và đội ngũ mobile.
+- Lần E2E trước fail 2 do nhãn link nguồn học phí đổi; selector cập nhật đúng nhãn, lần sau 16/16 PASS.
 
-Toàn bộ file ứng dụng là mới: root configs/package-lock/README; src/app, components, data, lib, pages, styles, test; tests/e2e; scripts; public/assets; docs và screenshots. Master và bốn thư mục tài liệu học vụ được giữ nguyên. Không có Git diff vì không có repository.
+## Demo hoàn thành và giới hạn
 
-Blockers nội dung: S01–S10 phần lớn timeout/502; ảnh/logo chưa có quyền tái sử dụng. Xung đột chỉ tiêu 1500 trong master và 1700 dự kiến từ snippet nguồn khác được ghi trong CONTENT_AUDIT; dữ liệu seed không được gắn verified. Degree/duration, học bổng, hotline, triết lý chi tiết, nhân sự 2026, timeline tiền thân chưa tái xác minh.
+Đã thêm form liên hệ và tư vấn với trường cá nhân tùy chọn, validation inline + summary có focus, modal nói rõ chưa gửi. Wizard hồ sơ 3 bước có quay lại/làm lại, không upload. Tour giả lập chọn chủ đề, không ngày/suất hoặc booking thật. Các trạng thái chỉ trong bộ nhớ React; không network hoặc storage. Bộ test 22/22 xác nhận và axe trên các route demo cũng không có violations. Đã xem screenshot modal desktop/mobile và wizard. Không có lỗi app đang biết trong phạm vi đã test. Không có source edit dang dở.
 
-Known bugs/regressions: không có lỗi app đã biết trong phạm vi test hiện tại. Lần chạy E2E trước có 4 lỗi selector exact-text FAQ do dấu +; đã sửa locator summary, lần cuối 14/14 pass. Screenshot Admissions ban đầu chụp loading quá sớm, đã thêm chờ H1/fonts và chụp lại, đã xem desktop/mobile.
+P5 còn Lighthouse, full form/keyboard/reduced-motion audit và dev dependency advisories (production audit trước 0, dev trước 11 moderate). Chưa prerender, robots noindex, chưa có domain; không canonical/sitemap giả.
 
-Chưa làm: P4 forms demo/contact validation/wizard/tour/events và hoàn thiện life/news; P5 320/768/1024/1920, Lighthouse, audit toàn bộ keyboard/forms/reduced-motion, tối ưu thêm, quyết định prerender/SEO production. Chưa có backend, push, commit hay deploy.
+Do not redo: không scaffold/cài lại skill, không chạy seed_from_master.py ghi đè dữ liệu đã xác minh, không dùng số 1700 dự kiến thay danh mục đã đọc, không yêu cầu riêng dữ liệu K26, không thêm phần 5 đã bỏ. Raw HTML riêng người dùng không được chép vào source/public.
 
-Next 1–3 actions: xem NEXT_STEPS.md. Dừng ở ranh giới này theo yêu cầu giới hạn token; không có source edit dang dở. Server kiểm thử tự đóng; không cần giữ server để resume.
+Next: NEXT_STEPS.md. Nguồn và bằng chứng: CONTENT_AUDIT.md, docs/research, docs/screenshots.
 
-Do not redo: không scaffold/cài lại skill hoặc đổi stack; không chạy seed extraction để ghi đè dữ liệu/audit đã biên tập; không đọc/tái xuất dữ liệu cá nhân trong thư mục học vụ; không sửa master hoặc audit fix --force.
+Dừng tại ranh giới tính năng demo để lưu checkpoint trước khi gần hết ngữ cảnh theo yêu cầu người dùng. Tiếp tục VKU-501, không làm lại nguồn/thiết kế hoặc mở rộng nhóm nội dung 5 đã bỏ.
