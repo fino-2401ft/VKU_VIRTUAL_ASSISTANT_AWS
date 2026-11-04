@@ -1,5 +1,19 @@
 # VKU Demo — Design System
 
+## Bổ sung hình ảnh và font — 04/11/2026
+
+Theo yêu cầu tiếp theo: thay wordmark tự dựng bằng logo_2021.png và bốn ô tiện ích bằng icon-elearning.jpg, tracuuvanbang.jpg, elib.jpg, dktc.png từ trang mẫu. Banner dẫn tới dịch vụ thật, mở tab mới có rel an toàn; form demo vẫn giữ nguyên. Logo mobile dùng khung hình phía trái và tên trường bằng chữ bên cạnh. Mọi ảnh có width/height đúng kích thước nguồn.
+
+Nội dung và tiêu đề dùng Inter 400/500/600/700 với đầy đủ dấu tiếng Việt; font được subset Latin/Vietnamese và lưu WOFF (khoảng 45 KB mỗi weight). Menu desktop dùng UTM Bebas đúng CSS trang mẫu. Không request font/ảnh từ bên ngoài khi chạy. Nguồn và giấy phép/ghi nhận ở public/assets/credits.json. Ảnh review 05-images, 06-fonts và bản cuối 07-complete tại docs/screenshots/reference.
+
+## Thiết kế trước lần bổ sung hình ảnh — 04/11/2026
+
+Theo yêu cầu mới, dùng ảnh cổng đào tạo người dùng gửi làm mẫu: thanh tiện ích đỏ, masthead trắng, tên trường đỏ/cam/xanh, menu và footer vàng #ffd414. Trang chủ hai cột 23,4% / phần còn lại, khoảng cách 2,2%; container 89,5%, tối đa 1712px. Nội dung Arial 16–20px; tiêu đề khối đỏ 22–29px trên nền xám với vạch vàng. Tên trường dùng Georgia. Bo góc 4–5px; bỏ hero và các khối marketing cũ. Dưới 600px nội dung chính lên trước, tiện ích phía sau.
+
+Triển khai tại src/styles/portal.css, sau globals.css. Wordmark chữ do dự án dựng, không phải bản logo chính thức. Banner học tập SVG tạo tại dự án. Giữ các route, dữ liệu và form demo. Không bổ sung thông báo giả để lấp đủ dòng ảnh mẫu. Font Arial thay font tải từ Fontsource; package cũ giữ lại, không phát sinh request font.
+
+Ảnh từng phần và bản cuối: docs/screenshots/reference/. Các mục dưới đây ghi lại thiết kế trước lần điều chỉnh này.
+
 03/11/2026 · Concept: Human-centered digital campus. Đây là lựa chọn thiết kế của dự án học tập, không phải nhận diện được VKU phê duyệt.
 
 ## Discovery thật từ UI UX Pro Max

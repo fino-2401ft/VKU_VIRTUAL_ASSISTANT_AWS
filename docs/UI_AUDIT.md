@@ -50,3 +50,18 @@
 - scripts/review-content.mjs: 24/24 trường hợp không overflow (4 trang x 320/390/768/1024/1440/1920). Các demo mới được kiểm tại 1440/390, còn viewport trung gian/reduced-motion/zoom ở P5.
 - Test đầu phát hiện select accessible label bao gồm options do label bọc select; đã tách label + htmlFor. Rerun toàn bộ PASS, không giảm assertion.
 - Chưa có Lighthouse, chưa nhận đạt WCAG toàn diện. Không thêm ảnh/tin/CLB/sự kiện theo mục 5 người dùng đã bỏ.
+
+## 04/11/2026 — Điều chỉnh theo ảnh mẫu cổng đào tạo
+
+- Header, nội dung hai cột và footer: chụp/xem sau từng phần tại docs/screenshots/reference/01–03; bản hoàn thiện 04-final, có desktop/mobile và các trang con.
+- Không sao chép nội dung mới từ ảnh mẫu. Dùng 6 thông báo đã có; số dòng/chiều cao khối thay đổi theo nội dung thật của dự án.
+- Axe phát hiện chữ cam masthead, đỏ trên nền xám/vàng và ngày đăng chưa đủ tương phản. Đã chỉnh đậm hơn; cả 3 trường hợp E2E lỗi được chạy lại và PASS. 19 trường hợp còn lại đã PASS ở lượt đầu.
+- Build và 10 unit PASS. Kiểm tra search đầu trang không dấu và 30 trường hợp layout (5 route × 320/390/768/1024/1440/1913) trong reference/04-review.json.
+- Arial/Georgia hệ thống; wordmark chữ tự dựng và minh họa SVG nội bộ. Chưa thay bằng logo/ảnh chính thức. Không tuyên bố đạt WCAG toàn diện hoặc Lighthouse.
+
+## 04/11/2026 — Bổ sung ảnh và sửa font
+
+- Thay logo chữ và tiện ích tự dựng bằng logo/banner nguồn VKU; ảnh có alt, kích thước đúng, link ngoài rel an toàn. Ảnh được lưu local và đã kiểm tra decode trước screenshot.
+- Inter lưu WOFF, đủ chữ tiếng Việt, 4 trọng lượng; menu dùng font UTM Bebas lấy từ CSS trang mẫu. Font không tạo runtime request ngoài localhost.
+- Đã xem 05-images desktop, 06-fonts desktop/mobile; bản cuối 07-complete có ảnh các trang con và báo cáo 30 trường hợp không overflow, tìm kiếm không dấu PASS.
+- Build PASS; E2E đầy đủ 22/22 PASS (1,6 phút), gồm axe desktop/mobile, điều hướng, bộ lọc, danh bạ, form và dialog. Không chạy lại unit vì dữ liệu và logic không thay đổi; 10 unit đã PASS ở checkpoint trước.

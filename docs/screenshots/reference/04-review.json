@@ -1,0 +1,155 @@
+{
+  "results": [
+    {
+      "width": 320,
+      "route": "/",
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "route": "/thong-bao",
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "route": "/nganh-dao-tao",
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "route": "/tuyen-sinh/hoc-phi-hoc-bong",
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "route": "/lien-he",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/thong-bao",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/nganh-dao-tao",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/tuyen-sinh/hoc-phi-hoc-bong",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/lien-he",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/thong-bao",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/nganh-dao-tao",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/tuyen-sinh/hoc-phi-hoc-bong",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/lien-he",
+      "overflow": false
+    },
+    {
+      "width": 1024,
+      "route": "/",
+      "overflow": false
+    },
+    {
+      "width": 1024,
+      "route": "/thong-bao",
+      "overflow": false
+    },
+    {
+      "width": 1024,
+      "route": "/nganh-dao-tao",
+      "overflow": false
+    },
+    {
+      "width": 1024,
+      "route": "/tuyen-sinh/hoc-phi-hoc-bong",
+      "overflow": false
+    },
+    {
+      "width": 1024,
+      "route": "/lien-he",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/thong-bao",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/nganh-dao-tao",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/tuyen-sinh/hoc-phi-hoc-bong",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/lien-he",
+      "overflow": false
+    },
+    {
+      "width": 1913,
+      "route": "/",
+      "overflow": false
+    },
+    {
+      "width": 1913,
+      "route": "/thong-bao",
+      "overflow": false
+    },
+    {
+      "width": 1913,
+      "route": "/nganh-dao-tao",
+      "overflow": false
+    },
+    {
+      "width": 1913,
+      "route": "/tuyen-sinh/hoc-phi-hoc-bong",
+      "overflow": false
+    },
+    {
+      "width": 1913,
+      "route": "/lien-he",
+      "overflow": false
+    }
+  ],
+  "headerSearch": "passed"
+}

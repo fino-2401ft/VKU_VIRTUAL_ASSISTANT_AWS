@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="216" viewBox="0 0 400 216">
+<rect width="400" height="216" fill="#9fd0c5"/>
+<ellipse cx="204" cy="190" rx="114" ry="10" fill="#81afa5"/>
+<rect x="116" y="68" width="200" height="116" rx="7" fill="#233b40"/>
+<rect x="123" y="76" width="186" height="98" fill="#63bec6"/>
+<path d="m156 76-33 98h31l34-98zm52 0-34 98h12l34-98z" fill="#a5e0df"/>
+<path d="M101 183h231l-14 10H114z" fill="#354e51"/>
+<path d="m91 31 42-14 26 72-42 14z" fill="#fff"/>
+<path d="m104 39 26-9m-22 18 25-9m-22 18 22-8m-18 16 25-8" stroke="#526671" stroke-width="3"/>
+<rect x="161" y="26" width="13" height="69" rx="2" fill="#efb528"/>
+<rect x="178" y="21" width="12" height="74" rx="2" fill="#a92338"/>
+<path d="m231 29 37 14-25 64-37-14z" fill="#fcfaf0"/>
+<path d="m232 44 22 8m-26 1 22 9m-26 0 22 8" stroke="#607c83" stroke-width="3"/>
+<path d="m275 38 8 5-36 58-11 7 3-13z" fill="#f28b3f"/>
+<circle cx="124" cy="111" r="37" fill="#3f9dcd"/>
+<path d="m105 80 10 4 3 12 17 4 10-10 10 15-12 9-2 18-13 12-7-16-17-7-1-17-10-6z" fill="#8bbf3d"/>
+<path d="m101 146-11 18m-6 0h52" stroke="#466778" stroke-width="5"/>
+<rect x="178" y="119" width="125" height="35" fill="#91b52d"/>
+<text x="240" y="142" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" font-weight="700" fill="#fff">E-LEARNING</text>
+<path d="m292 146 6 24 5-8 9-1z" fill="#fff" stroke="#233b40" stroke-width="2"/>
+<circle cx="80" cy="102" r="8" fill="#f4b91f"/><circle cx="89" cy="136" r="10" fill="#e94d4b"/>
+</svg>

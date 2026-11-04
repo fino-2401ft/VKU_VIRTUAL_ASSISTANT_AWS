@@ -1,0 +1,796 @@
+/* Fonts stored locally, including Vietnamese glyphs. */
+@font-face {
+  font-family: 'Inter';
+  src: url('/assets/fonts/inter-400.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('/assets/fonts/inter-500.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('/assets/fonts/inter-600.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('/assets/fonts/inter-700.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Portal Bebas';
+  src: url('/assets/fonts/utm-bebas.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+/* Visual direction supplied by the user: VKU training information portal. */
+:root {
+  --font-sans: 'Inter', Arial, sans-serif;
+  --color-ink: #161616;
+  --color-muted: #626262;
+  --color-navy: #38518b;
+  --color-brand: #ae1a2d;
+  --color-cyan: #f7941d;
+  --color-canvas: #f5f5f5;
+  --color-line: #dcdcdc;
+  --portal-yellow: #ffd414;
+  --portal-red: #ed1835;
+  --radius-card: 4px;
+  --radius-button: 4px;
+  --shadow-card: none;
+  font-family: var(--font-sans);
+}
+body {
+  font-size: 16px;
+  line-height: 1.5;
+}
+.container {
+  width: 89.5%;
+  max-width: 1712px;
+  padding-inline: 0;
+}
+h1,
+h2,
+h3 {
+  letter-spacing: 0;
+  text-wrap: pretty;
+}
+.utility {
+  background: #c31e31;
+  color: #fff;
+  border: 0;
+  font-size: 15px;
+}
+.utility-inner {
+  min-height: 30px;
+  gap: 16px;
+}
+.utility-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.utility-links a + a::before {
+  content: '|';
+  padding-inline: 7px;
+  color: #f4b5be;
+}
+.utility-inner > div {
+  gap: 14px;
+  background: #38518b;
+  padding-inline: 16px;
+}
+.utility .source-link {
+  font-size: 13px;
+  min-height: 30px;
+}
+.utility .source-link svg {
+  display: none;
+}
+.site-header {
+  position: relative;
+  top: auto;
+  border: 0;
+}
+.header-inner {
+  min-height: clamp(110px, 7.65vw, 146px);
+  gap: 20px;
+  position: relative;
+}
+.wordmark {
+  gap: 12px;
+  max-width: 100%;
+}
+.site-header .wordmark {
+  width: min(72%, 1099px);
+  flex-shrink: 1;
+}
+.portal-school-logo {
+  width: 100%;
+  height: auto;
+}
+.mobile-school-name {
+  display: none;
+}
+.portal-image-link {
+  display: block;
+}
+.portal-image-link img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.portal-image-link:hover {
+  opacity: 0.9;
+}
+@media (max-width: 1023px) {
+  .site-header .wordmark {
+    width: 100%;
+  }
+}
+@media (max-width: 600px) {
+  .portal-image-link {
+    grid-column: 1 / -1;
+  }
+}
+.wordmark-type {
+  display: flex;
+  font-family:
+    Arial Black,
+    Arial,
+    sans-serif;
+  font-size: clamp(72px, 6.9vw, 132px);
+  font-weight: 900;
+  letter-spacing: -0.12em;
+  line-height: 1;
+  padding-right: 9px;
+  border-bottom: 4px solid #f7941d;
+}
+.wordmark-type span:nth-child(1) {
+  color: #c31e31;
+}
+.wordmark-type span:nth-child(2) {
+  color: #f7941d;
+}
+.wordmark-type span:nth-child(3) {
+  color: #38518b;
+}
+.wordmark-caption {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 0;
+  border: 0;
+  letter-spacing: -0.3px;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-weight: 800;
+  font-size: clamp(17px, 1.4vw, 27px);
+  line-height: 1.2;
+}
+.wordmark-caption > span {
+  color: #c31e31;
+}
+.wordmark-caption strong {
+  font-size: clamp(15px, 1.3vw, 25px);
+  font-weight: 800;
+  color: #a95600;
+}
+.wordmark-caption b {
+  color: #38518b;
+  font-size: clamp(18px, 1.5vw, 29px);
+}
+.header-demo {
+  position: absolute;
+  top: 6px;
+  right: 0;
+  font-size: 11px;
+  color: #626262;
+}
+.navigation-bar {
+  background: var(--portal-yellow);
+}
+.navigation-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: clamp(50px, 3.25vw, 62px);
+  gap: 20px;
+}
+.desktop-nav {
+  gap: clamp(16px, 1.7vw, 32px);
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  font-weight: 700;
+  font-size: clamp(14px, 1.15vw, 22px);
+  color: #41444d;
+}
+.desktop-nav > a,
+.desktop-nav summary {
+  text-transform: uppercase;
+  min-height: 50px;
+  gap: 4px;
+}
+.dropdown {
+  border-radius: 3px;
+  z-index: 40;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+.header-search {
+  display: flex;
+  background: #fff;
+  border: 1px solid #d5d5d5;
+  border-radius: 24px;
+  width: 170px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.header-search input {
+  width: 100%;
+  min-width: 0;
+  min-height: 32px;
+  padding: 4px 10px;
+  background: transparent;
+  border: 0;
+  font-size: 14px;
+}
+.header-search button {
+  display: grid;
+  place-items: center;
+  border: 0;
+  background: transparent;
+  color: #626262;
+  min-height: 32px;
+  min-width: 36px;
+}
+.header-search:focus-within {
+  outline: 2px solid #38518b;
+  outline-offset: 3px;
+}
+.header-search input:focus-visible {
+  outline: 0;
+}
+.menu-button {
+  background: transparent;
+  color: #41444d;
+  border-color: #a98d00;
+}
+.portal-layout {
+  display: grid;
+  grid-template-columns: 23.4% minmax(0, 1fr);
+  gap: 2.2%;
+  align-items: start;
+  margin-block: 25px 30px;
+}
+.portal-sidebar,
+.portal-content {
+  min-width: 0;
+}
+.portal-sidebar {
+  display: grid;
+  gap: 14px;
+}
+.learning-banner {
+  display: block;
+  position: relative;
+}
+.learning-banner img {
+  width: 100%;
+}
+.learning-banner > span {
+  position: absolute;
+  bottom: 8px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: #244a49;
+  font-size: 12px;
+  font-weight: 700;
+}
+.sidebar-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 18px 10px;
+  text-align: center;
+  min-height: 100px;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  font-size: clamp(17px, 1.3vw, 25px);
+  font-weight: 800;
+  line-height: 1.2;
+}
+.sidebar-banner small {
+  display: block;
+  margin-top: 8px;
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
+.lookup-banner {
+  color: #a83916;
+  background: #fffaf0;
+  border-block: 3px double #c88935;
+}
+.library-banner {
+  color: #38518b;
+  background: #f1f7fb;
+}
+.registration-banner {
+  border: 5px solid #2b6bb5;
+  border-radius: 22px;
+  margin-top: 8px;
+  color: #181818;
+}
+.registration-banner svg {
+  color: #c31e31;
+}
+.sidebar-highlights,
+.sidebar-directory {
+  border: 1px solid #dcdcdc;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.sidebar-highlights h2,
+.sidebar-directory h2 {
+  background: linear-gradient(#fff, #f3f3f3);
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 5px;
+  color: #4c4c4c;
+}
+.portal-content {
+  display: grid;
+  gap: 12px;
+}
+.portal-panel {
+  border: 1px solid #dcdcdc;
+  border-radius: 5px;
+  padding: 8px 0 10px;
+  overflow: hidden;
+  background: #fdfdfd;
+}
+.portal-panel h2 {
+  font-size: clamp(22px, 1.5vw, 29px);
+  line-height: 1.35;
+  font-weight: 400;
+  background: #f0f0f0;
+  color: #d4132b;
+  border-left: 5px solid #f4ca00;
+  padding: 8px 16px;
+  margin-bottom: 12px;
+}
+.portal-rows {
+  list-style: none;
+  padding: 0 18px 0 25px;
+  margin: 0;
+}
+.portal-rows li {
+  position: relative;
+  margin-block: 7px;
+  font-size: clamp(16px, 1.05vw, 20px);
+  line-height: 1.45;
+  overflow-wrap: anywhere;
+}
+.portal-rows li::before {
+  content: '›';
+  position: absolute;
+  left: -15px;
+  color: #f12b3e;
+  font-weight: 700;
+}
+.portal-rows a:hover {
+  color: #b91e32;
+}
+.portal-rows time {
+  color: #707070;
+  font-size: 0.92em;
+  font-style: italic;
+  white-space: nowrap;
+}
+.portal-more {
+  display: block;
+  width: fit-content;
+  margin: 15px 12px 0 auto;
+  color: #cf1430;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 6px 0;
+}
+.sidebar-highlights .portal-rows {
+  padding: 4px 16px 0 32px;
+}
+.sidebar-highlights .portal-rows li {
+  margin-block: 12px;
+}
+.sidebar-highlights .portal-rows li::before {
+  color: #888;
+}
+.sidebar-highlights .portal-rows time {
+  color: inherit;
+  font-style: normal;
+  white-space: normal;
+}
+.sidebar-highlights .portal-more {
+  margin: 0 20px 10px;
+}
+.sidebar-directory > a {
+  display: block;
+  padding: 10px 16px;
+  font-size: 16px;
+  border-bottom: 1px solid #eee;
+}
+.portal-meta {
+  color: #626262;
+  font-size: 0.9em;
+}
+.portal-bottom-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+.portal-bottom-grid .portal-panel {
+  padding-bottom: 16px;
+}
+.portal-data-note {
+  display: flex;
+  gap: 8px;
+  align-items: flex-start;
+  color: #626262;
+  font-size: 13px;
+  padding: 6px 0;
+}
+.desktop-nav,
+.sidebar-banner {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.desktop-nav {
+  font-family: 'Portal Bebas', 'Inter', sans-serif;
+  font-size: clamp(20px, 1.35vw, 26px);
+  font-weight: 400;
+}
+.dropdown {
+  font-family: 'Inter', Arial, sans-serif;
+  line-height: 1.5;
+}
+.portal-panel h2 {
+  font-family: 'Inter', Arial, sans-serif;
+  font-weight: 400;
+  letter-spacing: -0.5px;
+}
+.portal-rows li {
+  line-height: 1.55;
+}
+.sidebar-highlights h2,
+.sidebar-directory h2 {
+  font-family: 'Inter', Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+.site-footer {
+  background: var(--portal-yellow);
+  color: #434754;
+  border-top: 2px solid #ed1835;
+  padding: 18px 0 20px;
+}
+.site-footer p {
+  font-size: 16px;
+  margin: 0;
+}
+.site-footer .footer-title {
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 9px;
+}
+.site-footer .footer-address {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 20px;
+}
+.footer-links .source-link,
+.footer-links > a {
+  font-size: 14px;
+  min-height: 32px;
+}
+.site-footer .footer-disclaimer {
+  font-size: 12px;
+  margin-top: 4px;
+}
+/* Carry the same type scale and restrained panels through the existing routes. */
+.section {
+  padding-block: 32px;
+}
+h1 {
+  font-size: clamp(28px, 2.25vw, 38px);
+  line-height: 1.3;
+}
+h2 {
+  font-size: clamp(23px, 1.75vw, 29px);
+  line-height: 1.35;
+}
+h3 {
+  font-size: 19px;
+}
+.page-intro {
+  background: #f3f3f3;
+  border-bottom: 1px solid #ddd;
+  padding-block: 22px;
+}
+.page-intro h1 {
+  font-size: clamp(28px, 2.25vw, 38px);
+  color: #c31e31;
+  letter-spacing: 0;
+}
+.page-intro .lead {
+  margin: 12px 0 0;
+  font-size: 17px;
+  max-width: 900px;
+}
+.page-intro .eyebrow {
+  margin-bottom: 8px;
+  letter-spacing: 0.03em;
+}
+.breadcrumb {
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+.section-heading {
+  margin-bottom: 20px;
+}
+.eyebrow {
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  margin-bottom: 10px;
+}
+.filter-panel {
+  border-radius: 4px;
+  background: #f6f6f6;
+  padding: 20px;
+}
+.program-card,
+.method-card,
+.faculty-card,
+.scholarship-card {
+  border-radius: 4px;
+  box-shadow: none;
+}
+.program-card:hover {
+  box-shadow: none;
+  border-color: #bd9d00;
+}
+.info-banner {
+  border-left-color: #e3bc00;
+  background: #fff9db;
+  color: #4c4429;
+  border-radius: 0;
+}
+.tag {
+  background: #f5f0dc;
+  color: #6b4f00;
+  border-radius: 3px;
+}
+.subnav {
+  background: #f4f4f4;
+  border-radius: 4px;
+}
+.subnav [aria-current='page'] {
+  color: #fff;
+  background: #b91e32;
+}
+.content-table thead {
+  background: #f3f3f3;
+  color: #333;
+}
+.content-table tbody tr:nth-child(even) {
+  background: #fafafa;
+}
+.notice-list article {
+  border-bottom: 1px solid #ddd;
+  padding-block: 20px;
+}
+.notice-list h2 {
+  font-size: 23px;
+}
+.button:hover {
+  transform: none;
+}
+@media (max-width: 1023px) {
+  .portal-layout {
+    grid-template-columns: 27% minmax(0, 1fr);
+    gap: 20px;
+  }
+  .sidebar-banner {
+    flex-direction: column;
+    padding: 14px 8px;
+  }
+  .sidebar-banner small {
+    font-size: 11px;
+  }
+  .portal-bottom-grid {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 600px) {
+  .portal-layout {
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+    gap: 20px;
+  }
+  .portal-content {
+    width: 100%;
+    order: -1;
+  }
+  .portal-sidebar {
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+  .sidebar-highlights,
+  .sidebar-directory {
+    grid-column: 1 / -1;
+  }
+  .sidebar-banner {
+    font-size: 16px;
+    margin-top: 0;
+    border-radius: 4px;
+    min-height: 110px;
+  }
+  .registration-banner {
+    border-width: 3px;
+  }
+  .learning-banner img {
+    height: 100%;
+    object-fit: cover;
+  }
+  .learning-banner > span {
+    font-size: 9px;
+  }
+  .portal-panel h2 {
+    font-size: 22px;
+    padding: 8px 10px;
+    margin-bottom: 10px;
+  }
+  .portal-rows {
+    padding-inline: 24px 12px;
+  }
+  .portal-rows li {
+    font-size: 16px;
+    margin-block: 10px;
+  }
+  .portal-more {
+    margin-top: 8px;
+  }
+}
+@media (max-width: 1199px) {
+  .desktop-nav {
+    gap: 16px;
+    font-size: 20px;
+  }
+  .header-search {
+    width: 155px;
+  }
+}
+@media (max-width: 1023px) {
+  .navigation-inner {
+    min-height: 54px;
+  }
+  .header-search {
+    width: min(280px, 75%);
+  }
+  .desktop-nav {
+    display: none;
+  }
+  .menu-button {
+    display: inline-flex;
+  }
+  .header-inner {
+    min-height: 120px;
+  }
+  .wordmark-caption {
+    font-size: 16px;
+  }
+  .wordmark-caption strong {
+    font-size: 14px;
+  }
+  .wordmark-caption b {
+    font-size: 17px;
+  }
+  .wordmark-type {
+    font-size: 78px;
+  }
+}
+@media (max-width: 600px) {
+  .site-header .wordmark {
+    display: flex;
+    gap: 10px;
+  }
+  .portal-school-logo {
+    width: 90px;
+    height: 60px;
+    object-fit: cover;
+    object-position: left;
+    flex-shrink: 0;
+  }
+  .mobile-school-name {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    font-family: 'Inter', Arial, sans-serif;
+    font-size: 11px;
+    line-height: 1.35;
+  }
+  .mobile-school-name > span {
+    color: #c31e31;
+    font-weight: 700;
+  }
+  .mobile-school-name strong {
+    color: #a95600;
+    font-size: 10px;
+  }
+  .mobile-school-name b {
+    color: #38518b;
+    font-size: 11px;
+  }
+  .container {
+    width: calc(100% - 28px);
+  }
+  .utility {
+    font-size: 12px;
+  }
+  .utility-inner {
+    min-height: 32px;
+  }
+  .utility-inner > div {
+    display: none;
+  }
+  .utility-links a + a::before {
+    padding-inline: 5px;
+  }
+  .header-inner {
+    min-height: 114px;
+    padding-top: 13px;
+  }
+  .wordmark {
+    gap: 10px;
+  }
+  .wordmark-type {
+    font-size: 55px;
+    border-bottom-width: 3px;
+    padding-right: 5px;
+  }
+  .wordmark-caption {
+    gap: 3px;
+    font-size: 13px;
+  }
+  .wordmark-caption strong {
+    font-size: 11px;
+    line-height: 1.35;
+  }
+  .wordmark-caption b {
+    font-size: 12px;
+  }
+  .header-demo {
+    font-size: 9px;
+    top: 4px;
+  }
+}

@@ -8,13 +8,89 @@
     "licenseOrPermission": "Project-created vector; no third-party university photo or logo reused",
     "width": 960,
     "height": 820,
-    "usage": ["Home hero", "Facilities illustration and zoom dialog"]
+    "usage": ["Facilities illustration and zoom dialog"]
   },
   {
     "assetFilename": "Be Vietnam Pro self-hosted font files",
     "sourceUrl": "https://fontsource.org/fonts/be-vietnam-pro",
     "credit": "Be Vietnam Pro authors; distribution through @fontsource/be-vietnam-pro",
     "licenseOrPermission": "SIL Open Font License 1.1; see Be-Vietnam-Pro-LICENSE.txt",
-    "usage": ["Headings", "Body", "UI"]
+    "usage": ["Retained dependency; not loaded by the current portal theme"]
+  },
+  {
+    "assetFilename": "learning-portal.svg",
+    "alt": "Minh họa máy tính, sách và quả địa cầu",
+    "sourceUrl": null,
+    "provenance": "Created locally as SVG for the user-requested portal layout",
+    "credit": "VKU Demo project",
+    "licenseOrPermission": "Project-created vector",
+    "width": 400,
+    "height": 216,
+    "usage": ["Retained earlier illustration; no longer used on homepage"]
+  },
+  {
+    "assetFilename": "portal/logo_2021.png",
+    "sourceUrl": "https://daotao.vku.udn.vn/public/images/logo_2021.png",
+    "credit": "Cổng thông tin đào tạo VKU",
+    "provenance": "Public source asset, retrieved 2026-11-04 for the user-requested educational reference layout",
+    "licenseOrPermission": "Third-party VKU asset; no ownership or open license claimed",
+    "width": 1099,
+    "height": 149,
+    "usage": ["Header logo"]
+  },
+  {
+    "assetFilename": "portal/icon-elearning.jpg",
+    "sourceUrl": "https://daotao.vku.udn.vn/public/images/icon-elearning.jpg",
+    "credit": "Cổng thông tin đào tạo VKU",
+    "provenance": "Public source asset, retrieved 2026-11-04 for the user-requested educational reference layout",
+    "licenseOrPermission": "Third-party VKU asset; no ownership or open license claimed",
+    "width": 555,
+    "height": 300,
+    "usage": ["Homepage E-learning link"]
+  },
+  {
+    "assetFilename": "portal/tracuuvanbang.jpg",
+    "sourceUrl": "https://daotao.vku.udn.vn/public/images/tracuuvanbang.jpg",
+    "credit": "Cổng thông tin đào tạo VKU",
+    "provenance": "Public source asset, retrieved 2026-11-04 for the user-requested educational reference layout",
+    "licenseOrPermission": "Third-party VKU asset; no ownership or open license claimed",
+    "width": 392,
+    "height": 120,
+    "usage": ["Homepage diploma lookup link"]
+  },
+  {
+    "assetFilename": "portal/elib.jpg",
+    "sourceUrl": "https://daotao.vku.udn.vn/public/images/elib.jpg",
+    "credit": "Cổng thông tin đào tạo VKU",
+    "provenance": "Public source asset, retrieved 2026-11-04 for the user-requested educational reference layout",
+    "licenseOrPermission": "Third-party VKU asset; no ownership or open license claimed",
+    "width": 394,
+    "height": 122,
+    "usage": ["Homepage digital library link"]
+  },
+  {
+    "assetFilename": "portal/dktc.png",
+    "sourceUrl": "https://daotao.vku.udn.vn/public/images/dktc.png",
+    "credit": "Cổng thông tin đào tạo VKU",
+    "provenance": "Public source asset, retrieved 2026-11-04 for the user-requested educational reference layout",
+    "licenseOrPermission": "Third-party VKU asset; no ownership or open license claimed",
+    "width": 392,
+    "height": 129,
+    "usage": ["Homepage training portal link"]
+  },
+  {
+    "assetFilename": "fonts/inter-{400,500,600,700}.woff",
+    "sourceUrl": "https://fonts.google.com/specimen/Inter",
+    "credit": "The Inter Project Authors",
+    "licenseOrPermission": "SIL Open Font License 1.1; see fonts/Inter-OFL.txt",
+    "provenance": "Google Fonts TTF files, subset to Latin/Vietnamese/punctuation, converted to WOFF with fontTools",
+    "usage": ["Body", "Headings", "Form controls"]
+  },
+  {
+    "assetFilename": "fonts/utm-bebas.ttf",
+    "sourceUrl": "https://daotao.vku.udn.vn/public/fonts/utm_bebas-webfont.ttf",
+    "credit": "Font distributed by the VKU training portal stylesheet",
+    "licenseOrPermission": "Retained source attribution; no open license claimed",
+    "usage": ["Desktop navigation matching user reference"]
   }
 ]

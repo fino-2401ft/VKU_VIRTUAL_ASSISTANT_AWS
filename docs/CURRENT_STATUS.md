@@ -5,6 +5,20 @@ Current phase: P4 checkpoint hoàn tất trong phạm vi điều chỉnh; P5 ti�
 Current task ID: VKU-C01, VKU-401a, VKU-401b DONE; VKU-501 TODO
 Git: không có repository; không init/commit/push/deploy.
 
+## Checkpoint bổ sung hình ảnh và font — 04/11/2026
+
+Yêu cầu mới: thêm hình ảnh, sửa kiểu chữ. Đã dùng logo và bốn banner từ trang mẫu VKU (E-learning, tra cứu văn bằng, thư viện số, đăng ký tín chỉ); mỗi banner dẫn tới dịch vụ tương ứng, mở tab mới. Nguồn từng asset lưu trong public/assets/credits.json. Font menu UTM Bebas đúng trang mẫu; nội dung/tiêu đề Inter 400/500/600/700, subset tiếng Việt/Latin và lưu WOFF tại dự án. Logo mobile kèm tên trường dạng chữ để đọc được. Các ghi chú wordmark tự dựng và Arial của checkpoint trước đã được thay thế.
+
+Ảnh sau từng phần: reference/05-images và 06-fonts; bản cuối reference/07-complete. Script đã đợi ảnh decode và font ready trước khi chụp; 30 trường hợp layout không tràn ngang, tìm kiếm đầu trang PASS. Build PASS; E2E đầy đủ 22/22 PASS, gồm axe desktop/mobile. Chi tiết trong UI_AUDIT.md. Không deploy.
+
+## Checkpoint giao diện theo ảnh mẫu — 04/11/2026
+
+Yêu cầu mới nhất thay thiết kế cũ bằng kiểu cổng thông tin đào tạo trong ảnh người dùng: đã hoàn tất header ba màu, menu/footer vàng, home hai cột, banner tiện ích SVG, các khối thông báo nền trắng/tiêu đề đỏ/nền tiêu đề xám/vạch vàng. Font Arial/Georgia và cỡ chữ gọn áp dụng các trang con. Giữ route, dữ liệu, bộ lọc, danh bạ và form demo. Header search dẫn đến /thong-bao?q=... và tìm kiếm không dấu hoạt động.
+
+Đã chụp và xem ảnh sau từng phần (01-header, 02-content, 03-footer), ảnh hoàn thiện 04-final và trang con tại docs/screenshots/reference. Script tái kiểm tra: scripts/review-reference.mjs. Build và 10 unit PASS. E2E: lượt đầu 19/22 PASS; 3 lỗi độ tương phản đã sửa, chạy lại cả 3 PASS, bao gồm axe toàn bộ route desktop và demo desktop/mobile. Không còn lỗi đã biết trong phạm vi kiểm tra. Unit/Chrome cần chạy ngoài sandbox do chặn temp/localhost. Không deploy.
+
+Thiết kế hiện hành ghi ở đầu DESIGN_SYSTEM.md, override tại src/styles/portal.css. Các ghi chú thiết kế trước checkpoint bên dưới chỉ là lịch sử. Tiếp tục P5 nếu người dùng yêu cầu; không khôi phục thiết kế hero cũ.
+
 ## Đã hoàn thành
 
 P0–P3 nền tảng và bố cục đã có. Theo điều chỉnh của người dùng, website đã hiển thị nội dung trực tiếp thay vì chỉ dẫn link:

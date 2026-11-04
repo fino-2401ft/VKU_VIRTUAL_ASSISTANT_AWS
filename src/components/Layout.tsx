@@ -1,19 +1,24 @@
 import { Suspense, useEffect, useRef, useState } from 'react';
 import { Link, NavLink, Outlet, useLocation } from 'react-router-dom';
-import { ArrowUpRight, ChevronDown, Menu, X, MapPin } from 'lucide-react';
+import { ArrowUpRight, ChevronDown, Menu, X, MapPin, Search } from 'lucide-react';
 import { navigation, official } from '../data/site';
 import { SourceLink } from './ui';
 
 function Wordmark() {
   return (
     <Link className="wordmark" to="/" aria-label="VKU Demo — Trang chủ">
-      <span className="wordmark-type">
-        VKU<span className="wordmark-dot">.</span>
-      </span>
-      <span className="wordmark-caption">
-        VIỆT – HÀN UNIVERSITY
-        <br />
-        <strong>KHÁM PHÁ · KẾT NỐI · SÁNG TẠO</strong>
+      <img
+        className="portal-school-logo"
+        src="/assets/portal/logo_2021.png"
+        width="1099"
+        height="149"
+        alt="Đại học Đà Nẵng — Trường Đại học Công nghệ Thông tin và Truyền thông Việt – Hàn — Cổng thông tin đào tạo"
+        fetchPriority="high"
+      />
+      <span className="mobile-school-name">
+        <span>ĐẠI HỌC ĐÀ NẴNG</span>
+        <strong>TRƯỜNG ĐẠI HỌC CÔNG NGHỆ THÔNG TIN VÀ TRUYỀN THÔNG VIỆT – HÀN</strong>
+        <b>CỔNG THÔNG TIN ĐÀO TẠO</b>
       </span>
     </Link>
   );
@@ -50,10 +55,12 @@ export default function Layout() {
       </a>
       <div className="utility">
         <div className="container utility-inner">
-          <span>
-            <span className="status-dot" />
-            Website demo học tập · Không phải cổng chính thức VKU
-          </span>
+          <nav className="utility-links" aria-label="Liên kết nhanh">
+            <Link to="/thong-bao">Thông báo</Link>
+            <Link to="/gioi-thieu/lanh-dao">Danh bạ</Link>
+            <Link to="/tuyen-sinh/phuong-thuc">Hướng dẫn hồ sơ</Link>
+            <Link to="/lien-he">Liên hệ</Link>
+          </nav>
           <div>
             <SourceLink href={official.university}>Website VKU</SourceLink>
             <SourceLink href={official.training}>Cổng đào tạo</SourceLink>
@@ -63,61 +70,75 @@ export default function Layout() {
       <header className="site-header">
         <div className="container header-inner">
           <Wordmark />
-          <nav
-            className="desktop-nav"
-            aria-label="Điều hướng chính"
-            onKeyDown={(e) => {
-              if (e.key === 'Escape') {
-                const d = (e.target as HTMLElement).closest('details');
-                if (d) {
-                  d.open = false;
-                  d.querySelector('summary')?.focus();
+          <span className="header-demo">Bản demo học tập · Không phải cổng chính thức</span>
+        </div>
+        <div className="navigation-bar">
+          <div className="container navigation-inner">
+            <nav
+              className="desktop-nav"
+              aria-label="Điều hướng chính"
+              onKeyDown={(e) => {
+                if (e.key === 'Escape') {
+                  const d = (e.target as HTMLElement).closest('details');
+                  if (d) {
+                    d.open = false;
+                    d.querySelector('summary')?.focus();
+                  }
                 }
-              }
-            }}
-          >
-            {navigation.map((n) =>
-              n.children ? (
-                <details
-                  key={n.title}
-                  onBlur={(e) => {
-                    if (!e.currentTarget.contains(e.relatedTarget as Node))
-                      e.currentTarget.open = false;
-                  }}
-                >
-                  <summary>
+              }}
+            >
+              {navigation.map((n) =>
+                n.children ? (
+                  <details
+                    key={n.title}
+                    onBlur={(e) => {
+                      if (!e.currentTarget.contains(e.relatedTarget as Node))
+                        e.currentTarget.open = false;
+                    }}
+                  >
+                    <summary>
+                      {n.title}
+                      <ChevronDown size={13} aria-hidden="true" />
+                    </summary>
+                    <div className="dropdown">
+                      {n.children.map(([label, to]) => (
+                        <NavLink key={to} to={to}>
+                          {label}
+                        </NavLink>
+                      ))}
+                    </div>
+                  </details>
+                ) : (
+                  <NavLink key={n.to} to={n.to}>
                     {n.title}
-                    <ChevronDown size={13} aria-hidden="true" />
-                  </summary>
-                  <div className="dropdown">
-                    {n.children.map(([label, to]) => (
-                      <NavLink key={to} to={to}>
-                        {label}
-                      </NavLink>
-                    ))}
-                  </div>
-                </details>
-              ) : (
-                <NavLink key={n.to} to={n.to}>
-                  {n.title}
-                </NavLink>
-              ),
-            )}
-          </nav>
-          <button
-            className="menu-button"
-            ref={menuButton}
-            aria-label="Mở menu điều hướng"
-            aria-haspopup="dialog"
-            aria-expanded={menuOpen}
-            aria-controls="mobile-navigation"
-            onClick={() => {
-              dialog.current?.showModal();
-              setMenuOpen(true);
-            }}
-          >
-            <Menu aria-hidden="true" />
-          </button>
+                  </NavLink>
+                ),
+              )}
+            </nav>
+            <form className="header-search" action="/thong-bao" role="search">
+              <label className="sr-only" htmlFor="header-query">
+                Tìm thông báo
+              </label>
+              <input id="header-query" type="search" name="q" placeholder="Tìm kiếm…" />
+              <button type="submit" aria-label="Tìm kiếm thông báo">
+                <Search size={18} aria-hidden="true" />
+              </button>
+            </form>
+            <button
+              className="menu-button"
+              ref={menuButton}
+              aria-label="Mở menu điều hướng"
+              aria-haspopup="dialog"
+              aria-expanded={menuOpen}
+              aria-controls="mobile-navigation"
+              onClick={() => {
+                dialog.current?.showModal();
+                setMenuOpen(true);
+              }}
+            >
+              <Menu aria-hidden="true" />
+            </button>
+          </div>
         </div>
       </header>
       <dialog
@@ -180,52 +201,23 @@ export default function Layout() {
       </main>
       <footer className="site-footer">
         <div className="container">
-          <div className="footer-grid">
-            <div>
-              <Wordmark />
-              <p>
-                Trường Đại học Công nghệ Thông tin
-                <br />
-                và Truyền thông Việt – Hàn
-                <br />
-                Đại học Đà Nẵng
-              </p>
-              <p className="footer-address">
-                <MapPin size={18} aria-hidden="true" />
-                470 Trần Đại Nghĩa, phường Ngũ Hành Sơn, TP. Đà Nẵng
-              </p>
-              <SourceLink href={official.training}>Nguồn thông tin trường</SourceLink>
-            </div>
-            <div>
-              <h2>Khám phá</h2>
-              <Link to="/gioi-thieu">Giới thiệu VKU</Link>
-              <Link to="/nganh-dao-tao">Ngành đào tạo</Link>
-              <Link to="/doi-song-sinh-vien">Đời sống sinh viên</Link>
-              <Link to="/nghien-cuu-hop-tac">Nghiên cứu & hợp tác</Link>
-              <Link to="/campus-tour-demo">Campus Tour demo</Link>
-            </div>
-            <div>
-              <h2>Thông tin hữu ích</h2>
-              <Link to="/tuyen-sinh">Tuyển sinh tham khảo 2026</Link>
-              <Link to="/thong-bao">Thông báo học vụ</Link>
-              <Link to="/faq">Câu hỏi thường gặp</Link>
-              <Link to="/lien-he">Liên hệ & dữ liệu demo</Link>
-              <Link to="/doi-song-sinh-vien/cau-lac-bo">Nhóm hoạt động sinh viên</Link>
-            </div>
-            <div>
-              <h2>Cổng chính thức</h2>
-              <SourceLink href={official.university}>Website VKU</SourceLink>
-              <SourceLink href={official.admissions}>Cổng tuyển sinh</SourceLink>
-              <SourceLink href={official.training}>Cổng đào tạo</SourceLink>
-              <p className="small">
-                Liên kết ngoài mở tại website nhà trường. Thông tin trên bản demo không tự cập nhật.
-              </p>
-            </div>
+          <p className="footer-title">
+            Trường Đại học Công nghệ Thông tin &amp; Truyền thông Việt – Hàn, Đại học Đà Nẵng
+          </p>
+          <p className="footer-address">
+            <MapPin size={18} aria-hidden="true" /> 470 Trần Đại Nghĩa, phường Ngũ Hành Sơn, TP. Đà
+            Nẵng
+          </p>
+          <div className="footer-links">
+            <SourceLink href={official.university}>Website VKU</SourceLink>
+            <SourceLink href={official.admissions}>Cổng tuyển sinh</SourceLink>
+            <SourceLink href={official.training}>Cổng đào tạo</SourceLink>
+            <Link to="/lien-he">Liên hệ</Link>
           </div>
-          <div className="footer-bottom">
-            <p>Website giới thiệu VKU — sản phẩm demo học tập, không phải cổng chính thức.</p>
-            <span>Biên tập theo nguồn · 03.11.2026</span>
-          </div>
+          <p className="footer-disclaimer">
+            Website demo học tập độc lập · Không phải cổng chính thức VKU · Dữ liệu tham khảo năm
+            2026
+          </p>
         </div>
       </footer>
     </>
