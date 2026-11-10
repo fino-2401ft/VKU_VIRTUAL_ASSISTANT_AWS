@@ -16,6 +16,19 @@ function sourceLabel(source: Source) {
   return source.title || source.file || 'Tài liệu';
 }
 
+/** On EC2 preview (:5173), call FastAPI on :8000 directly. */
+function apiUrl(path: string) {
+  const normalized = path.startsWith('/') ? path : `/${path}`;
+  if (typeof window === 'undefined') return normalized;
+  const fromEnv = import.meta.env.VITE_API_BASE as string | undefined;
+  if (fromEnv) return `${fromEnv.replace(/\/$/, '')}${normalized}`;
+  const { protocol, hostname, port } = window.location;
+  if (port === '5173' || port === '4173') {
+    return `${protocol}//${hostname}:8000${normalized}`;
+  }
+  return normalized;
+}
+
 export default function ChatWidget() {
   const titleId = useId();
   const panelId = useId();
@@ -41,7 +54,7 @@ export default function ChatWidget() {
     if (!open) return;
     inputRef.current?.focus();
     let cancelled = false;
-    fetch('/api/suggestions')
+    fetch(apiUrl('/api/suggestions'))
       .then((response) => {
         if (!response.ok) throw new Error('suggestions');
         return response.json() as Promise<{ suggestions?: string[] }>;
@@ -85,7 +98,7 @@ export default function ChatWidget() {
     setMessages((prev) => [...prev, { id: crypto.randomUUID(), role: 'user', text: message }]);
     setBusy(true);
     try {
-      const response = await fetch('/api/chat', {
+      const response = await fetch(apiUrl('/api/chat'), {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ message, session_id: sessionRef.current }),
