@@ -2,6 +2,7 @@ import { Suspense, useEffect, useRef, useState } from 'react';
 import { Link, NavLink, Outlet, useLocation } from 'react-router-dom';
 import { ArrowUpRight, ChevronDown, Menu, X, MapPin, Search } from 'lucide-react';
 import { navigation, official } from '../data/site';
+import ChatWidget from './ChatWidget';
 import { SourceLink } from './ui';
 
 function Wordmark() {
@@ -220,6 +221,7 @@ export default function Layout() {
           </p>
         </div>
       </footer>
+      <ChatWidget />
     </>
   );
 }
