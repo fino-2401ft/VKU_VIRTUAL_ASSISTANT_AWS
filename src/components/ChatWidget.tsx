@@ -16,6 +16,18 @@ function sourceLabel(source: Source) {
   return source.title || source.file || 'Tài liệu';
 }
 
+/** HTTP public IP is not a secure context — crypto.randomUUID() throws there. */
+function newId() {
+  try {
+    if (typeof crypto !== 'undefined' && typeof crypto.randomUUID === 'function') {
+      return crypto.randomUUID();
+    }
+  } catch {
+    // fall through
+  }
+  return `msg-${Date.now()}-${Math.random().toString(16).slice(2)}`;
+}
+
 /** On EC2 preview (:5173), call FastAPI on :8000 directly. */
 function apiUrl(path: string) {
   const normalized = path.startsWith('/') ? path : `/${path}`;
@@ -95,7 +107,7 @@ export default function ChatWidget() {
     const message = text.trim();
     if (!message || busy) return;
     setInput('');
-    setMessages((prev) => [...prev, { id: crypto.randomUUID(), role: 'user', text: message }]);
+    setMessages((prev) => [...prev, { id: newId(), role: 'user', text: message }]);
     setBusy(true);
     try {
       const response = await fetch(apiUrl('/api/chat'), {
@@ -116,7 +128,7 @@ export default function ChatWidget() {
       setMessages((prev) => [
         ...prev,
         {
-          id: crypto.randomUUID(),
+          id: newId(),
           role: 'bot',
           text: data.answer || 'Mình chưa có câu trả lời cho câu này.',
           sources: Array.isArray(data.sources) ? data.sources.slice(0, 2) : [],
@@ -126,7 +138,7 @@ export default function ChatWidget() {
       setMessages((prev) => [
         ...prev,
         {
-          id: crypto.randomUUID(),
+          id: newId(),
           role: 'bot',
           text: 'Không kết nối được trợ lý. Hãy chắc backend đang chạy ở cổng 8000 rồi thử lại.',
         },
